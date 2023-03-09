@@ -1,13 +1,24 @@
 %%%%%%%%%%%%%%%%%%%%% Paquetes extra %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 % M\'{a}s informaci\'{o}n en http://en.wikibooks.org/wiki/LaTeX/Internationalization
-% \usepackage[utf8x]{inputenc} % Usado para ingresar acentos y s\'{\i}mbolos por teclado
-% \usepackage[latin-1]{inputenc} % Usado para ingresar acentos y s\'{\i}mbolos por teclado
-%\usepackage[T1]{fontenc} % font encoding
+\usepackage[utf8x]{inputenc} % Usado para ingresar acentos y s\'{\i}mbolos por teclado
+%\usepackage[latin-1]{inputenc} % Usado para ingresar acentos y s\'{\i}mbolos por teclado
+\usepackage[T1]{fontenc} % font encoding
 
-% \usepackage{latexsym,amsfonts,amssymb,bbm} % S\'{\i}mbolos matem\'{a}ticos
-%\usepackage{multirow,multicol,booktabs} % Entornos varios para tablas
-%\usepackage{subfig} % Subfiguras y subtablas
+\usepackage{latexsym,amsfonts,amssymb,bbm,amsmath,amsthm,mathtools} % S\'{\i}mbolos matem\'{a}ticos
+\usepackage{multirow,multicol,booktabs} % Entornos varios para tablas
+\usepackage{caption}
+\usepackage{subcaption} % Subfiguras y subtablas
+
+
+
+%para las comillas
+\usepackage[autostyle=true]{csquotes}
+
+% para unidades
+
+\usepackage[binary-units=true]{siunitx}
+\sisetup{detect-all}
 
 % Existen tres tama\~{n}os standard para las figuras, s\'{o}lo por conveniencia
 % Estos son los tama\~{n}os por default. Descomentar y cambiar seg\'{u}n la necesidad
