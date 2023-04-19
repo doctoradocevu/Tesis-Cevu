@@ -5,12 +5,17 @@
 %\usepackage[latin-1]{inputenc} % Usado para ingresar acentos y s\'{\i}mbolos por teclado
 \usepackage[T1]{fontenc} % font encoding
 
+% fuentes
+%\usepackage[sc]{mathpazo}
+
 \usepackage{latexsym,amsfonts,amssymb,bbm,amsmath,amsthm,mathtools} % S\'{\i}mbolos matem\'{a}ticos
+%\usepackage[libertine,cmintegrals,cmbraces,vvarbb]{newtxmath}
 \usepackage{multirow,multicol,booktabs} % Entornos varios para tablas
 \usepackage{caption}
 \usepackage{subcaption} % Subfiguras y subtablas
 
-
+\usepackage{tikz} %graficas
+\usepackage{pgf}
 
 %para las comillas
 \usepackage[autostyle=true]{csquotes}
@@ -19,6 +24,17 @@
 
 \usepackage[binary-units=true]{siunitx}
 \sisetup{detect-all}
+
+% tener cuidado con este paquete si da error!!!!
+%\usepackage[nospace]{varioref}
+\usepackage[spanish]{cleveref}
+
+% para que automaticamente se ajuste a el ancho 
+
+%\usepackage{tabularx}
+%\usepackage{tabulary}
+\usepackage{tabularray}
+\UseTblrLibrary{booktabs} 
 
 % Existen tres tama\~{n}os standard para las figuras, s\'{o}lo por conveniencia
 % Estos son los tama\~{n}os por default. Descomentar y cambiar seg\'{u}n la necesidad
@@ -30,6 +46,16 @@
 \usepackage[nonamebreak,sort&compress]{natbib}
 \setcitestyle{numbers,square,comma}
 \bibliographystyle{ibtesis}
+
+
+\usepackage[xindy,acronyms]{glossaries}
+%\usepackage{glossaries-spanish}
+\setacronymstyle{long-short}
+
+% coloco los valores de las referencias y glosario
+\makeglossaries 
+\input{glosario.tex}
+\input{acronimos.tex}
 
 %%%%%%%%%%%%%%%%%%%% Nomenclatura %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %\usepackage[noprefix,notintoc,spanish]{nomencl} % Para armar la tabla de abreviaturas (ver wiki del CAB)

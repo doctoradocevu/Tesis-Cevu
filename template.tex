@@ -4,11 +4,14 @@
 % \documentclass[12pt,papel,singlespace,oneside]{ibtesis}
 % \documentclass[12pt,papel,preprint,singlespace,oneside]{ibtesis}
 
+%\DeclareUnicodeCharacter{200B}{I~AM~HERE!!!!}
+%\DeclareUnicodeCharacter{2212}{I~AM~HERE!!!!}
 
 %%%%%%%%%%%%%%%%%%%%% Paquetes extra %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Por conveniencia: aqu\'{\i} puede cargar todos los paquetes y definir los comandos 
 % que necesite
 \usepackage{ibextra}
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%% Informacion sobre la tesis %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \title{Comportamientos emergentes en poblaciones de robots interactuantes}
@@ -51,9 +54,9 @@ A toda esa otra gente que no
 
 %%% \'{I}ndices %%%%
 
-\begin{abreviaturas}
+%\begin{abreviaturas}
                                 %Abreviaturas
-\end{abreviaturas}
+%\end{abreviaturas}
 
 \tableofcontents                %\'{I}ndice
 
@@ -61,15 +64,23 @@ A toda esa otra gente que no
 
 \listoftables                   %Tablas
 
+\printglossary[type=\acronymtype]
+
+\printglossary
+
+
 \include{resumen}
 
 \end{preliminary}
 
 
 % Podemos usar cualquiera de los dos comandos: \input o \include para incluir el texto
-\input{cap1}
-\include{cap2}
-\include{cap3}
+
+\input{introduccion}
+
+
+\part{Dinámica crítica del C. elegans}
+\include{cap_dinamica_critica.tex}
 
 \appendix
 \include{apend1}

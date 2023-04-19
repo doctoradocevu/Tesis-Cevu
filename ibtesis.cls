@@ -436,9 +436,9 @@
 \def\nomname{\'{I}ndice de s{\'{\i}}mbolos}
 \def\contentsname{\'{I}ndice de contenidos}
 \def\listfigurename{\'{I}ndice de figuras}
-\def\listtablename{\'{I}ndice de tablas}
+%\def\listtablename{\'{I}ndice de tablas}
 \def\figurename{Figura}
-\def\tablename{Tabla}
+%\def\tablename{Tabla}
 \def\abstractname{Resumen}
 \def\abstractnameeng{Abstract}
 \def\bibname{Bibliograf{\'{\i}}a}}
