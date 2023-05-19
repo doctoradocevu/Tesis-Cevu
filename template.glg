@@ -1,6 +1,6 @@
 ;; This logfile was generated automatically by `xindy'
-;; at 15.04.2023  18:02:23
-;; Indexstyle: "/tmp/ZaBccAurVJ", Rawindex: "/tmp/6U_SG4XeCY", Output: "template.gls"
+;; at 11.05.2023  20:35:55
+;; Indexstyle: "/tmp/1pcu8jVVab", Rawindex: "/tmp/KBp4SYPthc", Output: "template.gls"
 
 
 Building indexentry-tree:
@@ -8,10 +8,14 @@ Hierdepth of index is :TREE
 
 sort-indexentries: (FORWARD BACKWARD FORWARD FORWARD)
 sort-indexentries: (FORWARD BACKWARD FORWARD FORWARD)
+sort-indexentries: (FORWARD BACKWARD FORWARD FORWARD)
 
 Forming letter-groups:
 Letter-group: "œ¨Ú¼—ÐÐ" -> "F"
 Letter-group: "—È¨ÐÚ€Ð¨Ð" -> "E"
+Letter-group: "€¼Ð€Úð" -> "A"
+sort-indexentries: (FORWARD BACKWARD FORWARD FORWARD)
+Letter-group: "€¼Ð€Úð" -> "A"
 sort-indexentries: (FORWARD BACKWARD FORWARD FORWARD)
 Letter-group: "—È¨ÐÚ€Ð¨Ð" -> "E"
 sort-indexentries: (FORWARD BACKWARD FORWARD FORWARD)

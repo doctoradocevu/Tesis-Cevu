@@ -9,6 +9,13 @@
 %\usepackage[sc]{mathpazo}
 
 \usepackage{latexsym,amsfonts,amssymb,bbm,amsmath,amsthm,mathtools} % S\'{\i}mbolos matem\'{a}ticos
+
+\renewcommand{\qedsymbol}{$\blacksquare$} % Redefine the QED symbol to be a filled square vs. the default unfilled square
+
+
+
+
+
 %\usepackage[libertine,cmintegrals,cmbraces,vvarbb]{newtxmath}
 \usepackage{multirow,multicol,booktabs} % Entornos varios para tablas
 \usepackage{caption}
@@ -16,13 +23,13 @@
 
 \usepackage{tikz} %graficas
 \usepackage{pgf}
-
+\usepackage{enumitem}
 %para las comillas
 \usepackage[autostyle=true]{csquotes}
 
 % para unidades
 
-\usepackage[binary-units=true]{siunitx}
+\usepackage{siunitx}
 \sisetup{detect-all}
 
 % tener cuidado con este paquete si da error!!!!
@@ -56,6 +63,10 @@
 \makeglossaries 
 \input{glosario.tex}
 \input{acronimos.tex}
+
+\usepackage[parfill]{parskip}
+
+
 
 %%%%%%%%%%%%%%%%%%%% Nomenclatura %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %\usepackage[noprefix,notintoc,spanish]{nomencl} % Para armar la tabla de abreviaturas (ver wiki del CAB)
@@ -138,3 +149,193 @@
 %\newcommand{\reffig}[1]{Fig.~\ref{fig:#1}}      %Para referirse a las tablas y figuras definidas con los entornos anteriores
 %\newcommand{\reftab}[1]{Tabla~\ref{tab:#1}}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+
+% teoremas
+
+
+\newtheoremstyle{ocrenum} % Theorem style name
+{6pt} % Space above
+{6pt} % Space below
+{\normalfont} % Body font
+{} % Indent amount
+{} % Theorem head font
+{} % Punctuation after theorem head
+{0.25em} % Space after theorem head
+{\small\sffamily\bfseries\color{ocre}\thmname{#1}~\thmnumber{\@ifnotempty{#1}{}\@upn{#2}} % Theorem text (e.g. Theorem 2.1)
+	\thmnote{\the\thm@notefont\sffamily\bfseries\color{black}---~#3.\hspace{0.25em}}} % Optional theorem note
+
+%------------------------------------------------
+
+% Orange theorem number and optional black title with no padding above and below
+\newtheoremstyle{ocrenumbox} % Theorem style name
+{0pt} % Space above
+{0pt} % Space below
+{\normalfont} % Body font
+{} % Indent amount
+{} % Theorem head font
+{} % Punctuation after theorem head
+{0.25em} % Space after theorem head
+{\small\sffamily\bfseries\color{ocre}\thmname{#1}~\thmnumber{\@ifnotempty{#1}{}\@upn{#2}} % Theorem text (e.g. Theorem 2.1)
+	\thmnote{\the\thm@notefont\sffamily\bfseries\color{black}---~#3.\hspace{0.25em}}} % Optional theorem note
+
+%------------------------------------------------
+
+% Black theorem number and optional black title no padding above and below
+\newtheoremstyle{blacknumex} % Theorem style name
+{6pt} % Space above
+{6pt} % Space below
+{\normalfont} % Body font
+{} % Indent amount
+{} % Theorem head font
+{} % Punctuation after theorem head
+{0.25em} % Space after theorem head
+{\small\sffamily\bfseries{\raisebox{1.25pt}{\tiny\ensuremath{\blacksquare}}}~\thmname{#1}~\thmnumber{\@ifnotempty{#1}{}\@upn{#2}} % Theorem text (e.g. Theorem 2.1)
+	\thmnote{\the\thm@notefont\sffamily\bfseries---~#3.\hspace{0.25em}}} % Optional theorem note
+
+%------------------------------------------------
+
+% Black theorem number and optional black title padding above and below
+\newtheoremstyle{blacknumbox} % Theorem style name
+{0pt} % Space above
+{0pt} % Space below
+{\normalfont} % Body font
+{} % Indent amount
+{} % Theorem head font
+{} % Punctuation after theorem head
+{0.25em} % Space after theorem head
+{\small\sffamily\bfseries\thmname{#1}~\thmnumber{\@ifnotempty{#1}{}\@upn{#2}} % Theorem text (e.g. Theorem 2.1)
+	\thmnote{\the\thm@notefont\sffamily\bfseries---~#3.\hspace{0.25em}}} % Optional theorem note
+
+%------------------------------------------------
+
+% Set the theorem style for each type of theorem-like environment by placing it under the theorem style you would like to use for it
+
+% Orange theorem number and optional black title with padding above and below
+\theoremstyle{ocrenum}
+\newtheorem{proposition}{Proposición}[chapter] % Propositions, the first argument is the theorem name, the second the theorem title used before the number and the third optional argument is whether to number under chapters (e.g. 2.1) or sections (e.g. 2.1.1)
+
+% Orange theorem number and optional black title with no padding above and below
+\theoremstyle{ocrenumbox}
+\newtheorem{theoremeT}{Teorema}[chapter] % Theorems, the first argument is the theorem name, the second the theorem title used before the number and the third optional argument is whether to number under chapters (e.g. 2.1) or sections (e.g. 2.1.1)
+\newtheorem{problem}{Problema}[chapter] % Problems, the first argument is the theorem name, the second the theorem title used before the number and the third optional argument is whether to number under chapters (e.g. 2.1) or sections (e.g. 2.1.1)
+\newtheorem{exerciseT}{Ejercicio}[chapter] % Exercises, the first argument is the theorem name, the second the theorem title used before the number and the third optional argument is whether to number under chapters (e.g. 2.1) or sections (e.g. 2.1.1)
+
+% Black theorem number and optional black title no padding above and below
+\theoremstyle{blacknumex}
+\newtheorem{exampleT}{Ejemplo}[chapter] % Examples, the first argument is the theorem name, the second the theorem title used before the number and the third optional argument is whether to number under chapters (e.g. 2.1) or sections (e.g. 2.1.1)
+\newtheorem{notation}{Notación}[chapter] % Notations, the first argument is the theorem name, the second the theorem title used before the number and the third optional argument is whether to number under chapters (e.g. 2.1) or sections (e.g. 2.1.1)
+\newtheorem{vocabulary}{Vocabulario}[chapter] % Vocabularies, the first argument is the theorem name, the second the theorem title used before the number and the third optional argument is whether to number under chapters (e.g. 2.1) or sections (e.g. 2.1.1)
+
+% Black theorem number and optional black title with padding above and below
+\theoremstyle{blacknumbox}
+\newtheorem{definitionT}{Definición}[chapter] % Definitions, the first argument is the theorem name, the second the theorem title used before the number and the third optional argument is whether to number under chapters (e.g. 2.1) or sections (e.g. 2.1.1)
+\newtheorem{corollaryT}{Corolario}[chapter] % Corollaries, the first argument is the theorem name, the second the theorem title used before the number and the third optional argument is whether to number under chapters (e.g. 2.1) or sections (e.g. 2.1.1)
+
+%----------------------------------------------------------------------------------------
+%	COLORED THEOREM BOXES
+%----------------------------------------------------------------------------------------
+
+\RequirePackage[framemethod=default]{mdframed} % Required for creating colored boxes used for theorems, definitions, exercises and corollaries
+
+% Theorem box
+\newmdenv[
+skipabove=7pt, % Whitespace above box
+skipbelow=7pt, % Whitespace below box
+backgroundcolor=black!5, % Background color
+linecolor=ocre, % Border color
+innerleftmargin=5pt, % Inside left margin width
+innerrightmargin=5pt, % Inside right margin width
+innertopmargin=5pt, % Inside top margin height
+innerbottommargin=5pt, % Inside bottom margin height
+leftmargin=0cm, % Outside left margin width
+rightmargin=0cm % Outside right margin width
+]{tBox}
+
+% Exercise box
+\newmdenv[
+skipabove=7pt, % Whitespace above box
+skipbelow=7pt, % Whitespace below box
+rightline=false, % Right line visible
+leftline=true, % Left line visible
+topline=false, % Top line visible
+bottomline=false, % Bottom line visible
+linecolor=ocre, % Line color
+linewidth=4pt, % Line width
+backgroundcolor=ocre!10, % Background color
+innerleftmargin=5pt, % Inside left margin width
+innerrightmargin=5pt, % Inside right margin width
+innertopmargin=5pt, % Inside top margin height
+innerbottommargin=5pt, % Inside bottom margin height
+leftmargin=0cm, % Outside left margin width
+rightmargin=0cm % Outside right margin width
+]{eBox}
+
+% Definition box
+\newmdenv[
+skipabove=7pt, % Whitespace above box
+skipbelow=7pt, % Whitespace below box
+rightline=false, % Right line visible
+leftline=true, % Left line visible
+topline=false, % Top line visible
+bottomline=false, % Bottom line visible
+linecolor=ocre, % Border color
+linewidth=4pt, % Border width
+innerleftmargin=5pt, % Inside left margin width
+innerrightmargin=5pt, % Inside right margin width
+innertopmargin=0pt, % Inside top margin height
+innerbottommargin=0pt, % Inside bottom margin height
+leftmargin=0cm, % Outside left margin width
+rightmargin=0cm % Outside right margin width
+]{dBox}
+
+% Corollary box
+\newmdenv[
+skipabove=7pt, % Whitespace above box
+skipbelow=7pt, % Whitespace below box
+rightline=false, % Right line visible
+leftline=true, % Left line visible
+topline=false, % Top line visible
+bottomline=false, % Bottom line visible
+linecolor=gray, % Line color
+linewidth=4pt, % Line width
+backgroundcolor=black!5, % Background color
+innerleftmargin=5pt, % Inside left margin width
+innerrightmargin=5pt, % Inside right margin width
+innertopmargin=5pt, % Inside top margin height
+innerbottommargin=5pt, % Inside bottom margin height
+leftmargin=0cm, % Outside left margin width
+rightmargin=0cm % Outside right margin width
+]{cBox}
+
+% Creates an environment for each type of theorem and assigns it a theorem text style from the THEOREM STYLES block above and a colored box from above
+\newenvironment{theorem}{\begin{tBox}\begin{theoremeT}}{\end{theoremeT}\end{tBox}}
+\newenvironment{exercise}{\begin{eBox}\begin{exerciseT}}{\hfill{\color{ocre}\tiny\ensuremath{\blacksquare}}\end{exerciseT}\end{eBox}}
+\newenvironment{definition}{\begin{dBox}\begin{definitionT}}{\end{definitionT}\end{dBox}}
+\newenvironment{example}{\begin{exampleT}}{\hfill{\tiny\ensuremath{\blacksquare}}\end{exampleT}}	
+\newenvironment{corollary}{\begin{cBox}\begin{corollaryT}}{\end{corollaryT}\end{cBox}}
+
+%----------------------------------------------------------------------------------------
+%	REMARK ENVIRONMENT
+%----------------------------------------------------------------------------------------
+
+\newenvironment{remark}{%
+	\par\small % Reduce font size for remarks
+	\vspace{4pt} % Vertical whitespace
+	\begin{adjustwidth}{35pt}{25pt} % Left and right padding
+		\hspace{-2.5pt}%
+		\begin{tikzpicture}[overlay]
+			\node[draw=ocre!60,line width=1pt,circle,fill=ocre!25,font=\sffamily\bfseries,inner sep=3pt,outer sep=0pt] at (-15pt,0pt){\textcolor{ocre}{R}}; % Orange R in a circle
+		\end{tikzpicture}
+		\advance\baselineskip -1pt% Reduce line spacing
+	}{%
+	\end{adjustwidth}
+}
+
+%----------------------------------------------------------------------------------------
+%	 LOAD PACKAGES THAT CLASH WITH OTHER PACKAGES
+%----------------------------------------------------------------------------------------
+
+\usepackage{tikz} % Required for drawing custom shapes and positioning elements absolutely on the page

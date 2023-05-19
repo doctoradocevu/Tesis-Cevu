@@ -1,0 +1,494 @@
+\chapter{Teoría de Percolación y parámetro de orden}\label{titulo-cap-percolacion}
+\graphicspath{{figs/capitulo_percolacion/}}
+
+\chapterquote{Can a machine be made to be supercritical? }{Alan Turing , 1950}
+
+
+\section{Introducción}
+
+Pero además de ser quizás la transición de fase no resuelta exactamente más sencilla, la teoría de la percolación también sirve como introducción a las aproximaciones clusters de los fenómenos colectivos. En física estadística, los sistemas con interacciones entre las unidades (moléculas, espines,...) en general no pueden calcularse con exactitud, mientras que la mayoría de los sistemas sin interacción son fáciles de resolver. Por ello, una aproximación utilizada a menudo es la aproximación de clusters (o gotas), que intenta transformar el problema de las unidades que interactúan en la aproximación de clusters que no interactúan. Por ejemplo, para describir la ecuación de estado y el proceso de condensación (nucleación) en un gas real, se pueden agrupar las moléculas de gas en clusters de moléculas vecinas ("gotas de líquido"), de forma que se puedan despreciar las interacciones entre diferentes grupos pueden despreciarse. Las interacciones dentro de un mismo grupo se tienen en cuenta o bien exactamente (para clusters muy pequeños) o mediante aproximaciones sencillas que contengan sólo unos pocos parámetros libres
+
+En un problema de percolación, uno se hace tres preguntas básicas: (a) ¿Cuál es la propiedad geométrica o física (p. ej., Q) que es relevante para la conectividad del sistema bajo investigación?, (b) ¿Cuál es el umbral para la percolación (es decir, , Nc o una cantidad equivalente)?, y (c) ¿Cuál es el exponente que describe el comportamiento de Q cerca de Nc (es decir, )? Uno de los aspectos más interesantes y útiles de la teoría de la percolación es que muchos sistemas tienen el mismo . Esto significa que al encontrar un modelo simple y solucionable, se puede predecir el valor de para sistemas muy complicados. Esta propiedad central de la teoría de la percolación se conoce como "universalidad". Por otro lado, el umbral de percolación debe determinarse por separado para cada sistema, aunque se dispone de algunas pautas generales para su determinación. \cite{berkowitz_percolation_1998}
+
+
+Muchas propiedades de un sistema macroscópico están determinadas esencialmente por la conectividad de los elementos del sistema. Las propiedades de un sistema que emergen al comienzo de la conectividad macroscópica dentro de él se conocen como propiedades de percolación.
+
+
+Pero además de ser quizás la transición de fase más simple no exactamente resuelta, la teoría de la percolación también sirve como una introducción a las aproximaciones de grupos de fenómenos colectivos. En física estadística, los sistemas con interacciones entre las unidades (moléculas, espines,...) en general no se pueden calcular con exactitud, mientras que la mayoría de los sistemas sin interacción son fáciles de resolver. Por lo tanto, una aproximación de uso frecuente es la aproximación de conglomerados (o gotas) que intenta transformar el problema de las unidades que interactúan en la aproximación de conglomerados que no interactúan.
+
+Para poner tales modelos de conglomerados para transiciones de fase generales sobre una base más rigurosa, se pueden estudiar modelos simplificados, en lugar de gotas de agua reales, para observar directamente los conglomerados microscópicos y su impacto en cantidades macroscópicas como la susceptibilidad, etc. El modelo debe tener cinco propiedades:
+
+(i) se puede utilizar en tres dimensiones
+(ii) para cada configuración hay una separación inequívoca y no artificial de unidades en clusters
+(iii) la definición de clusters de acuerdo con (ii) es lo suficientemente simple para el manejo por computadora
+(iv) al menos algunas cantidades macroscópicas pueden calcularse de forma fiable a partir de las propiedades del cluster
+(v) el sistema tiene un punto crítico; allí y sólo allí aparecen grandes clusters.
+
+
+
+
+En física estadística, la teoría de la percolación suele ir acompañada de leyes de escala, fractales, criticidad de autoorganización y renormalización, todas ellas de gran importancia teórica en muchos campos diversos de la física. Por lo tanto, la percolación ha servido durante mucho tiempo como modelo ideal básico para demostrar la transición de fase y los fenómenos críticos. 
+
+La misma cuestión puede plantearse también para muchos otros sistemas constituidos por un medio aleatorio. 
+
+
+Como paradigma de la conectividad aleatoria y semialeatoria, el modelo de percolación desempeña un papel clave en el desarrollo de la ciencia de redes y sus aplicaciones. Por un lado, los conceptos y métodos analíticos, como la aparición del clúster gigante, el escalado de tamaño finito y el método del campo medio, que están íntimamente relacionados con la teoría de la percolación, se emplean para cuantificar y resolver algunos problemas centrales de las redes.
+
+Hasta el momento, la teoría de la percolación ya ha penetrado en las investigaciones sobre el análisis de estructuras y la modelización dinámica en la ciencia de redes.
+
+El punto clave de estos problemas con red implicada puede resumirse como un proceso de formación de clusters dentro de una fracción elegida de nodos, que pueden ser personas infectadas, nodos conservados tras un ataque intencionado o individuos con la misma opinión. En principio, estos procesos son fáciles de definir, pero no tanto de resolver.
+Afortunadamente, en la física estadística, un profundo sistema teórico, llamado teoría de la percolación, aborda este problema, es decir, el comportamiento de un sistema en red cuando algunos nodos o enlaces no están disponibles.
+
+Se sabe que la percolación clásica en física estadística sólo considera redes regulares, por lo que, con estas aplicaciones a redes complejas, la propia teoría de la percolación también se ha enriquecido y desarrollado. 
+
+En las áreas más candentes de la ciencia de las redes, como las redes de orden superior y las redes que van más allá de las interacciones entre pares, los modelos y métodos de percolación han seguido siendo objeto de estudio. métodos de percolación han sido aún ampliamente tocados. Esto se debe, obviamente, a que la propiedad de conexión debe ser siempre un punto clave para comprender la estructura y la dinámica de las redes.
+
+
+
+
+
+
+
+
+¿Por qué debemos cuidar la percolación? Existen numerosos fenómenos en física que requieren conceptos de conectividad. A menudo, es muy importante identificar las condiciones para las cuales existe un "cúmulo" infinito que transmite información sobre dimensiones macroscópicas. Pensemos, por ejemplo, en la conductividad eléctrica en un sistema desordenado, en la elasticidad en un sistema de dos componentes con diferentes propiedades mecánicas, en la propagación en sistemas desordenados, por ejemplo de enfermedades, o la propagación de incendios forestales.
+
+
+
+La teoría de la filtración se ocupa de los efectos de variar la conectividad de los elementos (p. ej., partículas, sitios o enlaces) en un sistema aleatorio. Un clúster es simplemente un grupo de elementos conectados. En términos generales, la transición de percolación, o umbral, del sistema es el punto en el que un grupo se extiende por primera vez en el sistema, es decir, la primera aparición de conectividad de largo alcance. En el límite termodinámico, el umbral de percolación es el punto en el que un grupo se vuelve infinito en tamaño. La transición de percolación es un maravilloso ejemplo de una transición de fase de segundo orden y un fenómeno crítico.
+
+
+
+Se dice que un sistema está en percolación, o en percolación, cuando una fracción suficiente de las entidades en cuestión (sitios, enlaces, etc.) está conectada localmente para que surja una conexión global. Esta conexión global es una cadena continua de entidades conectadas localmente que no tiene límites en tamaño, excepto en lo que pueda resultar de las limitaciones de un sistema de tamaño finito. Como suele ser el caso en matemáticas, la teoría de la percolación tiene algunas sorpresas. Aquí el resultado más simple, al menos conceptualmente, es que precisamente se desarrolla una conexión global [2, 22, 24] exactamente en una fracción específica, pc, de conexiones locales conocida como fracción crítica. Un resultado tan simple es también profundo, y pasaron décadas antes de que se probara.
+
+
+
+%https://www.sciencedirect.com/science/article/pii/S0960077922001783#sec0001
+
+La percolación es uno de los procesos mejor estudiados en física estadística  [1] , [2] . Es una poderosa herramienta para estudiar los fenómenos de propagación en sistemas reales. El modelo asume que los bordes (percolación de enlaces) o los nodos (percolación del sitio) están activos de forma independiente con probabilidad
+. Con el aumento de
+de 0 a 1, la red de tamaño infinito sufre una transición de fase desde algunos pequeños cúmulos hasta la aparición de un componente conectado gigante (GCC). El punto crítico de la transición de fase se denomina umbral de percolación. Sin embargo, en las redes finitas reales no hay una transición de fase real sino una pseudo transición de fase. 
+
+Dada una red, se genera una configuración del modelo de percolación asumiendo nodos presentes con probabilidad p . para p= 0, no hay nodos presentes en la red, lo que lleva a una configuración desconectada. Para p = 1, todos los nodos están presentes y dentro del mismo clúster conectado. A medida que varía p , la red experimenta una transición estructural entre estas dos configuraciones extremas. Por lo general, los procesos de percolación aleatorios dan lugar a transiciones de fase continuas 9. Esto significa que el tamaño del clúster más grande de la red, utilizado como indicador de la conectividad del sistema, aumenta de las fases de no filtración a las de filtración de manera uniforme
+
+
+https://sci-hub.se/https://journals.aps.org/rmp/abstract/10.1103/RevModPhys.80.1275
+
+Los fenómenos críticos en las redes incluyen una amplia gama de cuestiones: cambios estructurales en las redes, el surgimiento de arquitecturas de red críticas sin escala, varios fenómenos de filtración, umbrales epidémicos, transiciones de fase en modelos cooperativos definidos en redes, puntos críticos de diversos problemas de optimización. , transiciones en parejas coevolutivas: un modelo cooperativo y su sustrato de red, transiciones entre diferentes regímenes en procesos que tienen lugar en redes, y muchos otros.
+Mostramos que muchos de estos efectos críticos están estrechamente relacionados y son universales para diferentes modelos y pueden describirse y explicarse en el marco de un enfoque unificado.
+
+
+
+La filtración es uno de los temas más estudiados en física estadística 1 . El modelo utilizado para imitar los procesos de filtración asume la existencia de una red subyacente de estructura arbitraria. Las rejillas regulares se consideran tradicionalmente para modelar la filtración en materiales 2 , 3 . En cambio, los gráficos complejos se adoptan en el análisis de fenómenos de propagación en entornos sociales 4 , 5 o en estudios de robustez de sistemas tecnológicos e infraestructurales 6 , 7 , 8 . Dada una red, se genera una configuración del modelo de percolación asumiendo nodos presentes con probabilidad p . para p= 0, no hay nodos presentes en la red, lo que lleva a una configuración desconectada. Para p = 1, todos los nodos están presentes y dentro del mismo clúster conectado. A medida que varía p , la red experimenta una transición estructural entre estas dos configuraciones extremas. Por lo general, los procesos de percolación aleatorios dan lugar a transiciones de fase continuas 9. Esto significa que el tamaño del clúster más grande de la red, utilizado como indicador de la conectividad del sistema, aumenta de las fases de no filtración a las de filtración de manera uniforme. Varios enfoques teóricos, que no se basan en la simulación directa del modelo, están disponibles para el análisis de transiciones de percolación en grafos reales aislados. Estos incluyen, entre otros, conjuntos de ecuaciones heurísticas para dibujar diagramas de fase y estimar umbrales de percolación 10 , 11 , 12 , así como protocolos efectivos para la mitigación de ataques maliciosos 13 , 14 , 15 .
+
+
+
+Tanto el modelo de percolación como el de Ising muestran una transición de fase continua y, como se aclarará más adelante en la Sección 4, están estrechamente relacionados entre sí [27,28]. Por lo tanto, tenemos que poder definir un parámetro de orden para el modelo de percolación como en el modelo de Ising.
+
+
+Desde un punto de vista matemático, la percolación es atractiva porque exhibe relaciones entre las propiedades probabilísticas y algebraicas/topológicas de los gráficos.
+
+
+http://www.math.chalmers.se/~steif/perc.pdf
+
+La percolación es uno de los modelos más simples de la teoría de la probabilidad que exhibe lo que se conoce como fenómenos críticos. Esto generalmente significa que hay un parámetro natural en el modelo en el que el comportamiento del sistema cambia drásticamente.
+
+
+La naturaleza, entonces, está desordenada tanto en su estructura como en los procesos que sustenta. De hecho, los dos tipos de trastornos a menudo son simultáneos. Un ejemplo, querido por el corazón del autor, es el fluido (bajo a través de un medio poroso donde la interacción entre la estructura desordenada del espacio poroso y la dinámica del movimiento fluido da lugar a una rica variedad de fenómenos, algunos de los cuales serán discutidos en este libro. A pesar de la aleatoriedad bastante obvia en la naturaleza, estos temas fueron, durante varias décadas, familiares para la mayoría de los físicos, ingenieros y otros solo en la forma de mecánica estadística, o en la aplicación de ecuaciones como la ecuación de Boltzmann. La investigación en estos campos hizo un progreso notable aprovechando las estructuras periódicas. Sin embargo, como uno siempre tiene que enfrentarse al mundo real, se hizo evidente que se debe diseñar una física estadística de sistemas desordenados para proporcionar métodos para derivar macro-macroscópicos. propiedades de tales sistemas a partir de las leyes que gobiernan el mundo microscópico, o alternativamente para deducir las propiedades microscópicas de tales sistemas a partir de la información macroscópica que puede ser observada mediante técnicas experimentales. Tal física estadística de sistemas desordenados debería tener en cuenta el efecto tanto de la morfología como de la geometría de los sistemas. Si bien el papel de la geometría se apreció mucho en los primeros años de este siglo, el efecto de la topología se ignoró durante muchas décadas o se trató de manera poco realista, simplemente porque se pensó que era demasiado difícil de tener en cuenta.
+
+
+Pero quizás la razón más importante del rápido desarrollo de la física estadística de los sistemas desordenados es que se ha apreciado el papel de la interconectividad de los elementos microscópicos de un sistema desordenado y su efecto sobre las propiedades macroscópicas del sistema. Esto ha sido posible a través del desarrollo y aplicación de la teoría de la percolación, el tema de este libro.
+
+
+
+
+
+La percolación, en su interpretación más general, se refiere al “flujo” de algo (un agente físico, datos o información) en una red, posiblemente acompañado por algunos procesos dinámicos no lineales en los nodos de la red. Originado en el dominio de la física teórica y de la materia, tiene muchas aplicaciones en epidemiología, sociología y, por supuesto, informática e Internet. En esta revisión, ilustramos algunos aspectos de la teoría de la percolación y su generalización, autómatas celulares y discutimos brevemente su relación con nuestro modelo de dinámica neuronal. 
+
+Se dice que un sistema está en percolación, o en percolación, cuando una fracción suficiente de las entidades en cuestión (sitios, enlaces, etc.) está conectada localmente para que surja una conexión global. Esta conexión global es una cadena continua de entidades conectadas localmente que no tiene límites en tamaño, excepto en lo que pueda resultar de las limitaciones de un sistema de tamaño finito. Como suele ser el caso en matemáticas, la teoría de la percolación tiene algunas sorpresas. Aquí el resultado más simple, al menos conceptualmente, es que precisamente se desarrolla una conexión global [2, 22, 24] exactamente en una fracción específica, pc, de conexiones locales conocida como fracción crítica. Un resultado tan simple es también profundo, y pasaron décadas antes de que se probara.
+
+
+
+
+\section{Fenomenología}
+
+
+
+La teoría de la percolación caracteriza cómo surge la conectividad global en un sistema de una gran cantidad de objetos. Estos objetos se conectan de acuerdo con alguna regla local restringida por una topología subyacente. Por lo tanto, dada la topología y la regla local, la percolación produce el comportamiento emergente global \cite{hunt_percolation_2014}. Las primeras apariciones de la teoría de la percolación en la literatura incluyen los trabajos clásicos de Flory y Stockmayer sobre la polimerización y la transición sol-gel \cite{flory_molecular_1941,stockmayer_theory_2004}. Sin embargo, solo más tarde comienza a condensarse una teoría de la percolación \cite{broadbent_percolation_1957,flory_molecular_1941}. Esta teoría está, por lo tanto, relacionada con las teorías de grafos y de redes. Todos estos existen dentro de la intersección de la teoría de la probabilidad y la topología. Para nuestro modelo de criticidad neuronal, la principal relevancia de la teoría de la percolación es su capacidad para ofrecer propiedades globales a partir de especificaciones locales. Las relaciones entre propiedades locales y globales no son triviales: a veces las propiedades globales se relacionan con propiedades topológicas universales y, a veces, con propiedades dependientes del sistema.
+
+En la teoría de la percolación, la topología suele referirse a alguna estructura espacial $d$-dimensional con una existencia independiente de las características probabilísticas de la teoría. Los ejemplos de tales estructuras incluyen redes regulares, que consisten en nodos (sitios) conectados por enlaces. El giro típico de la teoría de la percolación es tomar una estructura tan conocida con una topología simple, caracterizada por tan solo uno o dos parámetros, y hacer que la presencia de, por ejemplo, enlaces sea un asunto probabilístico, lo que genera topologías bastante complejas. La teoría de la percolación se presenta en tres variedades básicas: enlace, sitio y continuo, con las dos primeras versiones vinculadas por su nombre a las redes mencionadas anteriormente. La teoría de la percolación también tiene algunas variantes interesantes y potencialmente relevantes, que incluyen la percolación de bootstrap (una de las primeras referencias es \cite{chalupa_bootstrap_1979}), la percolación de gradiente \cite{rosso_gradient_1986} y la percolación de invasión \cite{chandler_capillary_1982,nickel_invasion_1983,wilkinson_invasion_1983}.
+
+
+\subsection{Percolación  de enlace y  sitio}
+
+
+Para definir el proceso de percolación, se considera  un grafo que tiene un gran componente conexo. En la configuración clásica, la percolación en realidad se estudió en grafos infinitos, cuyos vértices constituyen el conjunto $\mathbf{Z}^d$, y los bordes conectan cada vértice con los vecinos más cercanos, pero consideramos grafos aleatorios generales. Tenemos el parámetro $p$, que es la probabilidad de que cualquier arista presente en el grafo subyacente esté abierta o cerrada (un evento con probabilidad $1-p$) independientemente de las otras aristas.  En realidad, si hablamos de que los bordes están abiertos o cerrados, esto significa que hablamos de la percolación de enlaces. También es posible hablar de que los vértices están abiertos o cerrados, y esto se llama percolación de sitio.  Obviamente, si $p = 1$ entonces obtenemos exactamente el grafo original, y si $p = 0$ entonces no hay aristas abiertas. Si se aumenta el parámetro $p$ de $0$ a $1$ habrá un momento en que aparecerá un componente abierto gigante; en el lenguaje de la teoría de la percolación, este componente se denomina clúster gigante o clúster expansivo. El valor en el que aparece el cluster gigante se denomina umbral de percolación, la probabilidad de percolación definida como la probabilidad de tener un cluster infinito, sería una función escalonada alrededor de $p_c$ que toma el valor de $1$ para $p > p_c$ y cero si $p \leq p_c$. En $p = p_c$, se cree que con probabilidad uno no hay un cluster infinito, pero normalmente hay algunos clusters muy grandes cerca  (ver \cref{fig:probabilidadinf})  \cite{aizenman_number_1997}. En general, en una red dada, un enlace tiene más vecinos cercanos que un sitio \cite{bunde_fractals_2012}. Por lo tanto, se pueden formar  clusters grandes de enlaces con mayor eficacia que cluster grandes  de sitios, y se necesita una menor concentración de enlaces para formar un cluster expansivo; es decir, en una red dada, el umbral de percolación de los enlaces es menor que el umbral de percolación de los sitios.
+
+
+ \begin{figure}[ht]
+	\centering\includegraphics[width=\imsize]{probabilidad}
+	\caption[Gráfico esquemático de la probabilidad de percolación en función de la ocupación.]{Gráfico esquemático de la probabilidad de percolación en función de la ocupación. A medida que el tamaño del sistema $N$ tiende a infinito, $P_s$ tiende a la función escalonada alrededor del umbral crítico $p_c$. Para sistemas muy especiales, todos los gráficos para $N$ finitos se cruzan en un solo punto, pero en general, debido a las correcciones de tamaño finito, el cruce no ocurre en un solo punto para sistemas finitos.}\label{fig:probabilidadinf}
+\end{figure}
+
+
+ Una de las áreas activas en la investigación de la percolación que aún tiene problemas abiertos es encontrar los umbrales de percolación $p_c$, como característica fundamental de la teoría de la percolación, tanto de forma exacta como por simulación. Los valores de los umbrales de percolación no son universales y generalmente dependen de la estructura del grafo subyacente y la dimensionalidad, y se cree que alcanzan sus valores de campo medio solo en el límite de la dimensión infinita \cite{Artem,fisher_cluster_2004}. Encontrar pruebas rigurosas de umbrales y límites exactos también ha sido un área de investigación duradera para los matemáticos \cite{kesten_critical_1980,wierman_bond_1984,grimmett_percolation_2013} . Los umbrales exactos en 2D para redes cuadradas, triangulares, de panal y relacionadas se encontraron utilizando la transformación estrella-triángulo \cite{wierman_bond_1984} (ver el \Cref{table:umbral}). Sin embargo, todavía falta el valor exacto de los umbrales para muchos sistemas de interés. 
+ 
+
+ 
+ \begin{table}[h!]
+ 	\centering
+ 	\caption[Umbrales de percolación para varias redes en varias dimensiones y la red de Bethe.]{ Umbrales de percolación para varias redes en varias dimensiones y la red de Bethe.  La columna 2 enumera el número de vecinos más cercanos (nn), también conocido como el número de coordinación. Dentro de una dimensión dada, el umbral de percolación disminuye con el aumento del número de vecinos más cercanos.  La red o árbol de Bethe es una red infinita no periódica sin bucles cerrados (circuitos) en la que cada sitio (excepto los muchos sitios de la superficie) tiene un número de coordinación $Z$, es decir, el número de enlaces conectados al mismo sitio.
+ 	}
+ 	\begin{tblr}{colspec={X[l,2]X[l,1]X[l,3]X[l,3]},
+ 			row{odd} = {bg=gray8},
+ 			row{even} = {bg=gray9},
+ 			row{1} = {bg=red3, fg=white, font=\sffamily},
+ 		}
+ 		
+ 		red	&  \# nn  &  {Percolación \\ de sitios}  &   {Percolación \\ de enlaces} \\
+ 		1d & $2$  & $1$ & $1$ \\
+ 		Triangular (2d) & $6$ &  $1/2$ & $2\sin(\pi/18)\approx 0.34729$ \\
+ 		Cuadrada (2d) &  $4$ &  $0.592746$ &  $1/2$ \\
+ 		Panal (2d)        &  $3$ &  $0.6962$ &  $1-2\sin(\pi/18)\approx0.65271$ \\
+ 		FCC (3d)           &  $12$ &  $0.198$   &  $0.119$ \\
+ 		BCC (3d)          &  $8$ & $0.246$    &  $0.1803$ \\ 
+ 		CS (3d) & $6$ &  $0.31161$ &  $0.248814$ \\
+ 		Diamante (3d) & $4$ & $0.43$ & $0.388$ \\
+ 		Hipercubo (4d) & $8$ & $0.197$ & $0.1601$ \\
+ 		Hipercubo (5d) & $10$ & $0.141$ & $0.1182$ \\
+ 		Hipercubo (6d) & $12$ & $0.107$ & $0.0942$ \\
+ 		Hipercubo (7d) &  $14$ & $0.089$ &  $0.0787$ \\
+ 		red de Bethe &  $z$ & $1/(z-1)$  &  $1/(z-1)$  \\
+ 	\end{tblr}
+ 	\label{table:umbral}
+ \end{table}
+ 
+ 
+ 
+
+
+Como ejemplo de la anterior  definición consideremos un trozo de la red cuadrada  $\mathbf{Z}^2$. Llamemos a las intersecciones de líneas \textquote{sitios}  y a los segmentos que los conectan \textquote{enlaces}. En una red cuadrada, un enlace está conectado a los seis enlaces vecinos más cercanos, mientras que un sitio tiene solo cuatro sitios vecinos más cercanos. Suponga que cada sitio existe en solo dos estados posibles, \textquote{vacío} o \textquote{abierto} (o \textquote{permitido}; no existe una terminología universal para describir estos estados, y uno podría decir fácilmente \textquote{encendido} o \textquote{apagado}), supongamos además que si un sitio está  abierto es aleatorio  (con probabilidad $p$)  e independiente de sus vecinos. Se supone que existe un vínculo entre cada par de sitios vecinos más cercanos en la red. Si poco mas de la  mitad de los sitios están abiertos (\Cref{fig:percolacion_enlaces_sitios}b centro), vemos que los sitios abiertos tienden a agruparse en clusters de muchas formas y tamaños. Podemos referirnos a estos clusters por su tamaño, es decir, un solo sitio abierto sin vecinos abiertos inmediatos es un grupo de $1$; dos sitios abiertos adyacentes sin vecinos abiertos forman un grupo de $2$, y así sucesivamente. 
+
+
+\begin{figure}[ht]
+	\centering\includegraphics[width=\imsize]{percolacion_enlaces_sitios.png}
+	\caption[Diagramas esquemáticos de la percolación clásica en la red cuadrada.]{Diagramas esquemáticos de la percolación clásica en la red cuadrada, donde los diferentes colores denotan diferentes clusters. El tamaño del sistema utilizado aquí es $N = L\times L= 80 \times80$. Los valores de $p$ etiquetados en las figuras son las probabilidades de ocupación del sitio/enlace correspondiente. (a) Percolación de enlaces. Para facilitar la identificación, los sitios y los enlaces desocupados no se muestran aquí. Para p = $0.51$, existe un cluster gigante indicado en amarillo. (b) Percolación del sitio. Para facilitar la identificación, los enlaces y los sitios desocupados no se muestran aquí. Para $p = 0.605$, existe un cluster gigante indicado en azul. (adaptado de \protect\cite{li_percolation_2021})}\label{fig:percolacion_enlaces_sitios}
+\end{figure}
+
+
+
+Si la probabilidad $p$ de que un sitio esté abierto aumenta a $0.605$ (\Cref{fig:percolacion_enlaces_sitios}b derecha), suceden varias cosas. Lo más importante, con alguna probabilidad entre $1/2$ y $2/3$, muchos de los sitios se unen en un cluster gigante que abarca toda la matriz tanto vertical como horizontalmente. La probabilidad a la que esto sucede (aproximadamente $p_c\approx0.593$ para los sitios de la red cuadrada)  es la  probabilidad crítica $p_c$ descrita anteriormente. Si imaginamos que un \textquote{fluido} puede fluir solo a través de enlaces que conectan sitios abiertos, entonces, por debajo del umbral, la red tendrá una conductividad cero, mientras que por encima del umbral, la conductividad aumentará a medida que aumente la probabilidad. Por lo tanto, existe una fuerte relación entre la conectividad de los elementos (llamados microscópicos) del sistema y las propiedades físicas de todo el sistema (o llamado macroscópico). En segundo lugar, a medida que aumenta la proporción de sitios abiertos, también aumenta la proporción de sitios vacíos que tienen vecinos abiertos.
+
+Tercero, una vez que $p > p_c$, si hacemos pasar fluido a través de la red a través de enlaces que conectan sitios abiertos, encontraremos que algunos de los enlaces (la columna vertebral) tienen fluido fluyendo a través de ellos, mientras que otros son simplemente callejones sin salida aislados o ramas colgantes; la proporción de estas ramas varía en función de $p$. La proporción de sitios abiertos que pertenecen al cluster infinito, en otras palabras, la proporción de sitios abiertos que serían penetrados por un fluido en los límites de la red, se denomina función de accesibilidad. Cuarto, los cluster crecen (y se fusionan) con un aumento en $p$. Y, por último, ocurre lo contrario con los sitios vacíos: se dividen y comprimen en clusters más pequeños a medida que aumenta la probabilidad de que haya sitios abiertos.  El ejemplo anterior varía solo la proporción de sitios abiertos, por lo que se denomina percolación de sitio. Un procedimiento análogo, llamado percolación de enlaces, varía la proporción de enlaces abiertos (\Cref{fig:percolacion_enlaces_sitios}a). Los dos no son intercambiables: no existe una fórmula simple que prediga la percolación de enlaces a partir de la percolación del sitio (aunque los problemas de enlace se pueden \textquote{asignar} a los problemas del sitio) y, de hecho, $p_c$ para la percolación de sitio siempre es mayor que $p_c$ para la percolación de enlace (ver la \Cref{table:umbral}).
+
+
+El borde irregular (\textquote{ramificado}) de un clúster recuerda a los fractales y, de hecho, se sabe que los clusters cercanos al umbral de percolación son fractales \cite{aharony_introduction_2017}. De hecho, la dimensión fractal de un cluster de percolación es la misma ($D \approx1.896$) ya sea que la percolación tenga lugar en redes cuadradas, triangulares, de panal, de Voronoi o de otros tipos de redes 2D (\Cref{fig:distitnasredes}a–d) que difieren ampliamente en sus conectividad (que se puede cuantificar mediante el número de coordinación $z$, definido como el número medio de enlaces por sitio). Sin embargo, la dimensión fractal cambia con la dimensionalidad o la dimensión de incrustación $d$ de la red: los clusters que se percolan en las redes 2D tienen dimensiones fractales diferentes a las de las redes 3D (como las redes cúbicas, \Cref{fig:distitnasredes}e). 
+
+
+\begin{figure}[ht]
+	\centering\includegraphics[width=\imsize]{distitnasredes.png}
+	\caption[Ejemplos de redes 2D.]{ Ejemplos de redes 2D, con círculos que representan sitios y líneas oscuras que indican enlaces.  (a): cuadrada ($z=4$), (b): triangular ($z=6$) , (c)  panal ($z=3$), (d): Voronoi ($\left\langle  z \right\rangle  = 6$ ), (e): cubica ($z=6$), y (f): árbol de caley con $z=3$	  (adaptado de \protect\cite{berkowitz_percolation_1998})}\label{fig:distitnasredes}
+\end{figure}
+
+
+
+
+
+
+\section{Las matemáticas de la percolación}
+
+al igual que con las transiciones térmicas, las correlaciones de largo alcance controlan la transición de percolación y las cantidades relevantes cerca de pc se describen mediante leyes de potencia y exponentes críticos. La transición de percolación se caracteriza por las propiedades geométricas de los grupos cerca de pc.
+
+
+
+Supongamos que $\mathcal{G}$  es un un grafo, con un conjunto  de vértices  $\mathcal{V}$ y de aristas $\mathcal{E}$, y hagamos que todas las aristas se abran (o pasen) independientemente con probabilidad $p$ o se cierren  (o bloqueen) con probabilidad $1-p$. Sea $P_p$  la medida de probabilidad correspondiente en el conjunto de configuraciones de bordes abiertos y cerrados; ese modelo se llama percolación de enlace. El conjunto de aristas abiertas forma así un subgrafo aleatorio de $\mathcal{G}$, y la pregunta original formulada por Broadbent era si la componente conexa del origen en ese subgrafo es finita o infinita \cite{beffara_percolation_2006}.
+
+Un camino en $\mathcal{G}$ es una secuencia $v_1, v_2, \cdots$ de vértices de $\mathcal{G}$, tales que para todo $i \geq 1$, $v_i$ y $v_{i +1}$ son adyacentes a $\mathcal{G}$. Un camino se dice abierto si todas las aristas $\left\{v_i,v_{i+1}\right\}$ entre vértices sucesivos están abiertas. El cluster infinito del origen equivale a la existencia de un camino abierto ilimitado a partir del origen.  Existe un modelo análogo, llamado percolación del sitio, en el que se supone que todos los bordes son transitables, pero los vértices están abiertos o cerrados independientemente con probabilidad $p$ o $1-p$, respectivamente. Un camino abierto es entonces un camino a lo largo del cual todos los vértices están abiertos.
+ 
+
+Se supondrá que todos los grafos bajo consideración son conexos, localmente finitos y cuasi-transitivos. Si $A, B \subset \mathcal{V}$, entonces $A\leftrightarrow B$ significa que existe un camino abierto desde algún vértice de $A$ hasta algún vértice de $B$; por un ligero abuso de notación, $u \leftrightarrow v$ representará la existencia de un camino entre los sitios $u$ y $v$, es decir, el evento $\left\{u\right\} \leftrightarrow \left\{v\right\}$. El cluster abierto $C(v)$ del vértice $v$ es el conjunto de todos los vértices abiertos que están conectados a $v$ por un camino abierto:
+
+\begin{equation}\label{eq:1}
+	C(v) = \left\{u\in \mathcal{V}: u \leftrightarrow v \right\}
+\end{equation}
+
+La cantidad central de la teoría de la percolación es la probabilidad de percolación $\theta(p)$ que  es la probabilidad de que un sitio seleccionado arbitrariamente pertenezca a un grupo infinito. Claramente, $\theta(p)$ siempre es menor que $p$ excepto en el caso trivial cuando $\theta(p) = p = 1$ \cite{torquato_percolation_2002}. La probabilidad de percolación es idénticamente cero para $p$ por debajo de $p_c$ en un sistema infinito. 
+
+\begin{equation}\label{eq:2}
+\theta(p)  \equiv P_\infty = P_p\left\{\mathbf{0} \leftrightarrow \infty\right\} = P_p\left\{\left| C(\mathbf{0})\right|=\infty \right\}  = \begin{cases}
+	0 & \text{sí } p<p_c\\
+	>0 & \text{sí } p>p_c
+\end{cases}
+\end{equation}
+
+La propiedad más importante del modelo de percolación es que presenta una transición de fase geométrica con $\theta(p)$ jugando el papel de un parámetro de orden en una transición de fase termodinámica, es decir, existe un valor umbral $p_c \in  [0 , 1]$ , tal que el comportamiento global del sistema es sustancialmente diferente en las dos regiones $p < p_c$ y $p > p_c$.  Para hacer esto preciso, observase que $\theta$ es una función no decreciente. Esto se puede ver utilizando la construcción conjunta de sistemas de percolación de Hammersley \cite{broadbent_percolation_1957} para todo $p \in [0, 1]$ en $\mathcal{G}$: sean $\left\{U(v),v\in\mathcal{V}\right\}$ variables aleatorias independientes, uniformes en $[0,1]$. Declare que $v$ es $p$-abierto si $U(v) \leq p$, de lo contrario, se declara $p$-cerrado. La configuración de $p$-vértices abiertos tiene la distribución $P_p$ para cada $p\in [0, 1]$. La colección de $p$-vértices abiertos no es decreciente en $p$, y por lo tanto $\theta(p)$ tampoco es decreciente. Claramente, $\theta(0) = 0$ y $\theta(1) = 1$ (\Cref{fig:probabilidadtheta}).
+
+
+\begin{figure}[ht]
+	\centering\includegraphics[width=\imsize]{probabilidadtheta.png}
+	\caption[El comportamiento de $\theta(p)$ alrededor del punto crítico.]{El comportamiento de $\theta(p)$ alrededor del punto crítico.}\label{fig:probabilidadtheta}
+\end{figure}
+
+
+
+El valor crítico o umbral de percolación $p_c$ se define formalmente (para un sistema infinito) como
+
+\begin{equation}\label{eq:3}
+p_c \equiv p_c( \mathcal{G}) = \sup\left\{p:\theta(p)=0\right\}
+\end{equation}
+
+donde $\sup$ indica el supremo (límite superior mínimo); Por definición, cuando $p < p_c$ el cluster abierto del origen es   finito, por lo tanto, todos los clusters también son finitos. Por otra parte, para $p > p_c$ existe una $P_p$-probabilidad estrictamente positiva de que el cluster del origen sea infinito. 
+
+\begin{theorem}[ley cero-uno de Kolmogórov] % Specify a name/title in square brackets, or leave them out for no title
+	Sea $\omega(e)_e$  variables aleatorias i.i.d. y sea $A$ un evento de cola. Entonces, $\mathbb{P}[A] \in {0, 1}$.
+\end{theorem}
+
+
+De la ley cero-uno de Kolmogorov se deduce que
+
+\begin{equation}\label{eq:4}
+P_p\left\{\left| C(v)\right| =\infty \ \text{para algún} \ v \in  \mathcal{V}  \right\} = 1 \ \text{para} \quad p>p_c
+\end{equation}
+
+
+Por lo tanto, si los intervalos $[0, p_c)$ y $(p_c, 1]$  no están vacíos, hay una transición de fase en $p_c$.  Usando el llamado argumento de Peierls, es fácil ver que $p_c (\mathcal{G} ) > 0$ para cualquier grafo $\mathcal{G}$ de grado acotado. Se dice que el sistema está en la fase subcrítica (resp. supercrítica) si $p < p_c$ (resp. $p > p_c$). 
+
+
+
+
+Las estadísticas de clusteres de percolación definen la concentración ns de grupos de volumen (número de sitios) s en función de p. La suma sn s sobre todos los tamaños de conglomerados debe ser igual a p, ya que es, por definición, el número total de sitios ocupados por unidad de volumen. Claramente, a medida que p aumenta hacia pc, aumenta el número de conglomerados grandes. Resulta que precisamente en pc no puede haber escala de volumen, porque no hay escala de longitud: por lo tanto, ns debe seguir una ley de potencia en s. Entonces en la percolación ns debe obedecer
+
+Suponga que debe haber $m$ grupos en la red en el momento $t$. Los ordenamos en orden descendente $S_1 \geq S_2 \geq  \cdots \geq  S_m$, donde el tamaño relativo $S_k$ se define como $N_k/N$, siendo $N_k$ el número de nodos en el grupo $k$.
+
+Para un sistema muy grande que consta de N sitios, el conglomerado más grande también es muy grande por encima del umbral y, por lo tanto, la relación entre el tamaño del conglomerado más grande y $N$ es distinta de cero en el límite N---+ oo, es decir, P(p > Pc) > 0. Así, para un sistema infinito,
+
+
+
+
+\section{La percolación como fenómeno crítico}
+
+Como se describió en la sección anterior la percolación se trata de una transición de fase geométrica en la que la concentración crítica $p_c$ separa una fase de clusters finitos ($p < p_c$) de una fase en la que está presente un cluster grande ($p > p_c$).   Sólo en un sistema infinito (\textquote{límite termodinámico}) observamos una verdadera transición de fase en este sentido.  Así, $p_c$ se define unívocamente en un sistema infinito.  La transición de percolación se caracteriza por las propiedades geométricas de los clusters cerca de $p_c$. Una cantidad importante es la probabilidad $P_\infty$ definida en la  \Cref{eq:2}. Esta probabilidad  desaparece por debajo de $p_c$ y es distinta de cero por encima de $p_c$; cerca de $p_c$ podemos  definir un \textquote{exponente crítico}  $\beta$  postulando
+ \begin{equation}\label{eq:10}
+P_\infty \propto \left(p-p_c\right)^\beta
+ \end{equation}
+ para $p$ ligeramente por encima de $p_c$.  El comportamiento de la red infinita y de los grandes clusters finitos, para $p$ muy próximo a $p_c$, se denomina comportamiento crítico de la teoría de la percolación; la región de parámetros donde se aplica se denomina región de escalamiento. 
+ 
+ 
+ 
+ \subsection{Parámetro de orden}
+ 
+ 
+Probablemente el medio más elegante para caracterizar  la teoría de la percolación como fenómeno critico es usar la teoría de escalamiento de los clusters de percolación  \cite{stauffer_scaling_1979}. En principio, se puede formular la mayor parte de la teoría de la percolación simplemente en términos de sus estadísticas de clusters, y estas estadísticas también permiten analogías fáciles con otras transiciones de fase. Para formular  el parámetro de orden que  utilizaremos para caracterizar  nuestro  modelo de criticidad neuronal, definamos ahora un grupo de observables geométricos. Para un valor dado de ocupación $p$, la naturaleza de la percolacion está relacionada con las propiedades de los clusters. 
+
+
+\begin{definition}[clúster] % Specify a name/title in square brackets, or leave them out for no title
+Un clúster se define como un grupo de objetos de la red (por ejemplo, nodos  o enlaces)  conectados por una ruta de distancias de vecinos más cercanos.
+\end{definition}
+Los nodos aislados se consideran clusters de tamaño unitario; y generalmente llamamos a cualquier cluster que consta de $s$  nodos conectados  un $s$-cluster.
+La teoría de la percolación se centra principalmente en la aparición del cluster infinito con el aumento de la probabilidad $p$. Para caracterizar este fenómeno, a menudo se adopta la probabilidad $\bar{S}_1/N$  de que un nodo pertenezca al cluster infinito,  donde $N$ es el tamaño del sistema (número de sitios), y  $\bar{S}_1$ es el promedio en ensamble del número de sitios $S_1$ en el cluster más grande.  Como se muestra en la \Cref{fig:probabilidadtheta}, al aumentar $p$, aumenta la probabilidad de encontrar clusters más grandes. En una red finita como la que se muestra en la \Cref{fig:percolacion_enlaces_sitios}, habrá un valor de $p$ lo suficientemente grande como para garantizar que al menos un cluster conecte los extremos \textquote{inferior} y \textquote{superior} (o \textquote{izquierdo} y \textquote{derecho})  de la red. Es decir debe haber un punto crítico $p_c$ , por encima del cual se puede encontrar un $\bar{S}_1/N$ distinto de cero. De este modo se calcula la transición de percolación del sistema con respecto al parámetro de control $p$, y $\bar{S}_1/N$ es el parámetro de orden correspondiente. El tamaño del cluster mas grande es el parámetro de orden preferido en la ciencia de redes.   En el umbral de percolación el parámetro de orden exhibe un comportamiento crítico en el límite $N\to\infty$ de la siguiente manera:
+
+\begin{equation}\label{eq:5}
+P_\infty = \lim_{N\to\infty} \frac{\bar{S}_1}{N} =  \begin{cases}
+	0 & \text{sí } p<p_c\\
+	a\left(p-p_c\right)^\beta & \text{sí } p>p_c
+\end{cases}
+\end{equation}
+
+donde $a$ es una constante, y $\beta$ es el exponente crítico del parámetro de orden.
+
+\subsection{ El tamaño promedio de los clusters  $ \chi(p)$}
+
+
+Una cantidad básica que describe la estructura del sistema es  la distribución del tamaño de los cluster  \( p_s=\frac{m_s}{\sum_{s}m_s} \) ,  donde $m_s$ es el número de clústeres con tamaño $s$ en una red de tamaño $N$, o como habitualmente se usa, la distribución del tamaño del cluster normalizada  \(n_s=\frac{m_s}{N}\), que es el número de clusters de tamaño $s$ por cada nodo de la red, con la probabilidad de percolación $p$ \cite{barrat_dynamical_2008}.  La probabilidad de que cualquier nodo $i$ pertenezca a un cluster de tamaño $s$ simplemente viene dada por $sn_s(p)$, donde el nodo puede ser cualquiera de los elementos del cluster considerado.  Es obvio que \(p_s=\frac{n_sN}{\sum_{s}m_s}=n_s\left\langle S \right\rangle \), donde \(\left\langle S \right\rangle =\frac{N}{\sum_{s}m_s} = \sum_{s} sP_s \)  es el tamaño promedio del cluster.  Debe señalarse que el tamaño medio \(\left\langle  S \right\rangle \) no es el tamaño medio del cluster \(\chi\) comúnmente utilizado en la teoría de la percolación y que se define mas adelante.   
+
+
+
+
+La probabilidad $p$ de que un sitio sea ocupado se puede escribir como la suma de estas probabilidades sobre todos los tamaños posibles. Si $p < p_c$ , esto se formula así:
+
+\begin{equation}\label{eq:12}
+p=\sum_{s}{sn_s}(p)
+\end{equation}
+
+para $p > p_c$ existe  un cluster gigante y cada nodo tiene una probabilidad finita $\bar{S}_1/N > 0$ de ser parte de él.  Todos los demás clusters tienen un tamaño finito $s$ en cualquier $p$ arbitrario, descrito por la distribución del tamaño de cluster $n_s(p)$. Por lo tanto, la suma de todas las probabilidades de que un nodo dado pertenezca a un cluster de tamaño finito o al cluster gigante debe ser igual a $p$, es decir
+
+\begin{equation}\label{eq:13}
+	p=P_\infty+{\sum_{s}}^{\prime}sn_s(p) 
+\end{equation}
+
+donde ${\sum_{s}}^{\prime}$ es la suma sobre todos los valores finitos de $s$  y por lo tanto   el cluster gigante está excluido de la suma. Ahora necesitamos definir una cantidad para medir el tamaño de los clusters. Intuitivamente, a un valor bajo de $p$ el tamaño de los clusters es pequeño y aumentan con $p$ hasta el umbral en el que el cluster gigante domina, por lo que el tamaño de los clusters debe divergir. Por encima del umbral debemos eliminar el cluster gigante de nuestros cálculos, ya que de lo contrario siempre dominará. A medida que los clusters son absorbidos por el cluster gigante, el tamaño típico de los que quedan vuelve a disminuir. Por tanto, deberíamos tener un tamaño de clusters que aumenta, diverge en el umbral y vuelve a disminuir (ver la \Cref{fig:promedio}) \cite{saberi_recent_2015}.  Por el teorema de Bayes,  la probabilidad condicional de que un nodo ocupado pertenezca a un cluster de tamaño $s$ 
+
+\begin{equation}\label{eq:14}
+w_s(p) = \frac{sn_s(p)}{{\sum_{s}}^{\prime}sn_s(p)}
+\end{equation}
+
+Así, podemos definir el tamaño medio de los clusters  $\chi(p)$ al que pertenece cualquier nodo ocupado   de la siguiente manera,
+
+
+\begin{equation}\label{eq:15}
+\chi(p)={\sum_{s}}^{\prime}{sw_s(p)}=\frac{{\sum_{s}}^{\prime}{s^2n_s(p)}}{{\sum_{s}}^{\prime}{sn_s(p)}}
+\end{equation}
+
+donde nuevamente la divergencia debida a los clusters gigantes no se toma en cuenta al considerar las sumas ${\sum_{s}}^{\prime}$.  Sin embargo, esta definición (\Cref{eq:15}) no contiene información sobre la estructura de los clusters, por ejemplo, su compacidad y extensión espacial. La siguiente propiedad que podemos analizar es la extensión geométrica de los  clusters. Supongamos que los sitios de un cluster de tamaño $s$ están situados en $\mathbf{r}_i$, donde $i = 1, 2,\cdots,s$. El centro de masa del cluster puede definirse por $\mathbf{r}_0 = \sum{\mathbf{r}_i}/s$, y por tanto el llamado radio de giro del cluster, $R_s$, se define por
+
+\begin{equation}\label{eq:19}
+R_s^2=	\frac{\sum{\left(\left| \mathbf{r}_i-\mathbf{r}_0\right|^2 \right)}}{s}=\frac{1}{2s^2}\sum_{i,j}{\left|\mathbf{r}_i-\mathbf{r}_j\right|^2}
+\end{equation}
+
+En otras palabras, $R_s$ puede relacionarse con la distancia media entre dos sitios cualesquiera dentro del mismo clusters. Para un determinado clusters de tamaño $s$, un radio de giro más pequeño indica una mayor compacidad y una menor extensión espacial.   También podemos definir otra escala de longitud distinta del radio medio de los clusters, es decir, la longitud de correlación $\xi$, definida por la función de correlación de dos puntos $g_c(r )$. Se trata de la probabilidad de que, si un punto se encuentra en un clusters finito, otro punto situado a una distancia $r$ se encuentre en el mismo cluster. Esta función suele tener un decaimiento exponencial dado por una longitud de correlación $\xi$ :
+
+\begin{equation}\label{eq:16}
+g_c(r) \sim e^{-r/\xi},  \ r\to\infty
+\end{equation}
+
+La longitud de correlación es un tamaño característico de la distribución de clusters que da lugar a un tamaño máximo por encima del cual los clusters son exponencialmente escasos. También es el límite superior de la región de escala en la que los clusters de percolación tienen un comportamiento autosimilar. Por lo tanto, podemos definir la longitud de correlación $\xi$ como la distancia media de dos puntos que pertenecen al mismo cluster
+
+\begin{equation}\label{eq:17}
+\xi^2=\frac{\sum_r{r^2g_c(r)}}{\sum_r{g_c(r)}}
+\end{equation}
+
+Para un determinado clusters de tamaño $s$, se puede sustituir $r^2$ en la suma anterior por la distancia media al cuadrado entre dos puntos de clusters, es decir, $2R_{s}^2$ . Además, con la probabilidad $sn_s$, de que un punto pertenece a un $s$-cluster, y como entonces está conectado a $s$ sitios, también se puede sustituir $g_c(r)$  por $s^2n_s$, dando lugar a la siguiente relación para la longitud de correlación al cuadrado
+
+\begin{equation}\label{eq:18}
+	\xi^2(p)=\frac{{\sum_s}^{\prime}{2R_{s}^2s^2n_s(p)}}{{\sum_{s}}^{\prime}{s^2n_s(p)}}
+\end{equation}
+
+Las definiciones anteriores de los distintos observables característicos son válidas en todas las dimensiones $d$.
+
+
+
+\begin{figure}[ht]
+	\centering\includegraphics[width=\imsize]{promedio.png}
+	\caption[Evolución del tamaño promedio de los clusters finitos y  la longitud de correlación cerca de la transición.]{Evolución del tamaño promedio de los clusters finitos y  la longitud de correlación cerca de la transición. Como se ve en el diagrama, en el umbral crítico $p_c$ aparece el componente gigante, hay clusters de todo tamaño y la longitud de correlación diverge (es decir, es proporcional al tamaño del sistema $L$).}\label{fig:promedio}
+\end{figure}
+
+
+\subsection{Escalamiento y Exponentes Críticos}
+
+El comportamiento del proceso de percolación depende fuertemente de si estamos en el régimen subcrítico $p < p_c$ o supercrítico $p > p_c$.  En el primer caso,   la probabilidad de encontrar un cluster finito  $s$ de gran tamaño  en un punto dado disminuye exponencialmente con $s$.   La posibilidad de una conexión de largo alcance es pequeña y se aproxima a cero a medida que diverge la distancia entre los puntos finales. Más precisamente, existe  un $\kappa(p) > 0$, de modo que $\kappa(p) \to\infty$ cuando $p\to0$ y $\kappa(p = p_c ) = 0$  tal que
+\begin{equation}\label{eq:20}
+w_s(p) \approx e^{-\kappa(p)s}, \ s\to\infty
+\end{equation}
+
+
+
+en otras palabras todos los clusters son finitos y su distribución de tamaños tiene una cola que decae exponencialmente.  En el  régimen supercrítico,   la cola de la distribución de los tamaños de los clusters finitos tiene una forma de decaimiento bastante más suave.   En otras palabras, existen funciones $\kappa_1(p)$ y $\kappa_2 (p)$, que satisfacen $0 < \kappa_2(p) \leq  \kappa_1(p) < \infty$, tales que \cite{grimmett_percolation_2013}
+\begin{equation}\label{eq:21}
+\exp{\left(-\kappa_1(p)s^{\frac{d-1}{d}}\right)} \leq w_s(p) \leq \exp{\left(-\kappa_2(p)s^{\frac{d-1}{d}}\right)}
+\end{equation}
+Nótese que la potencia $s^{(d-1)/d} $ es el orden del área superficial de la esfera en $d$ dimensiones con volumen $s$. Esto implica que los clusters son compactos en la región supercrítica \cite{djordjevic_scaling_1987}  y la distribución de tamaños de los clusters finitos tiene una cola  que decae más lentamente que una exponencial. El valor numérico de cada cantidad que caracteriza la percolación para cualquier $p$ depende de los detalles microscópicos del sistema, como su número de coordinación. Pero cerca del umbral de percolación $p_c$, la mayoría de las cantidades obedecen leyes de escala que son en gran parte insensibles a la estructura de la red y sus detalles microscópicos.  De acuerdo con la hipótesis de escala, es posible establecer, en general, la siguiente relación para el número $n_s(p)$ de clusters finitos por sitio
+\begin{equation}\label{eq:22}
+n_s(p)  \propto s^{-\tau}F\left(c(p)s\right), \ s\to\infty
+\end{equation}
+donde $\tau$ es un exponente libre y $F$ es una función de escala.  Cerca del umbral de percolación, se permite que $c(p)$ se comporte como una ley  general de potencia  $c (p) \propto \left|p-p_c \right|^{1/\sigma}$ , donde $\sigma$ es otro  exponente crítico.   Podemos considerar, en general, el $m$-ésimo momento de la distribución del tamaño de los clusters definida por $M_m(p) = \sum_{s}s^mn_s(p)$ con $m \geq 1$. También se conjetura  las siguientes relaciones de escala cerca del umbral de percolación con diferentes exponentes críticos $\beta$, $\gamma$, $\alpha$, $\Delta$,  $\tau$ y $\nu$
+\begin{align} \label{eq:6}
+	P_\infty(p) & \simeq B\left(p-p_c\right)^\beta, \label{eq:6a}\\ 
+	\chi(p)  & \simeq \Gamma^{\pm}\left| p-p_c \right|^{-\gamma}, \label{eq:6b} \\
+	n_s(p) & \simeq A^{\pm}  \left| p-p_c \right|^{2-\alpha}, \label{eq:6c} \\
+	\frac{M_{m+1}(p)}{M_m(p)} &\simeq D^{\pm} \left| p-p_c \right|^{-\Delta}, \label{eq:6d}\\
+	\xi(p) &\simeq f^{\pm}\left| p-p_c \right|^{-\nu}, \label{eq:6e} \\
+	s_\xi(p) &\simeq \left| p-p_c \right|^{-\frac{1}{\sigma}}, \label{eq:6f}\\
+	p_s &\propto s^{-\tau}.
+	\end{align}
+	
+que también definen las amplitudes críticas cuyos superíndices $+$ o $-$ se refieren a que el $p_c$ se aproxima desde arriba o desde abajo, respectivamente. Las combinaciones universales de estas amplitudes representan la forma canónica de codificar la información universal sobre la aproximación a la criticidad \cite{aharony_universal_1980}. 	Los exponentes $\beta$, $\gamma$, $\alpha$, $\Delta$,  $\tau$ y $\nu$ describen el comportamiento crítico de cantidades típicas asociadas con la transición de percolación, y se denominan exponentes críticos. Los exponentes son universales y no dependen de los detalles estructurales de la red (por ejemplo, cuadrada o triangular) ni del tipo de percolación (sitio, enlace o continua), sino sólo de la dimensión $d$ de la red. Esta propiedad de universalidad es una característica general de las transiciones de fase, en las que el parámetro de orden desaparece continuamente en el punto crítico (transición de fase de segundo orden).   Entonces, el comportamiento de tipo ley de potencia y las funciones singulares encontradas en el umbral de percolación son un ejemplo típico de transición de fase crítica, donde el inicio de una fase macroscópicamente ordenada (por ejemplo, la presencia de una estructura global conexa) se anticipa por grandes fluctuaciones en las propiedades estadísticas del sistema. En el punto crítico, cuando estas fluctuaciones llegan al orden del tamaño del sistema, el orden macroscópico aumenta y el sistema entra en una nueva fase \cite{barrat_dynamical_2008}.
+
+
+
+ Los exponentes aquí considerados describen las propiedades geométricas de la transición de percolación.  Debemos  señalar que todas las cantidades descritas anteriormente se definen en el límite termodinámico de sistemas grandes \cite{bunde_fractals_2012}.  Una comprensión completa de la percolación requeriría calcular estos exponentes de forma exacta y rigurosamente. Este objetivo aún no se ha logrado, ni siquiera en general para otras transiciones de fase \cite{stauffer_scaling_1979}. El objetivo de una teoría de la escala, es más modesto que la comprensión completa: Queremos simplemente derivar relaciones entre exponentes críticos.  En este sentido, una teoría de escala es fenomenológica, es decir, se limita a relacionar distintas magnitudes medibles sin calcular ninguna de ellas directamente. Sin embargo, estos exponentes no son independientes entre sí, sino que satisfacen las relaciones de escala:
+ 
+ \begin{align}\label{eq:7}
+ 	\beta &= \Delta\left(\tau-2\right)=\frac{\tau-2}{\sigma},\\
+ 	\gamma&=\frac{3-\tau}{\sigma},\\
+ 	2-\alpha&= \gamma + 2\beta =\frac{\tau-1}{\sigma}.\\	
+ 	 \end{align}
+
+
+\subsection{Estructura fractal de los clusters  de percolación}
+
+La teoría de la escala afirma que siempre que el sistema se considera a escalas de longitud menores que la longitud de correlación $\xi$, se comporta como lo hace en el umbral. En el punto crítico, $\xi$ como única escala de longitud que domina el comportamiento crítico de una red infinita, es divergente, es decir, $\xi \to  \infty$. La desaparición de esta escala en $p = p_c$ , recuerda a la invariancia de escala que implica la aparición de autosimilitud en la característica geométrica de los clusters de percolación. Las propiedades fractales persisten incluso para $p \neq pc$ con $\xi$ finita , siempre que la escala de longitud para investigar el sistema sea inferior a $\xi$ ; una vez que se supera $\xi$ , la geometría se convierte en euclidiana. Consideremos un sistema de percolación que se observa a través de una ventana hipercúbica de tamaño $L^d$ donde $L \ll  \xi$  es el tamaño lineal de la ventana o puede considerarse como el tamaño de un sistema finito. La invariancia de escala requiere entonces que la masa media $M$ de los clusters dentro de la ventana aumente como una ley de potencia con el tamaño, es decir, $M(\xi,L)\sim L^{d_f^c}$, donde $d_f^c$ es la dimensión fractal de el cluster  y describe cómo, en promedio, la masa $M$ del clusters dentro de una esfera de radio $r$ escala con $r$. 
+
+\begin{equation}
+	M(r)\sim r^{d_f^c}.
+\end{equation}
+
+En los fractales aleatorios, $M()r)$ representa una media de muchas configuraciones de clusters diferentes o, lo que es lo mismo, de muchos centros de esferas diferentes en el mismo cluster infinito \cite{li_fractal_2005}.  Por encima de $p_c$ en escalas de longitud $L\gg\xi$ , el cluster infinito  puede considerarse como un objeto homogéneo que se compone de muchas celdas de tamaño $\xi$, es decir, $M(\xi,L) \sim \xi^{d_f^c}\left(L/\xi\right)^d$. Estos se pueden resumir matemáticamente en términos de la función de cruce $\mathfrak{m}$ de la siguiente manera,  
+
+\begin{equation}\label{eq:23}
+M(\xi,L) \sim L^{d_f^c} \mathfrak{m}(L/\xi), \ \text{donde} \  \mathfrak{m}(L/\xi)= \begin{cases}
+	\text{constante }& \text{sí } L\ll\xi\\
+	\left(\frac{L}{\xi}\right)^{d-d_f^c} & \text{sí } L\gg\xi
+\end{cases}
+\end{equation}
+
+
+
+
+
+La masa $M$, por su parte, es proporcional a $L^dP_\infty$.   Igualando esto con la \cref{eq:23} y reescribiendo en términos de $(p - p_c)$ utilizando  la \cref{eq:6a} y \cref{eq:6e}, se obtiene la relación de escala 
+
+\begin{equation}\label{eq:24}
+d_f^c=d-\frac{\beta}{\nu}
+\end{equation}
+
+Dado que los exponentes $\beta$ y $\nu$ son universales, la dimensión fractal $d^c_f$ también es universal. Los valores de $d^c_f$ se conocen exactamente sólo en 2D y $d \geq d_c$ = 6 como $d^c_f = 91/48$ y $4$, respectivamente. En otras dimensiones las estimaciones existen sólo por simulaciones numéricas. Otras relaciones de los exponentes criticos son:
+
+  \begin{equation}\label{eq:25}
+\begin{cases}
+\fraccases}
+\frac{d^c{d^c}
+\end{cas}
+  \end{equation}
+
+
+
+
+
+
+Aquí, $\beta, \gamma, \nu, \sigma$ y $\tau$ son los llamados exponentes críticos, que determinan la clase universal de la transición de percolación. Además, en el punto crítico la longitud característica $\xi$ y el tamaño $s_\xi$ también tienen una relación
+
+\begin{equation}\label{eq:8}
+s_\xi\propto\xi^{d_f}
+\end{equation}
+
+El exponente $d_f$ se denomina a menudo dimensión fractal y caracteriza la estructura del cluster infinito en el punto crítico. Suponiendo que la dimensión del sistema sea $d$, existe otra relación entre los exponentes críticos, denominada hiperescala,
+
+\begin{equation}\label{eq:9}
+d_f=d-\frac{\beta}{\nu}
+\end{equation}
+
+Tenga en cuenta que esta relación también es universal e independiente de la estructura topológica del sistema. La teoría de transición de fase señala que existe una dimensión crítica superior $d_c$ (para percolación $d_c = 6$), por encima de la cual los exponentes críticos se vuelven los mismos que en la teoría de campo medio. Entonces, esta relación de hiperescala solo se cumple para $d \leq d_c$. También vale la pena mencionar que la estructura geométrica de los clusters de percolación de alta dimensión no puede ser explicada completamente por las contrapartes de las redes aleatorias, aunque ambas tienen la naturaleza de campo medio. Además, el comportamiento crítico por debajo de $d_c$ es diferente de la aproximación de campo medio que es válida fuera de la transición de fase. Para estos sistemas, la teoría de grupos de renormalización ha hecho predicciones notables sobre el comportamiento de la percolación cerca y en el umbral. En la teoría del grupo de renormalización, también hay una dimensión crítica inferior (para percolación $d_l = 2$), por debajo de la cual no hay transición de fase. 
+
+Además, el principio de universalidad establece que el valor de $p_c$ está determinado por la estructura local del sistema, mientras que el comportamiento de los clusters  que se observa cerca de $p_c$ es independiente de la estructura local (tipo red y tipo de percolación). En este sentido, se cree que la percolación es un proceso dependiente del sustrato pero independiente del modelo y, por lo tanto, los exponentes críticos de la transición solo están determinados por la geometría del sistema, y son idénticos para la percolación del enlace y del sitio. Los exponentes críticos son, por lo tanto, más naturales para ser considerados que el umbral $p_c$, y no hay necesidad de tratar el sitio y la percolación de enlaces, individualmente.
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Estos articulos tienen buena matematica de la percolacion en redes  \cite{dorogovtsev_critical_2008,rong_estimation_2022,newman_networks_2018,ariel_percolation,Hugo_percolation,hammersley_percolation_1980,bunde_fractals_2012,grimmett_probability_2018,albert_statistical_2002,boccaletti_structure_2014}
+
+
+
+
+Tenga en cuenta que en los sistemas físicos una ley de potencia puede tener límites superiores e inferiores. Por ejemplo, los objetos físicos con características fractales son, estrictamente hablando, fractales truncados: su naturaleza fractal no se extiende a escalas de longitud subatómica o galáctica. Por lo tanto, podemos dar a su descripción de ley de potencia un límite superior e inferior, pero siguen siendo invariantes en escala dentro de esos límites. En términos más generales, la incorporación de una escala particular en una ecuación de ley de potencia puede proporcionar información útil sobre uno de sus límites sin negar su invariancia de escala dentro del rango en consideración.
+
+
+
+
+
