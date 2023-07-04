@@ -1,6 +1,6 @@
 ;; This logfile was generated automatically by `xindy'
-;; at 11.05.2023  20:35:55
-;; Indexstyle: "/tmp/1pcu8jVVab", Rawindex: "/tmp/KBp4SYPthc", Output: "template.gls"
+;; at 28.06.2023  19:24:56
+;; Indexstyle: "H:\\Mi unidad\\Tesis_cevu\\Escritura_tesis\\Tesis Cevu\\Y73BgX0msB", Rawindex: "H:\\Mi unidad\\Tesis_cevu\\Escritura_tesis\\Tesis Cevu\\OnP070VO4T", Output: "template.gls"
 
 
 Building indexentry-tree:
@@ -9,13 +9,17 @@ Hierdepth of index is :TREE
 sort-indexentries: (FORWARD BACKWARD FORWARD FORWARD)
 sort-indexentries: (FORWARD BACKWARD FORWARD FORWARD)
 sort-indexentries: (FORWARD BACKWARD FORWARD FORWARD)
+sort-indexentries: (FORWARD BACKWARD FORWARD FORWARD)
+sort-indexentries: (FORWARD BACKWARD FORWARD FORWARD)
 
 Forming letter-groups:
+Letter-group: "€»È †€­†´¨†Ã" -> "A"
 Letter-group: "œ¨Ú¼—ÐÐ" -> "F"
 Letter-group: "—È¨ÐÚ€Ð¨Ð" -> "E"
 Letter-group: "€¼Ð€Úð" -> "A"
+Letter-group: "€àÚ€³»€Ú€" -> "A"
 sort-indexentries: (FORWARD BACKWARD FORWARD FORWARD)
-Letter-group: "€¼Ð€Úð" -> "A"
+Letter-group: "€»È †€­†´¨†Ã" -> "A"
 sort-indexentries: (FORWARD BACKWARD FORWARD FORWARD)
 Letter-group: "—È¨ÐÚ€Ð¨Ð" -> "E"
 sort-indexentries: (FORWARD BACKWARD FORWARD FORWARD)

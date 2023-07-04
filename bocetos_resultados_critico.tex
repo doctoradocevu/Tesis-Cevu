@@ -1,0 +1,109 @@
+Habiendo entendido las reglas básicas de evolución temporal que definen el modelo de autómatas celulares, en la siguiente sección se desarrolla un procedimiento para analizar exhaustivamente el espacio de configuraciones iniciales del sistema. Tenga en cuenta que un sistema está bien definido cuando se especifican las dimensiones N = L × L y la dinámica, definida por los parámetros (τa, τp). La enumeración única de cada configuración de un sistema bien definido será el primer paso hacia el estudio sistemático de las probabilidades asociadas con los diversos regímenes de parámetros del sistema.
+
+Metodos
+
+Es necesario variar sistemáticamente las extensiones de fase τa y τp, para observar cómo los fenómenos asintóticos globales de persistencia o quiescencia de actividad se ven afectados por parámetros que determinan la dinámica a nivel individual. Para ello, se describen dos formas de variar la extensión de las fases:
+
+Pasivo fijo - τp = P para un P dado, es decir, la extensión de la fase pasiva está anclada en P, y la variación de P(τa, τp) se observa para extensiones de fase activa crecientes τa.
+
+Activo fijo - τ a = A para un A dado, es decir, la extensión de la fase activa se fija en A, y la variación de P(τa, τp) se observa para extensiones de fase pasiva crecientes τp.
+
+
+Implementamos el CCA en Python [13] usando NumPy [14] y ejecutamos 1024 pruebas independientes de 500 pasos del modelo para cada configuración de parámetro que consideramos. Específicamente, ejecutamos simulaciones en retículas periódicas de tamaño 256 × 256, 512 × 512 y 1024 × 1024 con las vecindades de Moore y von Neumann y con k en un rango de 7 a 20. La parte vital de nuestro análisis es la extracción de fase datos de longitud de estas simulaciones.
+
+El conjunto de nodos se divide así en distintos grupos de nodos, donde dos nodos están en el mismo grupo cuando se excitan simultáneamente.
+
+
+
+Utilizando métodos analíticos exactos y simulaciones de la dinámica estocástica de este modelo, demostramos que el ruido puede desempeñar un papel constructivo en las redes neuronales. Mostramos que a un nivel crítico de ruido, una red neuronal experimenta una transición de fase dinámica desde un estado con neuronas incoherentes a un estado con neuronas sincronizadas y oscilaciones globales. Las oscilaciones de las poblaciones neuronales surgen si la actividad neuronal espontánea 共ruido兲 está por encima de un nivel crítico.
+La resonancia estocástica es un precursor de las oscilaciones globales. En una actividad neural espontánea dada, una fracción crítica de marcapasos neurales también puede estimular oscilaciones. Consideramos varios mecanismos que conducen a oscilaciones globales en poblaciones neuronales: la diferencia en la dinámica de las neuronas excitatorias e inhibitorias o la existencia de retrasos sinápticos. Estos mecanismos conducen a oscilaciones similares. También mostramos que las oscilaciones globales son propiedades intrínsecas de las redes neuronales bajo consideración. Cabe señalar que estas oscilaciones son ondas no lineales con una cierta amplitud y una forma específica que están determinadas por los parámetros estructurales y dinámicos. No dependen de las condiciones iniciales a diferencia de las ondas en los sistemas dinámicos lineales. Demostramos que la estructura de la red juega un papel importante. En las redes neuronales que tienen la estructura de las redes aleatorias clásicas, cuanto mayor es la conectividad, más amplia es la región con oscilaciones globales. Nuestras simulaciones revelan que las oscilaciones son una propiedad intrínseca incluso de pequeños grupos de neuronas. Entre 50 y 1000 neuronas muestran oscilaciones similares a redes infinitamente grandes a pesar de las fluctuaciones estocásticas que suelen ser fuertes en redes pequeñas. El modelo planteado también explica una transición discontinua en los procesos de activación de las redes neuronales vivas observadas experimentalmente en 关12兴. Las avalanchas neuronales preceden a esta transición. Las simulaciones respaldan nuestra solución analítica.
+
+
+Dada una condición inicial $\mathbf{s}(0)$, la dinámica de la red completa eventualmente alcanza un patrón periódico, después de transcurrido un número finito de pasos, es decir, la configuración del sistema llega a un estado que se repite cada cierto número de pasos de tiempo. Este patrón periódico se define como atractor del sistema, y el número de pasos de tiempo entre configuraciones que se repiten define el periodo del atractor. las trayectorias dadas por  la sucesión de configuraciones que preceden al atractor reciben el nombre de transitorios. El conjunto de condiciones iniciales que llegan a un atractor constituye la cuenca de atracción, y el conjunto de atractores con sus respectivas cuencas forma el paisaje de atracción del sistema
+
+
+
+% cibtar los tres tipos de reglas de exictacion
+
+Se dice que un PCA es ergódico si "olvida" asintóticamente su condición inicial, lo que significa que la distribución de su configuración siempre converge a una y la misma distribución independientemente de la condición inicial. En otras palabras, un PCA es ergódico si su acción sobre las medidas de probabilidad tiene un único punto fijo que atrae a todas las demás medidas.
+
+En la figura 1 se muestra una ilustración de la evolución de la configuración global de una red de 5 × 5 en un solo paso de tiempo. Todas las celdas se actualizan simultáneamente.
+
+
+Aquí ◦ denota un promedio a lo largo del tiempo, y el segundo conjunto de igualdades se cumple cuando el número de neuronas N es grande.
+
+
+
+
+% por si se pone normalziacion
+
+Como muestra 34 , la normalización anterior facilita la aparición de redes funcionales en reposo y aumenta los coeficientes de correlación entre el modelo y los datos empíricos. Y lo que es más importante, minimiza la variabilidad de los patrones de actividad neuronal y el punto crítico del modelo estocástico para diferentes sujetos, permitiendo la oportunidad de comparación estadística entre las salidas del modelo para individuos individuales.
+
+
+
+Para las simulaciones descritas aquí, usamos r1 = 0.001, r2 = 0.3 como en trabajos previos [11, 12] que permanecen fijos en todas las simulaciones, mientras que T se usa como parámetro de control.
+
+
+La tercera regla de transición refleja la inmunidad parcial de los árboles al fuego. La última regla de transición modela el efecto de un rayo en el bosque y actúa como fuente de ruido para la dinámica.
+
+Si el tamaño del sistema $N$ es lo suficientemente grande y si está en un estado estable, sus propiedades son independientes de cualquier condición de contorno. Sea $r$ la densidad de árboles en el bosque, en cualquier estado, y sean $q, r, e$ la media de las proporciones de árboles, árboles quemados y árboles quemados, respectivamente, en estado estacionario. Resulta que:
+
+La dinámica global del cerebro surge de la dinámica colectiva de las redes neuronales en punta. La red global está estructurada por la matriz de conectividad neuroanatómica (CUADRO 1) que especifica cómo las redes de picos locales se comunican entre sí.
+
+
+
+A pesar de la multiplicidad de puntos de vista, un problema central es describir el comportamiento asintótico del sistema y su dependencia de la condición inicial. De hecho, incluso cuando el comportamiento local es simple, el comportamiento global es generalmente difícil de predecir, y solo hay unos pocos AC o PCA para los que tenemos una descripción completa y explícita del comportamiento asintótico.
+La pregunta más básica sobre el comportamiento asintótico de un PCA es su ergodicidad. Se dice que un PCA es ergódico si "olvida" asintóticamente su condición inicial, lo que significa que la distribución de su configuración siempre converge a una y la misma distribución independientemente de la condición inicial. En otras palabras, un PCA es ergódico si su acción sobre las medidas de probabilidad tiene un único punto fijo que atrae a todas las demás medidas. Este artículo se refiere al problema de ergodicidad para la familia de PCA obtenida al perturbar AC con ruido.
+
+
+
+% pesos 
+
+Las redes neuronales generan dinámicas ricas que están dictadas en gran medida por la conectividad estructural subyacente a través de las escalas. Gracias al progreso tecnológico, los datos sobre las redes de conectividad estructural se han perfeccionado continuamente. Un gran avance es la caracterización de la fuerza (o peso) de los enlaces además del conocimiento sobre la presencia o ausencia básica de una conexión entre entidades neuronales.  Se han observado amplias distribuciones de peso sesgadas en muchas escalas en redes neuronales biológicas [15], desde la escala de neuronas [51, 74, 49, 40] hasta áreas corticales [50]. Estas distribuciones de colas pesadas suelen seguir una distribución lognormal [15] y tienen implicaciones para la autoorganización dinámica a gran escala de los sistemas neuronales, como la presencia de avalanchas y regímenes críticos. 
+
+
+
+Para algunos aspectos de la función sistémica, los pesos pueden servir como una importante fuente adicional de información e incluso pueden ser esenciales para una comprensión mecánica del sistema. Los detalles de la distribución del peso también pueden ser relevantes para la distribución de la ley de potencias del tamaño de las avalanchas [46]. En los sistemas neuronales, los pesos suelen estar asociados (específicamente, anticorrelacionados) con la distancia; y las conexiones de larga distancia y bajo peso son relevantes para diversificar topologías más locales [18, 9], un papel que se asemeja a la noción de Granovetter de la "fuerza de los lazos débiles" [34].
+
+
+tanto desde la perspectiva de la topología de red ( es decir, la investigación puramente estructural) y dinámica (es decir, el análisis funcional). Sin embargo, aún no está claro cómo los pesos de una red influyen en los patrones de excitación resultantes. l expresar el umbral de excitación del modelo como una función de los pesos de los bordes y asumiendo que la propagación de la excitación es escasa, demostramos un mapeo directo entre los patrones dinámicos extraídos de las redes ponderadas y los extraídos de las versiones binarizadas y con umbral de las redes. Mostramos que, en un modelo de autómata celular estilizado de dinámica excitable, existe un umbral de red en los pesos que conduce a dinámicas de excitación casi idénticas y patrones de coactivación en la red ponderada y no ponderada. Así, encontramos que, de manera muy genérica, los sistemas excitables tienen la capacidad de ejecutar dinámicamente un umbral
+
+Estudiamos un modelo excitable discreto determinista mínimo para una red de elementos que interactúan. El modelo constaba de tres estados discretos para cada nodo (susceptible S , excitado E y refractario R ), que se actualizaban sincrónicamente en pasos discretos de acuerdo con un conjunto de reglas de actualización que permitían la propagación de la señal
+
+
+%https://sci-hub.se/10.1016/j.physa.2005.12.056
+
+Elegimos a propósito un modelo dinámico mínimo, para evidenciar mejor el papel de la topología de red, sin efectos secundarios debido a algún detalle peculiar del modelo. Además, para centrarse en las diferencias en la dinámica causada por diferentes características topológicas, las reglas de la dinámica permanecerán constantes para todas las simulaciones. En tal entorno, la complejidad se origina en la interacción entre las características estadísticas globales de la red (principalmente su distribución de grados), las reglas de actualización deterministas locales y las condiciones iniciales. En consecuencia, las siguientes alternativas son centrales en nuestro análisis, y serán detalladas y discutidas a lo largo de la exposición: distribuciones de grado de ley de potencias versus Poisson, características microscópicas versus macroscópicas, regímenes transitorios versus asintóticos, instancias típicas versus especiales para la redes y para los estados iniciales.
+
+Los datos experimentales y computacionales convergentes sugieren que existe una interdependencia en la organización de las redes estructurales y funcionales. La topología, la capacidad de sincronización y otras propiedades dinámicas de las redes funcionales se ven fuertemente afectadas por el mundo pequeño y otras métricas de conectividad estructural. Por el contrario, en una escala de tiempo más lenta, la dinámica puede modular la topología de la red estructural.
+
+
+
+La invariancia de escala es una característica de la actividad neuronal. Cómo surge esta propiedad de las interacciones neuronales sigue siendo una cuestión fundamental.
+Además, modelamos la actividad cerebral utilizando una red de espines que interactúan a través de una conectividad a gran escala y presentan una transición de fase entre fases ordenadas y desordenadas. Dentro de este modelo simple, encontramos que las características de escala observadas probablemente surgieron de dinámicas críticas y conexiones que decaen exponencialmente con la distancia
+
+
+Se han observado avalanchas sin escala en diferentes escalas de sistemas neuronales con diferentes métodos \cite{zhou_optimal_2021}.
+
+
+, marcado por distintas propiedades de criticidad como distribuciones de ley de potencia de cascadas espaciotemporales de actividad denominada avalancha neuronal.  
+En virtud de la universalidad observada en dinámica crítica podría ser posible obtener resultados generales independientes de los detalles microscópicos de modelos previamente investigados.  Este equilibrio entre imprevisibilidad, inestabilidad y procesamiento organizado de la información se puede modelar como un sistema físico colocado en un punto crítico \cite{chialvo_emergent_2010}.
+
+Utilizando el siguiente modelo  de dinámica estocástica de redes neuronales, se ha  simulado la actividad espontánea en una red neuronal cuya arquitectura esta basada en el conectoma del C. elegans   que fueron construidos tanto para machos como hermafroditas por cook et al. \cite{cook_whole-animal_2019}. Es importante destacar que actualmente es el único   conectoma  que mapea todas las conexiones del sistema nervioso de un organismo. 
+
+
+En términos de la formulación anterior, el espacio de configuración de una red neocortical es el de patrones distinguibles de actividad neuronal definidos por los estados $E$, $Q$ y $R$. Dado que cada neurona puede estar en los estados $Q$, $E$ o $R$, hay $3^N$ patrones de este tipo en una red de $N$ neuronas. Dado que $N$ es de $\mathcal{O}(300)$, el espacio de configuración es bastante grande. 
+
+
+Varios sistemas físicos, biológicos y químicos están compuestos por agentes excitables que interactúan y, por lo tanto, las redes de nodos excitables se utilizan ampliamente para modelar el comportamiento de dichos sistemas. Muchos agentes excitables a menudo muestran un comportamiento refractario. Este comportamiento que se caracteriza por una escala de tiempo (es decir, un período refractario) es un tiempo durante el cual el agente excitado no puede ser reexcitado. La presencia de dicho período refractario claramente puede afectar la dinámica colectiva de los nodos excitables. Los sistemas neuronales son perfectos ejemplos de redes de nodos excitables con periodo refractario \cite{moosavi_refractory_2017}.
+
+
+
+
+Con estos enfoques y herramientas, se espera arrojar luz sobre la naturaleza y funcionamiento del cerebro del organismo en estudio, y cómo esta complejidad y adaptabilidad están relacionadas con su supervivencia y reproducción en el entorno. Además, se sientan las bases para futuras investigaciones en el campo de la neurociencia computacional y la comprensión de las redes neuronales en otros organismos, lo que puede tener importantes implicaciones para diversas disciplinas científicas y aplicaciones tecnológicas.
+
+Concluyendo, el estudio de la dinámica de las redes neuronales en organismos inmovilizados es fundamental para comprender la actividad cerebral y las posibles bases físicas de la cognición. La combinación de técnicas experimentales y modelos computacionales basados en la teoría de percolación y autómatas celulares nos brinda la posibilidad de revelar y comprender los mecanismos subyacentes de la actividad neural en situaciones donde el movimiento está ausente. Esta investigación tiene el potencial de arrojar luz sobre los principios generales que gobiernan el funcionamiento del cerebro y contribuir al desarrollo de tecnologías inspiradas en la biología neuronal.
+
+La teoría de las transiciones de fase distingue diferentes tipos de dinámicas en los sistemas físicos que experimentan una transición de fase de segundo orden: las dinámicas supercríticas son desordenadas, aleatorias e impredecibles, mientras que las dinámicas subcríticas son ordenadas, regulares y predecibles. En la transición entre ambas fases existe un punto crítico en el que la dinámica presenta características de regímenes tanto supercríticos como subcríticos. Muchas observaciones experimentales asociadas con la dinámica neuronal espontánea se manifiestan en el modelo solo en el punto crítico. Por lo tanto, los resultados obtenidos en los experimentos podrían indicar fuertemente la criticidad como una condición necesaria para la emergencia de varias características relevantes de la dinámica del cerebro.
+
+Al modelar la actividad neuronal a través de autómatas celulares y analizar las propiedades estadísticas a través de herramientas de la teoría de percolación, se espera arrojar luz sobre la presencia de la criticidad en el cerebro y su papel en la generación de patrones complejos de actividad coordinada.

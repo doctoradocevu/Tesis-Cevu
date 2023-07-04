@@ -5,10 +5,11 @@
 %\usepackage[latin-1]{inputenc} % Usado para ingresar acentos y s\'{\i}mbolos por teclado
 \usepackage[T1]{fontenc} % font encoding
 
+
 % fuentes
 %\usepackage[sc]{mathpazo}
 
-\usepackage{latexsym,amsfonts,amssymb,bbm,amsmath,amsthm,mathtools} % S\'{\i}mbolos matem\'{a}ticos
+\usepackage{latexsym,amsfonts,amssymb,bbm,amsmath,amsthm} % S\'{\i}mbolos matem\'{a}ticos
 
 \renewcommand{\qedsymbol}{$\blacksquare$} % Redefine the QED symbol to be a filled square vs. the default unfilled square
 
@@ -54,15 +55,24 @@
 \setcitestyle{numbers,square,comma}
 \bibliographystyle{ibtesis}
 
+\usepackage{mathtools}
+%\usepackage[xindy,acronyms,toc]{glossaries}
+\usepackage[
+toc,%add the glossaries to the table of contents
+xindy,% utiliza xindy
+acronyms,% create list of acronyms
+symbols,% create list of symbols
+]{glossaries-extra}
 
-\usepackage[xindy,acronyms]{glossaries}
 %\usepackage{glossaries-spanish}
-\setacronymstyle{long-short}
+%\setabbreviationstyle{long-short}
 
 % coloco los valores de las referencias y glosario
 \makeglossaries 
 \input{glosario.tex}
+\input{abreviaturas.tex}
 \input{acronimos.tex}
+\input{simbolos.tex}
 
 \usepackage[parfill]{parskip}
 

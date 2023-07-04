@@ -64,9 +64,10 @@ A toda esa otra gente que no
 
 \listoftables                   %Tablas
 
-\printglossary[type=\acronymtype]
+\printunsrtglossaries %
+%\printglossary[type=\acronymtype]
 
-\printglossary
+%\printglossary
 
 
 \include{resumen}
@@ -80,8 +81,11 @@ A toda esa otra gente que no
 
 
 \part{Dinámica crítica del C. elegans}
+\include{modelo_dinamica_neuronal.tex}
 \include{cap_dinamica_critica.tex}
 \include{cap_percolacion.tex}
+\include{cap_modelo_criticidad.tex}
+\include{cap_resultados_criticidad.tex}
 \appendix
 \include{apend1}
 

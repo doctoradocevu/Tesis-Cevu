@@ -1,0 +1,107 @@
+\subsubsection{Análisis y Caracterización}
+
+¿Cómo se puede predecir el comportamiento de patrones dinámicos de espacio-tiempo \textquote{globales}  a partir del conocimiento de las reglas  dinámicas locales? (enfoque bottom-up), ¿Cómo deben diseñarse reglas  locales específicas para producir un comportamiento global particular? (top-down, problema inverso), ¿Hay algún parámetro que gobierne las transiciones características de un medio entre varios dominios del espacio de fase? Todas estas preguntas han intrigado a los científicos durante mucho tiempo. La conexión entre la estructura de un solo autómata, como un vecindario, conjunto de estados, regla de transición, condiciones de contorno y el comportamiento resultante de todo el colectivo de autómatas ha sido un tema persistente en la exploración y comprensión de sistemas complejos representados en términos de autómatas celulares y redes de autómatas.
+
+El problema inverso de deducir las reglas locales de un comportamiento global dado es extremadamente difícil.  La mayoría de los métodos dependen de técnicas de computación evolutiva.  A pesar de la construcción simple, los AC son capaces de tener un comportamiento muy complejo. Para la mayoría de los modelos de AC, el único método general para determinar las propiedades dinámicas cualitativas del sistema es ejecutar simulaciones en una computadora para varias configuraciones iniciales. Luego, se pueden aplicar métodos de análisis de sistemas dinámicos y mecánica estadística. Guiado por estos conceptos, Wolfram  emprendió una búsqueda informática exhaustiva a través de las propiedades de un grupo específico de AC deterministas unidimensionales. Al ver los AC como sistemas dinámicos separados espacialmente extendidos, Wolfram propuso una clasificación cualitativa del comportamiento a largo plazo de los AC en cuatro clases, con la intención de capturar todos los comportamientos de los AC:
+
+\begin{itemize}
+	\item Los autómatas celulares de clase I evolucionan hasta puntos límite.
+	\item Los autómatas celulares de clase II evolucionan a ciclos límite.
+	\item Los autómatas celulares de clase III evolucionan hacia un comportamiento caótico del tipo asociado con atractores extraños.
+	\item Los autómatas celulares de clase IV tienen efectivamente transitorios muy largos.
+\end{itemize}
+
+Esta asociación de los AC de clase IV con transitorios muy largos se asocia con la palabra \textquote{críticamente}. Wolfram sugiere que los AC de clase IV son capaces de admitir computación, incluso computación universal, y que es esta capacidad la que hace que su comportamiento sea tan complejo \cite{langton_computation_1990}. Si un sistema es capaz de computación universal, entonces, con las condiciones iniciales apropiadas, su evolución puede llevar a cabo cualquier proceso computacional finito. Por lo tanto, un sistema computacionalmente universal puede imitar el comportamiento de cualquier otro sistema y, en cierto sentido, puede exhibir el comportamiento más complicado posible. Los autómatas celulares pueden verse como computadoras en sí mismas o como universos lógicos dentro de los cuales las computadoras pueden estar integradas. Las  pruebas involucran la incorporación de una computadora dentro de el AC, o al menos muestran que todas las partes importantes de dicha computadora podrían implementarse y que esas partes son suficientes para construir una computadora. Algunas de estas demostraciones involucran la construcción de máquinas de Turing, otras involucran la construcción de computadoras con programas almacenados.
+
+Se han introducido varias medidas de orden/caos para caracterizar la dinámica global de un AC, por ejemplo: el análisis de los estados del Jardín del Edén (estados no alcanzables), exponentes de Lyapunov, la distancia de Hamming, irreversibilidad local,  aspectos geométricos de los patrones espaciales autosimilares generados por la evolución de AC, se pueden definir varios tipos de entropía para AC, funciones zeta y finalmente Langton  sugirió el parámetro $\lambda$ \cite{langton_computation_1990}.
+
+
+
+\subsubsection{Ecuación de Chapman-Kolmogorov}\label{sec:Chapman-Kolmogorov}
+
+Existe  una caracterización diferente que se puede aplicar particularmente a las reglas de AC que imitan la interacción celular que es nuestro caso. Comenzando con la definición de reglas locales (y parámetros locales), bajo ciertas aproximaciones (especialmente la aproximación de campo medio) se puede derivar un conjunto de ecuaciones (de Boltzmann). El análisis de estabilidad de estas ecuaciones (que incluye solo los parámetros locales) permite predecir el comportamiento global del AC. En el \cref{sec:dinamica_automata} se proporciono una descripción de los modelos de AC en términos de variables microdinámicas discretas en el espacio y el tiempo (\cref{eq:52}). Se pueden derivar ecuaciones en diferencias que permanezcan discretas en el tiempo (y en el espacio) pero que tengan variables de estado continuas. Luego, para obtener más información sobre la dinámica de los autómatas, se pueden aplicar técnicas analíticas estándar a estas ecuaciones. Tal descripción típicamente será estadística, no especificando una configuración exacta, sino simplemente las probabilidades de aparición de diferentes configuraciones \cite{deutsch_cellular_2017}. Luego, en lugar de especificar la configuración $\mathbf{s}(t) \in \mathcal{S}$, analizamos la distribución de probabilidad de cada configuración en cada paso de tiempo. En el tiempo  $t \in \mathbb{N}_0$, sea $\bm{\xi}(t) \in \mathcal{S}$ una realización del proceso estocástico $\left\{\bm{\xi}(t)\right\}_{t\in\mathbb{N}_0}$ definido en el espacio de estado $\mathcal{S}$. A continuación, dada una distribución aleatoria arbitraria de estados iniciales $\bm{\xi}(0) \in \mathcal{S}$,
+
+\begin{equation}\label{eq:63}
+	P(\xi_1(t)=s_1,\cdots,\xi_m(t)=s_m)  \eqqcolon  P_t(s_1,\cdots,s_i\cdots,s_m) \ i \in \mathcal{M}\subseteq G, m=\left| \mathcal{M}\right| 
+\end{equation}
+
+especifica la probabilidad de observar la configuración $\mathbf{s}_\mathcal{M} \in  \mathcal{S} \mid \mathcal{M}$ en el tiempo $t$.  Como se discutió anteriormente  el proceso estocástico $\left\{\bm{\xi}(t)\right\}_{t\in\mathbb{N}_0}$ es markoviano; es decir está totalmente caracterizado por su matriz de probabilidad de transición con elementos $P(\bm{\xi}(t+1)=\mathbf{s} \mid \bm{\xi}(t)=\tilde{\mathbf{s}})$ que definen la probabilidad de encontrar el sistema en un estado $\mathbf{s}$ en el tiempo $t + 1$, dado el estado $\tilde{\mathbf{s}}$  en el tiempo $t$ anterior.  Utilizando el hecho de que la regla  local   se aplica a cada nodo simultáneamente y que especifica el siguiente estado de un solo nodo en función de la configuración del vecindario de interacción, obtenemos
+
+\begin{equation}\label{eq:64}
+	P(\bm{\xi}(t+1)=\mathbf{s} \mid \bm{\xi}(t)=\tilde{\mathbf{s}}) = \prod_{i\in G}  {p_i\left(\xi_i(t+1)=s_i \mid  \bm{\xi}(t)\mid  \mathcal{N}^I(i) = \tilde{\mathbf{s}}\mid \mathcal{N}^I(i)   \right)}
+\end{equation}
+
+donde $\left\{p_i(\cdot\mid\tilde{s}_i),i\in G, \tilde{s}_i\in\mathcal{S}^{\mathcal{N}^I(i)}\right\}$ es una familia de probabilidades sobre $\mathcal{S}$. El producto  dado por la \cref{eq:64} corresponde a una familia de procesos de Markov, uno en cada sitio. Sin embargo, los procesos interactúan entre sí porque comparten una configuración pasada común $\tilde{\mathbf{s}}$. Tenemos también que la regla local es independiente del tiempo
+
+\begin{equation}\label{eq:65}
+	P(\bm{\xi}(t+1)=\mathbf{s} \mid \bm{\xi}(t)=\tilde{\mathbf{s}}) = 	\prod_{i\in G}  {W\left(\tilde{\mathbf{s}}_{\mathcal{N}(i)}\to s_i\right)} \eqqcolon W\left(\tilde{\mathbf{s}\to\mathbf{s}}\right)
+\end{equation}
+
+
+para $\mathbf{s} , \tilde{\mathbf{s}}  \in \mathcal{S}, i \in N^I(i), i = 1, \cdots , \nu$. $W\left(\mathbf{s}_{\mathcal{A}}\to\mathbf{s}_\mathcal{B}\right)$ especifica la probabilidad de transición independiente del tiempo de alcanzar una configuración $\mathbf{s}_\mathcal{B} = \mathbf{s}\mid \mathcal{B}$  dada la configuración$\mathbf{s}_\mathcal{A} = \mathbf{s}\mid \mathcal{A}$ para cualquier $\mathcal{A}, \mathcal{B} \subseteq G$. El proceso estocástico  $\left\{\bm{\xi}(t)\right\}_{t\in\mathbb{N}_0}$  es una cadena de Markov estacionaria, y la evolución temporal de la distribución de probabilidad viene dada por la ecuación de Chapman-Kolmogorov o ecuación maestra
+
+\begin{align}\label{eq:66}
+	P_{t+1}(\mathbf{s}) &=  \sum_{\tilde{\mathbf{s}}\in\mathcal{S}}{P_t(\tilde{\mathbf{s}})W(\tilde{\mathbf{s}})\to\mathbf{s}}\\
+	&= \sum_{\tilde{\mathbf{s}}\in\mathcal{S}}{P_t}{(\tilde{\mathbf{s}})\prod_{i\in G} {W\left(\tilde{\mathbf{s}}_{\mathcal{N}(i)}\to s_i\right)}}
+\end{align}
+
+Además, utilizando la anterior ecuación, la probabilidad de que un sitio se encuentre en un estado elemental específico $z^j \in \mathcal{E}$ viene dada por 
+
+\begin{equation}\label{eq:67}
+	P\left(\xi_i(t+1)=z^j\right)=\sum_{\tilde{\mathbf{s}}_{\mathcal{N}(i)}\in\mathcal{S}_{\mathcal{N}(i)}}{P_t(\tilde{\mathbf{s}}_{\mathcal{N}(i)})W\left(\tilde{\mathbf{s}}_{\mathcal{N}(i)}\to z^j\right)}.
+\end{equation}
+
+Aunque es sencillo escribir las \cref{eq:66,eq:67}, que recogen toda la información relativa al estado del sistema, la solución analítica completa no es factible en la mayoría de los casos. Sin embargo, resulta que es posible comprender la dinámica del AC si se realiza alguna aproximación.
+
+\subsubsection{Ecuaciones de campo medio de autómatas celulares}\label{sec:campo_medio}
+
+
+La aproximación más simple se conoce como teoría del campo medio. Se basa en la suposición de que en cualquier momento los estados de los nodos son independientes de los estados de otros nodos de la red. Aunque esta suposición no suele ser cierta, a partir de  la \cref{eq:67} puede obtenerse una fórmula sencilla para estimar la densidad límite de cada estado posible de un nodo. Así, se supone que los estados de todos los nodos de la red son independientes en todo momento y, por tanto, la probabilidad de una configuración local $\mathbf{s}_\mathcal{M}$ es el producto de las probabilidades de los estados de los sitios en $\mathcal{M}$, es decir,
+
+\begin{equation}\label{eq:68}
+	P(\mathbf{s}_\mathcal{M})=P\left(s_1,\cdots,s_{\left| \mathcal{M}\right| }\right)=\prod_{i\in\mathcal{M}}{P(s_i)} \ \text{con} \ \mathcal{M}\subseteq G,
+\end{equation}
+
+Para cada $t\in\mathbb{N}_0, j=1,\cdots ,\left| \mathcal{E} \right|$,  sea $x_t^j \in {0, 1}$ una variable aleatoria booleana igual a $1$, si la variable aleatoria $\xi_i(t)$ se encuentra en el estado elemental $z^j \in \mathcal{E} \coloneqq {z^1 ,\cdots, z^{\left| \mathcal{E} \right| } }$. Para $j = 1,\cdots,\left| \mathcal{E}\right|$ se define como
+
+\begin{equation}\label{eq:69}
+	x_t^j(i)   \coloneqq \delta_{\xi_i(t),z^j}=\begin{cases}
+		1 & \text{si} \ \xi_i(t)=z^j, \\
+		0 & \text{en otro caso}.
+	\end{cases}
+\end{equation}
+
+Entonces, usando las \cref{eq:67,eq:68}, la evolución temporal del valor esperado  $\mathbb{E}\left(x_t^j(i)\right) $  viene dada por
+
+\begin{equation}\label{eq:70}
+	\mathbb{E}\left(x_{t+1}^j(i)\right) = P\left(\xi_{t+1}(i)=z^j\right) = \sum_{\tilde{\mathbf{s}}_{\mathcal{N}(i)}\in\mathcal{S}_{\mathcal{N}(i)}}{W\left(\tilde{\mathbf{s}}_{\mathcal{N}(i)}\to z^j\right)\prod_{i\in\mathcal{N}^I(i)}}{P_t(\tilde{s}_i)} 
+\end{equation}
+
+con $i\in\mathcal{N}^I(i),i=1,\cdots,\nu$ y $\tilde{\mathbf{s}}_{\mathcal{N}(i)}=(\tilde{s}_1,\cdots,\tilde{s}_\nu)$. De acuerdo con la homogeneidad espacial de la regla de transición local, las probabilidades de transición $W\left(\tilde{\mathbf{s}}_{\mathcal{N}(i)}\to z^j\right)$  son invariantes a la traslación; es decir, dependen solo de los estados del nodo que definen el vecindario de interacción pero no de su indice $i$. Por lo tanto, con $\tilde{s}_i=z_{i}$ , $P_t(\tilde{s}_i)$ se puede representar como
+
+\begin{equation}\label{eq:71}
+	P_t(\tilde{s}_i)=P(\xi_i(t)=z_i)=\sum_{l=1}^{\left| \mathcal{E}\right| }{\delta_{z_i,z^l}\mathbb{E}\left(x_t^l(i)\right)}.
+\end{equation}
+
+
+Además, los valores promediados espacialmente $x_j(t) \in [0, 1]$, que para cada $j \in  {1, \cdots,\left| \mathcal{E}\right| }$ denotan la densidad esperada de un estado elemental $z$ en la red en el tiempo $t$, se definen por
+
+\begin{equation}\label{eq:72}
+	x_j(t) \coloneqq \frac{1}{N} \sum_{i\in G}{\mathbb{E}\left(x_t^j(i)\right)}=\mathbb{E}\left(x_t^j(i^\prime)\right)\in[0,1] \ \text{para un cierto} \ r^{\prime}
+\end{equation}
+
+bajo el supuesto de campo medio. Entonces, combinando las ecuaciones anteriores, las ecuaciones de campo medio para cada $x_j(t)$ están dadas por
+
+\begin{align}\label{eq:73}
+	x_j(t+1) &= \sum_{(z_1,\cdots,z_\nu)\in\mathcal{E}^\nu}{W\left(\left(z_1,\cdots,z_\nu\right)\to z^j\right)\prod_{i=1}^{\nu}{\sum_{l=1}^{\left|\mathcal{E} \right| } \delta_{z_i,z^l}x_l(t)}}\\
+	&\eqqcolon H_j(\mathbf{x}(t)), \  \mathbf{x}^\top(t)=\left(x_1(t),\cdots,x_{\left| \mathcal{E}\right| }(t)\right)
+\end{align}
+
+para $j=1,\cdots,\left|\mathcal{E} \right|$.   La \cref{eq:73} solo codifica la información combinatoria contenida en la regla local, que mapea desde una configuración de vecindad de interacción al estado de un solo nodo, y que no refleja la estructura de la red en la que opera el autómata. Por lo tanto, la teoría del campo medio no distingue entre modelos de AC que tienen la misma regla con el mismo número de vecinos, pero que están definidos en redes diferentes. La \cref{eq:73}  se denomina \textquote{ecuación de campo medio} porque cada estado de un nodo solo depende del valor promedio de los estados de los otros nodos en la vecindad de interacción. Esta ecuación es exacta en el caso en que
+
+\begin{itemize}
+	\item la red es infinitamente grande, y
+	\item los estados del nodo se reasignan aleatoriamente después de la actualización.
+\end{itemize}
+
+Aunque el enfoque de campo medio es una aproximación muy cruda, a menudo produce una imagen de la dinámica del AC que es cualitativamente correcta.
