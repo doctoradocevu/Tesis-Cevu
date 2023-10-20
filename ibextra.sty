@@ -43,7 +43,7 @@
 %\usepackage{tabulary}
 \usepackage{tabularray}
 \UseTblrLibrary{booktabs} 
-
+\usepackage[version=4]{mhchem}
 % Existen tres tama\~{n}os standard para las figuras, s\'{o}lo por conveniencia
 % Estos son los tama\~{n}os por default. Descomentar y cambiar seg\'{u}n la necesidad
 %\setlength{\imsizeL}{0.9\textwidth}
@@ -76,6 +76,14 @@ symbols,% create list of symbols
 
 \usepackage[parfill]{parskip}
 
+\usepackage{pseudo} % para los psuedocodigos
+\usepackage{tcolorbox}
+\tcbuselibrary{skins,theorems}
+\newtcbtheorem[
+number within = chapter,
+crefname = {Algoritmo}{algoritmos}
+]%
+{algorithm}{Algoritmo}{pseudo/filled ,  colback=red9, colbacktitle=red3,coltitle=white, fonttitle=\sffamily, float}{alg}
 
 
 %%%%%%%%%%%%%%%%%%%% Nomenclatura %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -230,7 +238,7 @@ symbols,% create list of symbols
 % Orange theorem number and optional black title with no padding above and below
 \theoremstyle{ocrenumbox}
 \newtheorem{theoremeT}{Teorema}[chapter] % Theorems, the first argument is the theorem name, the second the theorem title used before the number and the third optional argument is whether to number under chapters (e.g. 2.1) or sections (e.g. 2.1.1)
-\newtheorem{problem}{Problema}[chapter] % Problems, the first argument is the theorem name, the second the theorem title used before the number and the third optional argument is whether to number under chapters (e.g. 2.1) or sections (e.g. 2.1.1)
+\newtheorem{procedimiento}{Procedimiento}[chapter] % Problems, the first argument is the theorem name, the second the theorem title used before the number and the third optional argument is whether to number under chapters (e.g. 2.1) or sections (e.g. 2.1.1)
 \newtheorem{exerciseT}{Ejercicio}[chapter] % Exercises, the first argument is the theorem name, the second the theorem title used before the number and the third optional argument is whether to number under chapters (e.g. 2.1) or sections (e.g. 2.1.1)
 
 % Black theorem number and optional black title no padding above and below

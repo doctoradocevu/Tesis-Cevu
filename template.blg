@@ -1,0 +1,82 @@
+This is BibTeX, Version 0.99d (TeX Live 2023/Arch Linux)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: template.aux
+The style file: ibtesis.bst
+A level-1 auxiliary file: resumen.aux
+A level-1 auxiliary file: cap_introduccion_emergente.aux
+A level-1 auxiliary file: modelo_dinamica_neuronal.aux
+A level-1 auxiliary file: resultados_robot.aux
+A level-1 auxiliary file: cap_dinamica_critica.aux
+A level-1 auxiliary file: cap_percolacion.aux
+A level-1 auxiliary file: cap_modelo_criticidad.aux
+A level-1 auxiliary file: metodos_criticidad.aux
+A level-1 auxiliary file: cap_resultados_criticidad.aux
+A level-1 auxiliary file: cap_resultados_criticidad_modelo.aux
+A level-1 auxiliary file: cap_conclusiones_generales.aux
+A level-1 auxiliary file: apend1.aux
+Reallocated field_info (elt_size=8) to 13375 items from 5000.
+Database file #1: mibib.bib
+Reallocated str_pool (elt_size=1) to 130000 items from 65000.
+Repeated entry---line 5182 of file mibib.bib
+ : @article{ponce-alvarez_whole-brain_2018
+ :                                        ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 5702 of file mibib.bib
+ : @article{morse_robust_1998
+ :                           ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 5764 of file mibib.bib
+ : @article{heuvel_comparative_2016
+ :                                 ,
+I'm skipping whatever remains of this entry
+Warning--can't use both author and editor fields in der_playful_2012
+Warning--empty year in roberts_stochastic_nodate
+Warning--empty booktitle in izquierdo_integrated_2015
+Warning--empty booktitle in aguilera_signatures_2017
+Warning--empty author and editor in noauthor_principal_2002
+Warning--missing publisher in wolfram_cellular_2002
+Warning--missing publisher in sinha_patterns_2019
+Warning--empty note in componetes1
+Warning--missing publisher in dasgupta_algorithms_2006
+You've used 335 entries,
+            2634 wiz_defined-function locations,
+            3015 strings with 94586 characters,
+and the built_in function-call counts, 132937 in all, are:
+= -- 9066
+> -- 4529
+< -- 20
++ -- 2257
+- -- 1131
+* -- 8243
+:= -- 14771
+add.period$ -- 1308
+call.type$ -- 335
+change.case$ -- 344
+chr.to.int$ -- 12
+cite$ -- 344
+duplicate$ -- 13037
+empty$ -- 13071
+format.name$ -- 1400
+if$ -- 28694
+int.to.chr$ -- 0
+int.to.str$ -- 335
+missing$ -- 3651
+newline$ -- 1962
+num.names$ -- 342
+pop$ -- 4982
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 2395
+stack$ -- 0
+substring$ -- 5944
+swap$ -- 9448
+text.length$ -- 16
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 9
+while$ -- 763
+width$ -- 338
+write$ -- 4189
+(There were 3 error messages)

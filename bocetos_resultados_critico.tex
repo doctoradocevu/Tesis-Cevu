@@ -1,3 +1,19 @@
+Los primeros precursores de la ciencia de la complejidad, a saber, la mecánica estadística y la física de la materia condensada, han identificado un escenario peculiar en el que, bajo ciertas condiciones generales, dicha complejidad puede emerger: cerca del punto crítico de una transición de fase de segundo orden. En este punto, la complejidad aparece como un producto de la competencia entre tendencias colectivas de ordenamiento y desorden, de modo que el resultado final es un estado con una amplia variedad de patrones dinámicos que exhiben una mezcla de orden y desorden.
+
+Estas definiciones para los parámetros de orden y control tienen una clara interpretación en términos de grados de orden/desorden. Consideremos un momento en el tiempo en el que el cerebro tiene un valor bajo del parámetro de orden, es decir, el grupo más grande de activación cortical es pequeño en comparación con la materia gris activada total. Es posible acomodar un gran número de tales grupos en la superficie cortical, por lo tanto, la entropía es alta, como corresponde a un estado desordenado. Siguiendo el aumento del parámetro de control se alcanza un punto en el que emerge un grupo gigante de actividad cortical, que comprende e integra muchos sistemas funcionales diferentes. Dado que todas las activaciones se han fusionado en este único grupo grande, hay poco espacio para la variación: la entropía es menor, como corresponde a un estado ordenado. En el extremo, un único grupo abarca todos los vóxeles activos, dando un solo estado posible (un estado activado globalmente con entropía cero).**
+
+
+Finalmente, un pico en la variabilidad está relacionado con un pico en la susceptibilidad del sistema cerca del punto crítico de una transición de fase de segundo orden. Para introducir el concepto de susceptibilidad, imagine un sistema físico sobre el que ejercemos fuerzas. Esperamos que tales fuerzas provoquen cambios en el sistema. La susceptibilidad puede definirse aproximadamente como la relación entre la respuesta provocada y la influencia ejercida. En los sistemas críticos finitos, la susceptibilidad se maximiza en el punto crítico, por lo tanto, se maximiza la capacidad del sistema para reaccionar a los cambios externos. Dada la necesidad de flexibilidad y reactividad del cerebro, la dotación de la máxima susceptibilidad debido al estado crítico es una posibilidad muy atractiva desde el punto de vista evolutivo. Hay que contrastar esta visión de no equilibrio con la de muchos modelos (como las redes atractoras del modelo de Hopfield [29]) en los que, una vez que el sistema alcanza su estado final, tiene una susceptibilidad nula (ya que los pequeños cambios que podrían provocar grandes respuestas en el estado crítico no son capaces de desplazar al sistema del punto de equilibrio o atractor). La relación entre los modelos de equilibrio y de no equilibrio y la inclusión del ruido en las ecuaciones dinámicas se discutirá en la siguiente sesión.
+
+
+
+
+
+Al anotar las neuronas, se puede por primera vez comparar la dinámica del sistema nervioso entre diferentes animales. Aunque nuestra grabación se realizó en animales restringidos en la misma cámara y estimulados de forma similar por el quimioatrayente NaCl, existe una diferencia considerable en los patrones de actividad entre las muestras individuales. Actualmente no sabemos si la diferencia se debe a la diferencia individual en la estructura del connectoma que se produjo durante el desarrollo embrionario o postembrionario (que se ha informado recientemente (Witvliet et al., 2021)), a la diferencia individual debida a la diferencia en la experiencia debida a una sutil diferencia en los estímulos ambientales. Alternativamente, puede que no refleje diferencias individuales, sino más bien una fluctuación a lo largo del tiempo de la dinámica de la red (similar a la permanencia y el desplazamiento en la locomoción animal) (Ji et al., 2021). Parte de la razón de la aparente diferencia se debe al hecho de que solo una fracción de todas las neuronas están anotadas en nuestro conjunto de datos.
+
+
+
+
 Habiendo entendido las reglas básicas de evolución temporal que definen el modelo de autómatas celulares, en la siguiente sección se desarrolla un procedimiento para analizar exhaustivamente el espacio de configuraciones iniciales del sistema. Tenga en cuenta que un sistema está bien definido cuando se especifican las dimensiones N = L × L y la dinámica, definida por los parámetros (τa, τp). La enumeración única de cada configuración de un sistema bien definido será el primer paso hacia el estudio sistemático de las probabilidades asociadas con los diversos regímenes de parámetros del sistema.
 
 Metodos
@@ -107,3 +123,15 @@ Concluyendo, el estudio de la dinámica de las redes neuronales en organismos in
 La teoría de las transiciones de fase distingue diferentes tipos de dinámicas en los sistemas físicos que experimentan una transición de fase de segundo orden: las dinámicas supercríticas son desordenadas, aleatorias e impredecibles, mientras que las dinámicas subcríticas son ordenadas, regulares y predecibles. En la transición entre ambas fases existe un punto crítico en el que la dinámica presenta características de regímenes tanto supercríticos como subcríticos. Muchas observaciones experimentales asociadas con la dinámica neuronal espontánea se manifiestan en el modelo solo en el punto crítico. Por lo tanto, los resultados obtenidos en los experimentos podrían indicar fuertemente la criticidad como una condición necesaria para la emergencia de varias características relevantes de la dinámica del cerebro.
 
 Al modelar la actividad neuronal a través de autómatas celulares y analizar las propiedades estadísticas a través de herramientas de la teoría de percolación, se espera arrojar luz sobre la presencia de la criticidad en el cerebro y su papel en la generación de patrones complejos de actividad coordinada.
+
+
+A pesar de la relevancia de muchos de estos hallazgos, el pequeño tamaño de los conectomas disponibles [4] no permite determinar si se mantiene el comportamiento de escalado de tamaño finito esperado en la criticidad, así como la clase de universalidad asociada.
+
+
+Una característica común importante de los modelos en estado de reposo es que la aparición de redes funcionales en estado de reposo se obtiene cuando los parámetros del modelo son tales que el sistema opera en el borde de una bifurcación.
+
+El resultado neto es un leve redondeo de la transición brusca predicha por la teoría, que a menudo es visible, por ejemplo, en simulaciones por computadora de percolación en redes más pequeñas. Efectos como este que aparecen solo n
+Los sistemas de tamaño finito se conocen como efectos de tamaño finito.
+
+
+El verdadero valor del marco de optimización multiobjetivo reside en su sencilla aplicación a datos reales y ruidosos en los que no se dispone de datos de la forma de la derivada.

@@ -14,6 +14,7 @@
 
 \RequirePackage{ifpdf}
 \RequirePackage[english,spanish]{babel}
+\spanishdecimal{.}
 \RequirePackage{makeidx}
 \RequirePackage{caption}
 \RequirePackage{fnpos}

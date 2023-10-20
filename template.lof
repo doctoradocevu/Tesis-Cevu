@@ -1,0 +1,127 @@
+\babel@toc {spanish}{}\relax 
+\babel@toc {english}{}\relax 
+\babel@toc {spanish}{}\relax 
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Anatomía del Caenorhabditis elegans adulto.}}{12}{figure.caption.17}%
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Representación del Sistema Nervioso de Caenorhabditis elegans.}}{14}{figure.caption.18}%
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Diagrama del circuito parcial del sistema nervioso somático y la musculatura de C. elegans. }}{14}{figure.caption.19}%
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Control Neuronal de la Locomoción hacia Adelante y Hacia Atrás }}{16}{figure.caption.20}%
+\contentsline {figure}{\numberline {2.5}{\ignorespaces Mapeo del conectoma del gusano. }}{22}{figure.caption.26}%
+\contentsline {figure}{\numberline {2.6}{\ignorespaces Conectividad del Sistema Nervioso de C. elegans. Adultos.}}{24}{figure.caption.27}%
+\contentsline {figure}{\numberline {2.7}{\ignorespaces Representación de la Trayectoria de la Actividad Neuronal en C. elegans.}}{28}{figure.caption.29}%
+\contentsline {figure}{\numberline {2.8}{\ignorespaces Jerarquía Conductual en la Locomoción de C. elegans.}}{30}{figure.caption.30}%
+\contentsline {figure}{\numberline {2.9}{\ignorespaces Visualización de la Actividad Neuronal en la Cabeza con NeuroPAL. }}{31}{figure.caption.31}%
+\contentsline {figure}{\numberline {2.10}{\ignorespaces Dos Modelos Contrastantes del Flujo Sensoriomotor en C. elegans.}}{33}{figure.caption.32}%
+\contentsline {figure}{\numberline {2.11}{\ignorespaces Interacción Entre Sensores y Neuronas Motoras en el Robot de Timothy Busbice.}}{36}{figure.caption.33}%
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Esquema del Robot GoPiGo de Dexter Industries, Mostrando Sensores de Distancia, Motores y Raspberry Pi Integrada, Utilizado en Conjunción con la Simulación del Connectoma de C. elegans. }}{54}{figure.caption.44}%
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Diagrama de Flujo que Ilustra la Generación de la Salida Motora.}}{56}{figure.caption.48}%
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Robot Personalizado Empleado en Nuestros Experimentos. }}{57}{figure.caption.50}%
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Vista Superior del Robot Personalizado. }}{57}{figure.caption.51}%
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Perspectiva Inferior del Robot Personalizado.}}{58}{figure.caption.52}%
+\contentsline {figure}{\numberline {3.6}{\ignorespaces Conexión del Sensor de Distancia. }}{59}{figure.caption.53}%
+\contentsline {figure}{\numberline {3.7}{\ignorespaces Conexión del Controlador de Motor.}}{60}{figure.caption.54}%
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Resultados de la Prueba del Parámetro de Umbral ($h$).}}{66}{figure.caption.55}%
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Matrices de Acciones Correspondientes a la Prueba de Umbral ($h$).}}{66}{figure.caption.56}%
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Matriz de Acciones con Pausas largas.}}{68}{figure.caption.58}%
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Matriz de Acciones con Pausas Cortas.}}{69}{figure.caption.59}%
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Matriz de Acciones de un Conectoma Aleatorio.}}{71}{figure.caption.61}%
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Dinámica Neuronal en un Conectoma Aleatorio.}}{71}{figure.caption.62}%
+\contentsline {figure}{\numberline {4.7}{\ignorespaces Dinámica Neuronal de las Neuronas del Hambre en Tres Intervalos de Tiempo. }}{76}{figure.caption.65}%
+\contentsline {figure}{\numberline {4.8}{\ignorespaces Actividad Neuronal en el Segundo Intervalo con Estimulación de Neuronas de Tacto en la Nariz. }}{77}{figure.caption.66}%
+\contentsline {figure}{\numberline {4.9}{\ignorespaces Frecuencia de Acciones del Robot en el Primer y Segundo Intervalo.}}{78}{figure.caption.67}%
+\contentsline {figure}{\numberline {4.10}{\ignorespaces Matriz de Actividad que Representa la Dinámica Neuronal del Neurorobot.}}{80}{figure.caption.68}%
+\contentsline {figure}{\numberline {4.11}{\ignorespaces La actividad cerebral se organiza en una trayectoria de espacio de estado neural cíclico de baja dimensión en gusanos reales.}}{81}{figure.caption.69}%
+\contentsline {figure}{\numberline {4.12}{\ignorespaces Ejemplo de aplicar la derivada regularizada a una neurona del experimento.}}{82}{figure.caption.70}%
+\contentsline {figure}{\numberline {4.13}{\ignorespaces Las neuronas están ordenas y agrupadas por sus pesos y signos de componentes principales (PC1-3).}}{83}{figure.caption.71}%
+\contentsline {figure}{\numberline {4.14}{\ignorespaces Varianza explicada por las primeros diez componentes principales, la línea azul oscuro indica la varianza acumulada explicada.}}{84}{figure.caption.72}%
+\contentsline {figure}{\numberline {4.15}{\ignorespaces Integrales de los primeros tres PC temporales.}}{85}{figure.caption.73}%
+\contentsline {figure}{\numberline {4.16}{\ignorespaces Dinámica neural global y acciones. Diagramas de fase de los tres primeros PC temporales en un intervalo de tiempo seleccionado. }}{86}{figure.caption.74}%
+\contentsline {figure}{\numberline {4.17}{\ignorespaces Matriz de acciones realizadas por el robot}}{86}{figure.caption.75}%
+\contentsline {figure}{\numberline {4.18}{\ignorespaces Correlación de Activación entre Neuronas.}}{87}{figure.caption.76}%
+\contentsline {figure}{\numberline {4.19}{\ignorespaces Las neuronas oscilan a diferentes frecuencias.}}{88}{figure.caption.77}%
+\contentsline {figure}{\numberline {4.20}{\ignorespaces Sincronización de frecuencias.}}{88}{figure.caption.78}%
+\contentsline {figure}{\numberline {4.21}{\ignorespaces Señales de todas las neuronas del grupo sincronizado $\Omega _1$ en un intervalo de cinco minutos, y sus transformadas de Fourier correspondientes en un experimento de 20 minutos de duración.}}{91}{figure.caption.82}%
+\contentsline {figure}{\numberline {4.22}{\ignorespaces Señales de todas las neuronas del grupo sincronizado $\Omega _2$ en un intervalo de cinco minutos, y sus transformadas de Fourier correspondientes en un experimento de 20 minutos de duración.}}{91}{figure.caption.83}%
+\contentsline {figure}{\numberline {4.23}{\ignorespaces Señales de todas las neuronas del grupo sincronizado $\Omega _3$ en un intervalo de cinco minutos, y sus transformadas de Fourier correspondientes en un experimento de 20 minutos de duración.}}{92}{figure.caption.84}%
+\contentsline {figure}{\numberline {4.24}{\ignorespaces Sincronización de frecuencias ordenada según el análisis de componentes principales.}}{93}{figure.caption.85}%
+\contentsline {figure}{\numberline {4.25}{\ignorespaces Sincronización de frecuencias ordenada según el análisis de componentes principales.}}{94}{figure.caption.86}%
+\contentsline {figure}{\numberline {4.26}{\ignorespaces Dinámica neuronal anidada.}}{95}{figure.caption.87}%
+\contentsline {figure}{\numberline {4.27}{\ignorespaces Correlación de la dinámica neuronal con las acciones del robot.}}{97}{figure.caption.88}%
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Representaciones esquemáticas de transiciones de fase de primer y segundo orden.}}{105}{figure.caption.90}%
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Desviación estándar del parámetro de orden en transiciones de fase crítica.}}{106}{figure.caption.91}%
+\contentsline {figure}{\numberline {5.3}{\ignorespaces Representación gráfica de la independencia de escala de las leyes de potencia en una distribución de datos.}}{112}{figure.caption.93}%
+\contentsline {figure}{\numberline {5.4}{\ignorespaces Definición de avalancha neuronal y ejemplos de medidas empíricas de criticidad. }}{114}{figure.caption.94}%
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {6.1}{\ignorespaces Gráfico esquemático que ilustra la relación entre la probabilidad de percolación y la ocupación en un sistema}}{126}{figure.caption.95}%
+\contentsline {figure}{\numberline {6.2}{\ignorespaces Diagramas esquemáticos que ilustran la percolación clásica en una red cuadrada.}}{128}{figure.caption.97}%
+\contentsline {figure}{\numberline {6.3}{\ignorespaces Ejemplos de redes bidimensionales.}}{129}{figure.caption.98}%
+\contentsline {figure}{\numberline {6.4}{\ignorespaces El comportamiento de la función $\theta (p)$ en las cercanías del punto crítico.}}{131}{figure.caption.99}%
+\contentsline {figure}{\numberline {6.5}{\ignorespaces Evolución del tamaño promedio de los clústeres finitos y la longitud de correlación cerca de la transición percolativa.}}{137}{figure.caption.100}%
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {7.1}{\ignorespaces Diagrama que ilustra el patrón generado por la regla 30 del autómata celular (AC) unidimensional.}}{155}{figure.caption.101}%
+\contentsline {figure}{\numberline {7.2}{\ignorespaces C Caparazón de Conus textile, una especie presente en las aguas del Indo-Pacífico, que exhibe un patrón de autómata celular con similitudes visuales a la Regla 30.}}{155}{figure.caption.102}%
+\contentsline {figure}{\numberline {7.3}{\ignorespaces Ejemplos de vecindades de interacción en una red cuadrada bidimensional. }}{158}{figure.caption.105}%
+\contentsline {figure}{\numberline {7.4}{\ignorespaces Reducción del modelo Fitzhugh-Nagumo a un sistema discreto. }}{164}{figure.caption.107}%
+\contentsline {figure}{\numberline {7.5}{\ignorespaces Instantáneas representativas que ilustran la evolución del modelo de Greenberg-Hastings en una cuadrícula de tamaño $240\times 240$, con variaciones en los valores de $\theta $ y $\kappa $. }}{165}{figure.caption.108}%
+\contentsline {figure}{\numberline {7.6}{\ignorespaces Modelado de la función de la red cerebral.}}{168}{figure.caption.109}%
+\contentsline {figure}{\numberline {7.7}{\ignorespaces Regla para la propagación de la actividad neuronal en el modelo GH.}}{172}{figure.caption.111}%
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {8.1}{\ignorespaces Superposición de la fluorescencia de calcio en el dominio temporal.}}{181}{figure.caption.113}%
+\contentsline {figure}{\numberline {8.2}{\ignorespaces El entrenamiento de una red profunda con la verdad fundamental ajustada al ruido mejora la inferencia de spikes.}}{185}{figure.caption.116}%
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {9.1}{\ignorespaces Modelo autorregresivo generativo para la dinámica del calcio de la neurona AVAL.}}{202}{figure.caption.122}%
+\contentsline {figure}{\numberline {9.2}{\ignorespaces Modelo autorregresivo generativo para la dinámica del calcio de la neurona AVAL.}}{202}{figure.caption.123}%
+\contentsline {figure}{\numberline {9.3}{\ignorespaces Aplicación del método MCMC.}}{204}{figure.caption.124}%
+\contentsline {figure}{\numberline {9.4}{\ignorespaces Aplicación del método MCMC.}}{204}{figure.caption.125}%
+\contentsline {figure}{\numberline {9.5}{\ignorespaces La frecuencia de los datos se evalúa inspeccionando los espectros de potencia; la línea roja indica la frecuencia utilizada para determinar $\gamma $}}{205}{figure.caption.126}%
+\contentsline {figure}{\numberline {9.6}{\ignorespaces Inferencia de la actividad de spikes con el método de picos.}}{206}{figure.caption.127}%
+\contentsline {figure}{\numberline {9.7}{\ignorespaces Número de neuronas registradas en función de los niveles de ruido estandarizados.}}{207}{figure.caption.128}%
+\contentsline {figure}{\numberline {9.8}{\ignorespaces Histograma de los niveles de ruido entre las neuronas}}{207}{figure.caption.129}%
+\contentsline {figure}{\numberline {9.9}{\ignorespaces Inferencia de la actividad de spikes con CASCADE.}}{208}{figure.caption.130}%
+\contentsline {figure}{\numberline {9.10}{\ignorespaces Tasas de spikes inferidas con CASCADE del conjunto de datos RIShisCl (gusano 1).}}{209}{figure.caption.131}%
+\contentsline {figure}{\numberline {9.11}{\ignorespaces Trazas $\Delta F/F$ sin procesar del conjunto de datos RIShisCl (gusano 1).}}{210}{figure.caption.132}%
+\contentsline {figure}{\numberline {9.12}{\ignorespaces Representación matricial de los spikes de las 103 neuronas obtenidas con OASIS. }}{210}{figure.caption.133}%
+\contentsline {figure}{\numberline {9.13}{\ignorespaces Representación matricial de los spikes de las 103 neuronas obtenidas con MCMC. }}{211}{figure.caption.134}%
+\contentsline {figure}{\numberline {9.14}{\ignorespaces Representación matricial de los spikes de las 103 neuronas obtenidas con el método de Kaplan et al. }}{211}{figure.caption.135}%
+\contentsline {figure}{\numberline {9.15}{\ignorespaces Representación matricial de los spikes de las 103 neuronas obtenidas con CASCADE. }}{212}{figure.caption.136}%
+\contentsline {figure}{\numberline {9.16}{\ignorespaces Serie temporal de actividad de las neuronas del primer gusano en cada conjunto de datos.}}{214}{figure.caption.137}%
+\contentsline {figure}{\numberline {9.17}{\ignorespaces Correlación cruzada por pares de las actividades de las neuronas del primer conjunto de datos de los experimentos con C elegans.}}{214}{figure.caption.138}%
+\contentsline {figure}{\numberline {9.18}{\ignorespaces Ilustración de una matriz de números aleatorios de $10\times 10$, y los diversos sitios establecidos para $p=0.45$. }}{215}{figure.caption.139}%
+\contentsline {figure}{\numberline {9.19}{\ignorespaces Gráfico de $n(s, p; L)$ estimado a partir de $M = 1000$ muestras para $p=0.57$ y $L = 1000$.}}{217}{figure.caption.142}%
+\contentsline {figure}{\numberline {9.20}{\ignorespaces Gráfico de $n(s, p; L)$ en función de $s$ para varios valores de $p$ para una red de $1000\times 1000$.}}{218}{figure.caption.144}%
+\contentsline {figure}{\numberline {9.21}{\ignorespaces Métodos LSE aplicados a la distribución de tamaños de clústeres $n(s,p$) para la red cuadrada para $L=1000$ y $M=1000$ realizaciones aleatorias.}}{219}{figure.caption.145}%
+\contentsline {figure}{\numberline {9.22}{\ignorespaces El nivel de actividad cerebral fluctúa continuamente por encima y por debajo de una transición de fase.}}{222}{figure.caption.149}%
+\contentsline {figure}{\numberline {9.23}{\ignorespaces Distribución de $p(\left \langle A(t) \right \rangle )$ calculada para cada uno de los 21 gusanos del conjunto de datos de Yemini et al.}}{223}{figure.caption.150}%
+\contentsline {figure}{\numberline {9.24}{\ignorespaces Prueba de dependencias estadísticas en la actividad de calcio de dos pares de neuronas que pueden hacer parte o no de un mismo clúster.}}{224}{figure.caption.151}%
+\contentsline {figure}{\numberline {9.25}{\ignorespaces Distribución de tamaños de los clústeres $n(s,p)$ para los conjuntos de datos de los distintos experimentos con C. elgans: (a) Yemini et al. (b) Kaplan et al. (c) Kato. et al. }}{225}{figure.caption.152}%
+\contentsline {figure}{\numberline {9.26}{\ignorespaces Exponentes de potencia $\tau $ estimados usando LSavg en los distintos conjuntos de datos. (a) Yemini et al. (b) Kaplan et al. (c) Kato et al. Cada punto es un gusano diferente. }}{227}{figure.caption.153}%
+\contentsline {figure}{\numberline {9.27}{\ignorespaces Estadísticas del ajuste de máxima verosimilitud (MLE) en los distintos gusanos del experimento Yemini et al. }}{229}{figure.caption.154}%
+\contentsline {figure}{\numberline {9.28}{\ignorespaces Función de correlación $g(r)$: correlación media entre pares de células en función de la distancia mas corta $r$, para cada conjunto de datos de Yemini et al.}}{230}{figure.caption.155}%
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {10.1}{\ignorespaces Ejemplo de transiciones dinámicas en el modelo.}}{233}{figure.caption.156}%
+\contentsline {figure}{\numberline {10.2}{\ignorespaces Parámetro de orden ($\bar {S}_1/N$ ) en función del tiempo, para 6 realizaciones en el punto crítico, y los parámetros $r_1=$\num {1e-3}, $r_2 = 0.6$. La linea roja es un promedio sobre 100 configuraciones del sistema.}}{236}{figure.caption.157}%
+\contentsline {figure}{\numberline {10.3}{\ignorespaces Comportamiento de los parámetros que caracterizan la dinámica neuronal en función del parámetro de umbral $T$ para diferentes valores de $r_1$ manteniendo fijo el parámetro $r_2=0.5$.}}{237}{figure.caption.158}%
+\contentsline {figure}{\numberline {10.4}{\ignorespaces Comportamiento de los parámetros que caracterizan la dinámica neuronal en función del parámetro de umbral $T$ para diferentes valores de $r_2$ manteniendo fijo el parámetro $r_1$.}}{238}{figure.caption.159}%
+\contentsline {figure}{\numberline {10.5}{\ignorespaces Resultados del modelo de criticidad neuronal sobre el conectoma de C. elegans hermafrodita. }}{241}{figure.caption.160}%
+\contentsline {figure}{\numberline {10.6}{\ignorespaces Dinámica de la actividad media del sistema , $A(t) = 1/N \DOTSB \sum@ \slimits@ _j \delta _{s_j(t),E}$, para diferentes valores del umbral de activación $T$. }}{242}{figure.caption.161}%
+\contentsline {figure}{\numberline {10.7}{\ignorespaces Probabilidad de observar activaciones de neuronas (100 simulaciones independientes) en función del tiempo para tres umbrales diferentes .}}{243}{figure.caption.162}%
+\contentsline {figure}{\numberline {10.8}{\ignorespaces Fracción de sitios activos, refractarios y quiescentes en función del parámetro de control $T$ promediados en 100 configuraciones del sistema .}}{244}{figure.caption.163}%
+\contentsline {figure}{\numberline {10.9}{\ignorespaces Serie temporal de la actividad de las neuronas simuladas en las tres regiones distintas del diagrama de fase del para una realización del modelo de criticidad neuronal.}}{245}{figure.caption.164}%
+\contentsline {figure}{\numberline {10.10}{\ignorespaces Correlación cruzada por pares de las actividades de las neuronas simuladas en las tres regiones del diagrama de fase para para una realización del sistema del modelo de criticidad neuronal.}}{245}{figure.caption.165}%
+\contentsline {figure}{\numberline {10.11}{\ignorespaces El nivel de actividad cerebral fluctúa continuamente por encima y por debajo de una transición de fase solo en el punto critico.}}{247}{figure.caption.166}%
+\contentsline {figure}{\numberline {10.12}{\ignorespaces Distribución de $p(\left \langle A(t) \right \rangle )$ de la dinámica neuronal simulada cercana al punto critico.}}{248}{figure.caption.167}%
+\contentsline {figure}{\numberline {10.13}{\ignorespaces Prueba de dependencias estadísticas en la actividad neuronal simulada de dos pares de neuronas que pueden hacer parte o no de un mismo clúster.}}{249}{figure.caption.168}%
+\contentsline {figure}{\numberline {10.14}{\ignorespaces Distribución de tamaño de clústeres $n(s, p;)$ en función de $s$ para varios valores de $T$ cercanos a los máximos de $\left \langle \chi \right \rangle _c$ y $\left \langle \bar {S}_2\right \rangle _c$. }}{250}{figure.caption.169}%
+\contentsline {figure}{\numberline {10.15}{\ignorespaces Distribución de tamaño de clústeres $n(s, p;)$ en función de $s$ para varios valores de $T$ de distintas regiones del diagrama de fase. }}{251}{figure.caption.170}%
+\contentsline {figure}{\numberline {10.16}{\ignorespaces Función de correlación $g(r)$: en función de $r$ para varios valores de $T$ de distintas regiones del diagrama de fase. }}{252}{figure.caption.171}%
+\contentsline {figure}{\numberline {10.17}{\ignorespaces Grafico de $\xi $ en función de $T$ para nuestro modelo. }}{252}{figure.caption.172}%
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {A.1}{\ignorespaces La función $f$ obtenida a partir de $f_0=\left | x-1/2\right |$ añadiendo ruido gaussiano de desviación estándar $0.05$\relax }}{272}{figure.caption.173}%
+\contentsline {figure}{\numberline {A.2}{\ignorespaces El cálculo de $u_{FDM}(x)$ con diferencias finitas amplifica enormemente el ruido.\relax }}{272}{figure.caption.174}%
+\contentsline {figure}{\numberline {A.3}{\ignorespaces Resultados de la derivada con diversos valores del parámetro de regularización. }}{273}{figure.caption.175}%
+\contentsline {figure}{\numberline {A.4}{\ignorespaces Resultados de la anti-derivada aplicada la derivada regularizada con diversos valores del parámetro de regularización. }}{274}{figure.caption.176}%

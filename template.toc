@@ -1,0 +1,184 @@
+\babel@toc {spanish}{}\relax 
+\contentsline {chapter}{\'{I}ndice de contenidos}{\es@scroman {v}}{section*.1}%
+\contentsline {chapter}{\'{I}ndice de figuras}{\es@scroman {xiii}}{section*.3}%
+\contentsline {chapter}{\'{I}ndice de cuadros}{\es@scroman {xxi}}{section*.5}%
+\contentsline {chapter}{Glosario}{\es@scroman {xxiii}}{section*.7}%
+\contentsline {chapter}{Siglas}{\es@scroman {xxv}}{section*.9}%
+\contentsline {chapter}{Símbolos}{\es@scroman {xxvii}}{section*.11}%
+\contentsline {chapter}{Resumen}{\es@scroman {xxix}}{section*.13}%
+\contentsline {chapter}{Abstract}{\es@scroman {xxxi}}{section*.15}%
+\babel@toc {english}{}\relax 
+\babel@toc {spanish}{}\relax 
+\contentsline {chapter}{\numberline {1}Introducción}{1}{chapter.1}%
+\contentsline {part}{I\hspace {1em}Dinámica Neuronal y Comportamientos Emergentes en C. elegans}{5}{part.1}%
+\contentsline {chapter}{\numberline {2}Comportamientos emergentes }{7}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Aspectos biológicos del C. elegans}{11}{section.2.1}%
+\contentsline {subsection}{\numberline {2.1.1}Sistema nervioso}{13}{subsection.2.1.1}%
+\contentsline {subsection}{\numberline {2.1.2}Locomoción}{15}{subsection.2.1.2}%
+\contentsline {subsubsection}{Movimiento hacia adelante o hacia atrás}{15}{section*.21}%
+\contentsline {subsubsection}{Nocicepción por la neurona polimodal ASH}{17}{section*.22}%
+\contentsline {subsection}{\numberline {2.1.3}Quimiosensación en C. elegans}{18}{subsection.2.1.3}%
+\contentsline {subsubsection}{Neuronas gustativas ASE}{18}{section*.25}%
+\contentsline {section}{\numberline {2.2}Conectoma}{19}{section.2.2}%
+\contentsline {subsection}{\numberline {2.2.1}Métodos de Reconstrucción de Conectomas}{21}{subsection.2.2.1}%
+\contentsline {subsection}{\numberline {2.2.2}Conectoma de C. elegans Completo (Cook et al., 2019)}{22}{subsection.2.2.2}%
+\contentsline {subsubsection}{Matrices de adyacencia}{23}{section*.28}%
+\contentsline {section}{\numberline {2.3} Registro a Gran Escala de la Actividad Neuronal en C. elegans}{25}{section.2.3}%
+\contentsline {subsection}{\numberline {2.3.1}Mapeo de la Actividad Neuronal Asociada a la Locomoción}{27}{subsection.2.3.1}%
+\contentsline {subsection}{\numberline {2.3.2}Implementación Neural de Jerarquías Conductuales}{29}{subsection.2.3.2}%
+\contentsline {subsection}{\numberline {2.3.3}NeuroPAL: Un Avance en la Identificación Neuronal en C. elegans}{30}{subsection.2.3.3}%
+\contentsline {section}{\numberline {2.4}Modelo de Procesamiento Sensoriomotor en C. elegans: Una Perspectiva Distribuida y Dinámica}{31}{section.2.4}%
+\contentsline {section}{\numberline {2.5}Integración de Modelos Robóticos y Neurobiología en C. elegans para la Investigación en Neuro-robótica}{34}{section.2.5}%
+\contentsline {section}{\numberline {2.6}Discusión}{36}{section.2.6}%
+\contentsline {subsection}{\numberline {2.6.1}Hipótesis y Objetivos}{41}{subsection.2.6.1}%
+\contentsline {subsubsection}{Hipótesis General}{41}{section*.34}%
+\contentsline {subsubsection}{Hipótesis Específica 1:}{41}{section*.35}%
+\contentsline {subsubsection}{Hipótesis Específica 2:}{42}{section*.36}%
+\contentsline {subsubsection}{Hipótesis Específica 3:}{42}{section*.37}%
+\contentsline {subsubsection}{Hipótesis Específica 4:}{42}{section*.38}%
+\contentsline {subsection}{\numberline {2.6.2}Objetivos Generales y Específicos}{42}{subsection.2.6.2}%
+\contentsline {subsection}{\numberline {2.6.3}Objetivo General}{42}{subsection.2.6.3}%
+\contentsline {subsubsection}{Objetivo 1: Cuantificar Comportamientos Emergentes}{42}{section*.39}%
+\contentsline {subsubsection}{Objetivo 2: Caracterizar la Estructura Topológica}{43}{section*.40}%
+\contentsline {subsubsection}{Objetivo 3: Analizar la Dinámica Neuronal Global}{43}{section*.41}%
+\contentsline {subsubsection}{Objetivo 4: Estudiar la Estructura Jerárquica de los Circuitos Cerebrales y Motores}{43}{section*.42}%
+\contentsline {chapter}{\numberline {3}Métodos y montaje experimental}{45}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Modelo de dinámica neuronal}{46}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Modelo Robótico Inspirado en C. elegans}{50}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}Robot GoPiGo}{53}{subsection.3.2.1}%
+\contentsline {subsection}{\numberline {3.2.2}Simulación de la dinámica neuronal en el connectoma de C. elegans}{53}{subsection.3.2.2}%
+\contentsline {subsubsection}{Modulo de entrada sensorial}{54}{section*.45}%
+\contentsline {subsubsection}{Detección de comida}{55}{section*.46}%
+\contentsline {subsubsection}{Modulo de salida motora}{55}{section*.47}%
+\contentsline {subsubsection}{Modulo del conectoma}{56}{section*.49}%
+\contentsline {subsection}{\numberline {3.2.3}Robot personalizado}{56}{subsection.3.2.3}%
+\contentsline {section}{\numberline {3.3}Dinámica neuronal global}{58}{section.3.3}%
+\contentsline {section}{\numberline {3.4}Discusión}{60}{section.3.4}%
+\contentsline {chapter}{\numberline {4}Resultados de Comportamientos emergentes en Robots con el Conectoma de C. elegans}{63}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Evaluación del Comportamiento del Neurorobot}{65}{section.4.1}%
+\contentsline {subsection}{\numberline {4.1.1}Prueba del Parámetro de Umbral ($h$)}{65}{subsection.4.1.1}%
+\contentsline {subsubsection}{Discusión}{67}{section*.57}%
+\contentsline {subsection}{\numberline {4.1.2}Variación de las Pausas y su Impacto en el Comportamiento}{67}{subsection.4.1.2}%
+\contentsline {subsubsection}{Discusión }{68}{section*.60}%
+\contentsline {subsection}{\numberline {4.1.3}Efectos de la Aleatoriedad en el Conectoma}{70}{subsection.4.1.3}%
+\contentsline {subsubsection}{Discusión}{71}{section*.63}%
+\contentsline {section}{\numberline {4.2}Comportamiento de la dinámica neuronal Global}{72}{section.4.2}%
+\contentsline {section}{\numberline {4.3}Neuronas Estimuladas y Comportamiento del Robot}{75}{section.4.3}%
+\contentsline {subsection}{\numberline {4.3.1}Discusión}{77}{subsection.4.3.1}%
+\contentsline {section}{\numberline {4.4}La actividad neuronal global evoluciona en un colector de dimensión baja similar a un atractor}{79}{section.4.4}%
+\contentsline {subsection}{\numberline {4.4.1}Discusión}{83}{subsection.4.4.1}%
+\contentsline {section}{\numberline {4.5}Dinámicas neuronales emergentes}{85}{section.4.5}%
+\contentsline {subsection}{\numberline {4.5.1} Sincronización de frecuencia y fase}{85}{subsection.4.5.1}%
+\contentsline {subsection}{\numberline {4.5.2}Dinámica neuronal anidada}{94}{subsection.4.5.2}%
+\contentsline {subsection}{\numberline {4.5.3}Dinámica neuronal y acciones del robot}{95}{subsection.4.5.3}%
+\contentsline {subsection}{\numberline {4.5.4}Discusión}{96}{subsection.4.5.4}%
+\contentsline {section}{\numberline {4.6}Discusión}{98}{section.4.6}%
+\contentsline {part}{II\hspace {1em}Modelado, Validación Experimental y Criticalidad Neuronal en C. elegans}{101}{part.2}%
+\contentsline {chapter}{\numberline {5}Dinámica neuronal critica}{103}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Física de sistemas complejos y transiciones de fase}{104}{section.5.1}%
+\contentsline {subsection}{\numberline {5.1.1}Transiciones de fase en física}{104}{subsection.5.1.1}%
+\contentsline {subsection}{\numberline {5.1.2}Transiciones de fase en biología}{106}{subsection.5.1.2}%
+\contentsline {section}{\numberline {5.2}Hipótesis de la criticidad neuronal}{107}{section.5.2}%
+\contentsline {subsection}{\numberline {5.2.1}Mecanismos homeostáticos de mantenimiento del estado Crítico}{108}{subsection.5.2.1}%
+\contentsline {section}{\numberline {5.3}Trastornos cerebrales y alteraciones de la criticidad}{110}{section.5.3}%
+\contentsline {section}{\numberline {5.4}Métricas experimentales de criticidad}{111}{section.5.4}%
+\contentsline {subsection}{\numberline {5.4.1}Escalamiento de la ley de potencia}{111}{subsection.5.4.1}%
+\contentsline {subsection}{\numberline {5.4.2}Escalamiento de la ley de potencia de las avalanchas neuronales }{113}{subsection.5.4.2}%
+\contentsline {subsection}{\numberline {5.4.3}Parámetro de ramificación}{115}{subsection.5.4.3}%
+\contentsline {subsection}{\numberline {5.4.4}Colapso de forma}{115}{subsection.5.4.4}%
+\contentsline {subsection}{\numberline {5.4.5}Submuestreo espacial}{116}{subsection.5.4.5}%
+\contentsline {subsection}{\numberline {5.4.6}Correlación temporal de largo alcance, ralentización crítica y flickering}{116}{subsection.5.4.6}%
+\contentsline {subsection}{\numberline {5.4.7}Ruido $(1/ f )$ y ley de potencia}{117}{subsection.5.4.7}%
+\contentsline {section}{\numberline {5.5}Discusión}{117}{section.5.5}%
+\contentsline {chapter}{\numberline {6}Teoría de la percolación y parámetro de orden}{121}{chapter.6}%
+\contentsline {section}{\numberline {6.1}Introducción}{121}{section.6.1}%
+\contentsline {section}{\numberline {6.2}Fenomenología}{124}{section.6.2}%
+\contentsline {subsection}{\numberline {6.2.1}Percolación de enlaces y sitios}{125}{subsection.6.2.1}%
+\contentsline {section}{\numberline {6.3}Fundamentos matemáticos de la percolación}{129}{section.6.3}%
+\contentsline {section}{\numberline {6.4}La percolación como fenómeno crítico}{132}{section.6.4}%
+\contentsline {subsection}{\numberline {6.4.1}Parámetro de orden}{133}{subsection.6.4.1}%
+\contentsline {subsection}{\numberline {6.4.2} El tamaño promedio de los clústeres $ \chi (p)$}{134}{subsection.6.4.2}%
+\contentsline {subsection}{\numberline {6.4.3}Teoría de escala y exponentes críticos}{137}{subsection.6.4.3}%
+\contentsline {subsection}{\numberline {6.4.4} Teoría de escala en el número de clústeres }{139}{subsection.6.4.4}%
+\contentsline {subsection}{\numberline {6.4.5}Estructura fractal de los clústeres en el fenómeno de percolación}{140}{subsection.6.4.5}%
+\contentsline {subsection}{\numberline {6.4.6} Escaleo con el tamaño finito (Finite-Size Scaling,FSS)}{142}{subsection.6.4.6}%
+\contentsline {section}{\numberline {6.5}Discusión}{146}{section.6.5}%
+\contentsline {chapter}{\numberline {7}Modelo de criticidad neuronal}{149}{chapter.7}%
+\contentsline {section}{\numberline {7.1}Introducción}{153}{section.7.1}%
+\contentsline {subsection}{\numberline {7.1.1}Autómatas celulares}{153}{subsection.7.1.1}%
+\contentsline {subsection}{\numberline {7.1.2}Modelado matemático de autómatas celulares deterministas y estocásticos}{156}{subsection.7.1.2}%
+\contentsline {subsubsection}{Topología de la red y condiciones de contorno}{157}{section*.103}%
+\contentsline {subsubsection}{Vecindario de interacción}{158}{section*.104}%
+\contentsline {subsubsection}{Estados}{158}{section*.106}%
+\contentsline {subsection}{\numberline {7.1.3}Dinámica del sistema}{159}{subsection.7.1.3}%
+\contentsline {section}{\numberline {7.2}Modelos de AC de sistemas excitables}{162}{section.7.2}%
+\contentsline {subsection}{\numberline {7.2.1}Modelo de Greenberg-Hastings}{163}{subsection.7.2.1}%
+\contentsline {section}{\numberline {7.3}Dinámica critica en el C elegans}{165}{section.7.3}%
+\contentsline {subsection}{\numberline {7.3.1}Modelo de GH aplicado al sistema nervioso de C. elegans }{167}{subsection.7.3.1}%
+\contentsline {subsection}{\numberline {7.3.2}Teoría de campo medio del modelo neuronal}{173}{subsection.7.3.2}%
+\contentsline {subsubsection}{Predicción de campo medio del punto crítico}{174}{section*.112}%
+\contentsline {section}{\numberline {7.4}Discusión}{175}{section.7.4}%
+\contentsline {chapter}{\numberline {8}Métodos y protocolos}{179}{chapter.8}%
+\contentsline {section}{\numberline {8.1}Introducción}{179}{section.8.1}%
+\contentsline {section}{\numberline {8.2}Inferencia de spikes}{180}{section.8.2}%
+\contentsline {subsection}{\numberline {8.2.1}Algoritmos de deconvolución}{180}{subsection.8.2.1}%
+\contentsline {subsubsection}{Modelo autorregresivo de la dinámica del calcio}{181}{section*.114}%
+\contentsline {subsubsection}{Markov Chain Monte Carlo (MCMC)}{183}{section*.115}%
+\contentsline {subsection}{\numberline {8.2.2}Algoritmos de aprendizaje profundo}{183}{subsection.8.2.2}%
+\contentsline {subsection}{\numberline {8.2.3}Método de Kaplan para detectar picos neuronales}{185}{subsection.8.2.3}%
+\contentsline {section}{\numberline {8.3}Clústeres de la dinámica neuronal}{188}{section.8.3}%
+\contentsline {subsection}{\numberline {8.3.1} Componentes conexas }{188}{subsection.8.3.1}%
+\contentsline {subsubsection}{Componente fuertemente conexa}{189}{section*.117}%
+\contentsline {subsubsection}{Componentes débilmente conexas}{189}{section*.118}%
+\contentsline {subsection}{\numberline {8.3.2}Algoritmo de clústeres neuronales }{189}{subsection.8.3.2}%
+\contentsline {subsection}{\numberline {8.3.3}Medición de la densidad de números de clústeres}{190}{subsection.8.3.3}%
+\contentsline {section}{\numberline {8.4}Ajuste de distribuciones de cola pesada}{192}{section.8.4}%
+\contentsline {subsection}{\numberline {8.4.1}Primer método}{193}{subsection.8.4.1}%
+\contentsline {subsubsection}{ Prueba de la hipótesis de la ley de potencia}{194}{section*.121}%
+\contentsline {subsection}{\numberline {8.4.2}Segundo método}{194}{subsection.8.4.2}%
+\contentsline {section}{\numberline {8.5}Metodología}{194}{section.8.5}%
+\contentsline {subsection}{\numberline {8.5.1}Prueba de hipótesis de la ley de potencia}{195}{subsection.8.5.1}%
+\contentsline {section}{\numberline {8.6}Discusión}{197}{section.8.6}%
+\contentsline {chapter}{\numberline {9}Dinámica neuronal experimental del C. elegans}{199}{chapter.9}%
+\contentsline {section}{\numberline {9.1}Dinamica neuronal experimentos C. elegans}{200}{section.9.1}%
+\contentsline {subsection}{\numberline {9.1.1}OASIS}{201}{subsection.9.1.1}%
+\contentsline {subsection}{\numberline {9.1.2}MCMC}{203}{subsection.9.1.2}%
+\contentsline {subsection}{\numberline {9.1.3}Método de Kaplan para detectar picos neuronales}{203}{subsection.9.1.3}%
+\contentsline {subsection}{\numberline {9.1.4}CASCADE}{206}{subsection.9.1.4}%
+\contentsline {subsection}{\numberline {9.1.5}Patrones de actividad neuronal observados}{209}{subsection.9.1.5}%
+\contentsline {subsection}{\numberline {9.1.6}Discusión}{211}{subsection.9.1.6}%
+\contentsline {section}{\numberline {9.2}Clústeres de actividad neuronal}{212}{section.9.2}%
+\contentsline {subsection}{\numberline {9.2.1}Correlación entre actividades neuronales}{213}{subsection.9.2.1}%
+\contentsline {subsection}{\numberline {9.2.2}Calculo de distribución de clústeres red cuadrada}{214}{subsection.9.2.2}%
+\contentsline {subsubsection}{Distribución del numero de clústeres}{215}{section*.140}%
+\contentsline {subsubsection}{Mediciones de $n(s, p)$ cuando $p \to p_c$}{216}{section*.143}%
+\contentsline {subsection}{\numberline {9.2.3}Estadísticas de los clústeres de la actividad neuronal }{220}{subsection.9.2.3}%
+\contentsline {subsection}{\numberline {9.2.4}Distribución del tamaño de clústeres $n(s,p)$}{224}{subsection.9.2.4}%
+\contentsline {subsection}{\numberline {9.2.5}Longitud de correlación}{228}{subsection.9.2.5}%
+\contentsline {chapter}{\numberline {10}Dinámica neuronal en el conectoma del C. elegans}{231}{chapter.10}%
+\contentsline {section}{\numberline {10.1}Modelo computacional de dinámica neuronal}{232}{section.10.1}%
+\contentsline {subsection}{\numberline {10.1.1}Caracterización de la dinámica neuronal simulada}{233}{subsection.10.1.1}%
+\contentsline {subsection}{\numberline {10.1.2}Estimación de los tiempos de relajación }{235}{subsection.10.1.2}%
+\contentsline {subsection}{\numberline {10.1.3}Elección de los valores $r_1$ y $r_2$}{235}{subsection.10.1.3}%
+\contentsline {section}{\numberline {10.2}Resultados de la dinámica del modelo}{239}{section.10.2}%
+\contentsline {subsection}{\numberline {10.2.1}Diagrama de fases}{239}{subsection.10.2.1}%
+\contentsline {section}{\numberline {10.3}Clústeres de actividad neuronal }{244}{section.10.3}%
+\contentsline {subsection}{\numberline {10.3.1}Correlación entre actividades neuronales }{244}{subsection.10.3.1}%
+\contentsline {subsection}{\numberline {10.3.2}Estadísticas de los clústeres de la actividad neuronal }{246}{subsection.10.3.2}%
+\contentsline {subsection}{\numberline {10.3.3}Distribución del tamaño de clústeres $n(s,p)$}{248}{subsection.10.3.3}%
+\contentsline {subsection}{\numberline {10.3.4}Longitud de correlación}{250}{subsection.10.3.4}%
+\contentsline {part}{III\hspace {1em}Conclusiones y trabajo futuro}{253}{part.3}%
+\contentsline {chapter}{\numberline {11}Conclusiones y Trabajo futuro}{255}{chapter.11}%
+\contentsline {section}{\numberline {11.1}Conclusiones generales}{255}{section.11.1}%
+\contentsline {subsection}{\numberline {11.1.1}Comportamientos emergentes en un robot con la dinámica neuronal del C. elegans}{255}{subsection.11.1.1}%
+\contentsline {subsection}{\numberline {11.1.2}Dinámica neuronal critica en el C. elegans}{260}{subsection.11.1.2}%
+\contentsline {section}{\numberline {11.2}Trabajo futuro}{261}{section.11.2}%
+\contentsline {chapter}{\numberline {A}Diferenciación numérica de datos ruidosos y no suaves}{269}{appendix.Alph1}%
+\contentsline {section}{\numberline {A.1}Introducción}{270}{section.Alph1.1}%
+\contentsline {section}{\numberline {A.2} Regularización de variación total }{270}{section.Alph1.2}%
+\contentsline {section}{\numberline {A.3}Implementación numérica}{271}{section.Alph1.3}%
+\contentsline {section}{\numberline {A.4}Ejemplo}{271}{section.Alph1.4}%
+\contentsline {section}{\numberline {A.5}Elección de parámetros óptimos}{273}{section.Alph1.5}%
+\contentsline {chapter}{Bibliograf{\'{\i }}a}{277}{section*.177}%
+\contentsline {chapter}{Publicaciones asociadas}{313}{section*.179}%
+\contentsline {chapter}{Agradecimientos}{315}{section*.181}%

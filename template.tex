@@ -14,7 +14,7 @@
 \definecolor{ocre}{RGB}{243, 102, 25} % Define the color used for highlighting throughout the book
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%% Informacion sobre la tesis %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\title{Comportamientos emergentes en poblaciones de robots interactuantes}
+\title{Comportamientos emergentes en la dinámica neuronal de C. elegans }
 \author{Mg. Carlos Eduardo Valencia Urbina}
 \director{Dr. Pablo Martin Gleiser}
 \carrera{Tesis Carrera de Doctorado en F\'{\i}sica}
@@ -25,8 +25,8 @@ Dr.~Segundo Jurado (Universidad Nacional de Cuyo)\\
 Dr.~J.~Otro Jurado (Univ. Nac. de LaCalle)\\
 Dr.~J.~L\'{o}pez Jurado (Univ. Nac. de Mar del Plata)\\
 Dr.~U.~Amigo (Instituto Balseiro, Centro At\'{o}mico Bariloche)}
-\palabrasclave{formato de Tesis, Lineamientos de escritura, Instituto Balseiro}
-\keywords{Thesis format, Templates, Instituto Balseiro}
+\palabrasclave{Dinámica neuronal, Acciones emergentes, Robots, Conectoma, Nematodos, Criticidad neuronal }
+\keywords{Neuronal dynamics, Emergent actions,  Robots, connectome , Neuronal criticality}
 % Si queremos poner la fecha manualmente:
 % \date{Diciembre de 2099}
 
@@ -80,14 +80,29 @@ A toda esa otra gente que no
 \input{introduccion}
 
 
-\part{Dinámica crítica del C. elegans}
+\part{Dinámica Neuronal y Comportamientos Emergentes en C. elegans}\label{sec:parteI}
+
+\include{cap_introduccion_emergente.tex}
 \include{modelo_dinamica_neuronal.tex}
+\include{resultados_robot.tex}
+
+\part{Modelado, Validación Experimental y Criticalidad Neuronal en C. elegans}\label{sec:parteII}
+
 \include{cap_dinamica_critica.tex}
 \include{cap_percolacion.tex}
 \include{cap_modelo_criticidad.tex}
+\include{metodos_criticidad.tex}
 \include{cap_resultados_criticidad.tex}
+\include{cap_resultados_criticidad_modelo.tex}
+
+\part{Conclusiones y trabajo futuro}
+\include{cap_conclusiones_generales.tex}
+
+
 \appendix
 \include{apend1}
+
+
 
 \begin{biblio}
 \bibliography{mibib}

@@ -1,11 +1,74 @@
 \begin{resumen}%
-Este es el resumen en castellano.\\
-La tesis debe reflejar el trabajo desarrollado, mostrando la metodolog\'{\i}a utilizada, los resultados obtenidos y las conclusiones que pueden inferirse de dichos resultados.
+%Este es el resumen en castellano.\\
+%La tesis debe reflejar el trabajo desarrollado, mostrando la metodolog\'{\i}a utilizada, los resultados obtenidos y las %conclusiones que pueden inferirse de dichos resultados.
+
+Esta tesis investiga la relación entre la dinámica neuronal y las acciones emergentes en sistemas biológicos y robóticos. El enfoque principal esta inspirado en el sistema nervioso del nematodo Caenorhabditis elegans.  Para esto utilizamos un robot controlado por una simulación numerica de la red neuronal de este gusano.  El robot interactúa con su entorno a través de sensores y neuronas motoras, lo que le permite realizar acciones emergentes, como evitar colisiones en entornos complejos.
+
+Los resultados de esta tesis muestran que la estructura subyacente de la red neuronal desempeña un papel fundamental en los comportamientos observados en seres vivos. En particular, se ha identificado una serie de características relevantes de la dinámica neuronal asociadas con las acciones emergentes del robot. Estas características se observan también en gusanos biológicos, lo que sugiere que son universales en sistemas nerviosos complejos.
+
+Además de explorar la dinámica neuronal y las acciones emergentes del robot, esta tesis también aborda la hipótesis de la existencia de criticidad neuronal en el nematodo C. elegans. Se valida esta hipótesis a través de dos enfoques interconectados: primero, el análisis de la firma de criticidad en datos experimentales; y segundo, el desarrollo de un modelo computacional basado en una red neuronal con dinámica de Greenberg–Hastings y conexiones que siguen el conectoma del C. elegans.
+
+En conclusión, esta tesis contribuye al entendimiento de la relación entre la estructura neuronal y el comportamiento emergente en sistemas biológicos y robóticos. Los hallazgos de esta investigación tienen importantes implicaciones para la comprensión de los sistemas nerviosos y su aplicación en la neurociencia computacional.
+
+
+
+%Analizamos la dinámica neural y su relación con las acciones emergentes de un vehículo robótico controlado por una simulación numérica de una red neural basada en el sistema nervioso del nematodo Caenorhabditis elegans. El robot interactúa con el entorno a través de un sensor que transmite información a las neuronas sensoriales, mientras que las salidas de las neuronas motoras están conectadas a las ruedas. Esto es suficiente para permitir acciones emergentes del robot en entornos complejos, como evitar colisiones con obstáculos. Trabajar con modelos robóticos nos permite llevar un seguimiento simultáneo de la dinámica de todas las neuronas y también registrar las acciones del robot en tiempo real, evitando las complejidades técnicas de simular un entorno real. Esto nos permitió identificar varias características relevantes de la dinámica neural asociada con las acciones emergentes del robot, algunas de las cuales ya se han observado en gusanos biológicos. Estos resultados sugieren que algunos aspectos básicos de los comportamientos observados en los seres vivos están determinados por la estructura subyacente de la red neural asociada.
+%
+%
+%
+%En este trabajo, utilizamos un vehículo robótico controlado por una simulación numérica de una red neuronal basada en el conectoma de C. elegans. Esto nos permite analizar la dinámica neural que emerge a través del conectoma y, al mismo tiempo, estudiar la interacción entre la dinámica neural y las acciones del robot. Descubrimos que algunas características básicas de la dinámica neural global del gusano, como la presencia de grupos de neuronas sincronizadas y una estructura jerárquica anidada que acopla neuronas que oscilan lentamente y rápidamente, se pueden explicar como una consecuencia emergente de la arquitectura del conectoma, sin necesidad de ningún otro mecanismo modulador. Además, como se observó en el gusano, la actividad neural global en el robot evoluciona en un atractor de baja dimensión. Cuando las trayectorias en el atractor se contrastan con el comportamiento del robot, también observamos dinámicas cíclicas que representan secuencias de acciones. La interacción entre la dinámica emergente y las acciones del robot resalta el papel clave que desempeña el conectoma en los aspectos más básicos de la actividad locomotora en C. elegans.
+%
+%Desarrollamos y exploramos un marco para la simulación de redes biológicas y extendemos estas simulaciones a una plataforma robótica del mundo real. Centramos nuestra exploración inicial en una red neuronal biológica simple, bien definida y altamente estereotipada (es decir, conectoma) derivada del nematodo Caenorhabditis elegans. Implementamos un conectoma anatómico de referencia en una plataforma robótica 
+%
+%
+%
+%
+%Su red neuronal de picos utiliza un modelo simplificado de integración y disparo con fugas, con pesos de conexión entre neuronas derivados de los datos disponibles a través del proyecto OpenWorm 
+%Para la investigación médica, los gusanos son un modelo cerebral muy simple.  El diminuto gusano Caenorhabditis elegans tiene sólo 302 neuronas pero exhibe algunos comportamientos complejos. Cuando el gusano detecta comida a través de una variedad de neuronas sensoriales, avanzará hacia esa fuente de alimento. Cuando la nariz del gusano detecta un objeto que lo bloquea, el gusano se detendrá, retrocederá y cambiará de dirección para moverse alrededor del objeto o evitarlo por completo. Después de simular con éxito el cerebro del gusano en un entorno más complejo, el proyecto intenta crear una aplicación similar en un robot Raspberry Pi. Dadas las anteriores ventajas el robot GoPiGo es una excelente opción para nuestro modelo robotico, ya que buscamos un  robot   versátil. Es relativamente barato, fácil de montar y programar, y es compatible con una variedad de sensores y actuadores.
+%El gusano C elegans tiene aproximadamente 1000 células que conforman todo el organismo y es el animal más estudiado en la ciencia. 302 de esas células son neuronas. Las neuronas son básicamente de tres tipos: sensoriales, interneuronas y motoras. Las neuronas sensoriales se estimulan cuando cambian las condiciones en el entorno del gusano. Estos incluyen cambios táctiles, químicos, olores, dolor, osmóticos, de oxígeno, de temperatura y mecánicos como la presión corporal. Las interneuronas conectan las neuronas sensoriales y motoras y podrían considerarse una especie de protocerebro. Las neuronas motoras se conectan a los músculos del cuerpo que se encuentran a ambos lados del cuerpo del gusano.
+%
+%No es posible determinar el flujo de información a través de un sistema nervioso basándose únicamente en la conectividad sináptica física. Sin embargo, los enfoques de imágenes de calcio a gran escala están comenzando a revelar el flujo de información en la red de C. elegans. Estos estudios han utilizado un GCaMP localizado en el núcleo que permite segmentar fácilmente las neuronas densamente empaquetadas. Estas grabaciones no pueden recuperar señales de calcio locales en las neuritas [17] y carecen de la resolución temporal de las grabaciones de voltaje, pero aún han proporcionado información importante sobre la dinámica de todo el cerebro de C. elegans.
+%
+%Las imágenes de todo el cerebro de la mayoría de las neuronas anteriores en gusanos restringidos han revelado un alto grado de actividad correlacionada espontánea en todo el cerebro que se altera en respuesta a estímulos sensoriales [18]. En función de las comparaciones con la actividad neuronal en animales en movimiento, la mayor parte de esta actividad en curso parece correlacionarse con patrones motores del gusano, que pueden representarse en gran medida como un colector de dos lóbulos mediante tres componentes principales de las actividades de la población de neuronas (Figura 1b–d) [19]. Diferentes regiones de este colector representan diferentes secuencias de acciones. De hecho, las imágenes de todo el cerebro en gusanos que se mueven libremente han revelado de manera similar grandes subconjuntos de neuronas asociadas con diferentes secuencias de acciones [20, 21].
+%
+%
+%
+%A medida que los animales navegan por sus entornos, son bombardeados por un flujo constante de diversas señales sensoriales. Por lo tanto, es esencial que sus sistemas nerviosos extraigan información conductualmente significativa del entorno y generen respuestas adaptativas a estos estímulos. Entender cómo los circuitos sensoriomotores son capaces de procesar los estímulos sensoriales de forma flexible, en función del contexto y la experiencia, ha sido objeto de una intensa investigación en las últimas décadas. Una cuestión clave para comprender estos circuitos es resolver cómo la actividad neuronal en un conectoma anatómico definido puede modularse a corto y largo plazo para permitir la integración sensoriomotora dinámica.
+%
+%
+%En los últimos años, el nematodo Caenorhabditis elegans ha surgido como un sistema popular para la investigación del procesamiento sensorial flexible y el comportamiento. Los estudios de C. elegans se benefician de su tractabilidad experimental: su sistema nervioso contiene exactamente 302 neuronas conectadas a través de un conectoma completamente definido Además, un conjunto de herramientas genéticas robusto permite el análisis de circuitos neuronales con precisión de una sola célula en este sistema nervioso simple. Si bien los primeros estudios del comportamiento de C. elegans se centraron en los circuitos neuronales subyacentes a los comportamientos innatos cableados, el trabajo posterior reveló un grado sorprendente de flexibilidad en la forma en que este animal responde a las señales sensoriales de su entorno. Las herramientas modernas de la neurociencia de sistemas aplicadas en este sistema simple ahora han comenzado a revelar la base de esta flexibilidad. En esta revisión, revisamos este progreso reciente y brindamos una perspectiva sobre lo que queda por descubrir en este sistema nervioso pequeño y flexible.
+%
+%
+% 
+%Utilizando un robot sencillo (un Lego Mindstorms EV3) y conectando sensores en el robot para estimular neuronas sensoriales simuladas específicas en un conectoma artificial, y condensando la excitación muscular del gusano para mover un motor izquierdo y derecho en el robot, observamos comportamientos similares a los del gusano en el robot basados puramente en factores ambientales.
+%
+%
+%
+%
+%
+%El objetivo de esta tesis es  examinar el surgimiento del comportamiento motor en los organismos vivos. Utilizando el conectoma de C. elegans como modelo e incorporando el modelo neuronal "integrate and fire" en una plataforma robótica para investigar cómo surge el comportamiento de las interacciones neuronales. Usando este enfoque, el robot explora su entorno de forma autónoma y exhibe una locomoción similar a la observada en los gusanos reales. El beneficio de utilizar un robot es la capacidad de monitorear y documentar datos de todo el sistema nervioso, lo que nos permite identificar los circuitos neuronales críticos responsables de la locomoción y compararlos con los observados en los organismos vivos.
+%
+%La pregunta principal a resolver es: ¿Cómo surge el comportamiento en un ser vivo a partir de la conexión de sus neuronas (conectoma) y la interacción con el entorno? Para resolver esta pregunta, analizaremos las relaciones entre la estructura de la red (a partir de datos de diferentes conectomas), la dinámica neuronal (a partir de modelos de redes neuronales) y el comportamiento emergente (a partir de robots individuales o poblaciones de robots que interactúan).Por otro lado, utilizando información del conectoma, realizamos simulaciones numéricas de la dinámica neuronal utilizando un modelo propuesto por Haimovici et al. (Physical Review Letters, 110:178101, 2013). En este modelo, cada nodo de la red tiene una variable de tres estados (en reposo, excitado o refractario) asociada a él. Utilizando la información del tamaño del clúster sincronizado para definir un parámetro de orden y una medida de susceptibilidad, encontramos que el modelo exhibe comportamientos compatibles con una transición de fase. La comparación del modelo con los datos experimentales muestra que los resultados obtenidos con C. elegans solo son compatibles con el modelo en el punto crítico.
+
+
+
+
 \end{resumen}
 
 \begin{abstract}%
-This is the title in English:\\
-The thesis must reflect the work of the student, including the chosen methodology, the results and the conclusions that those results allow us to draw.
+%This is the title in English:\\
+%The thesis must reflect the work of the student, including the chosen methodology, the results and the conclusions that %those results allow us to draw.
+
+This thesis investigates the relationship between neuronal dynamics and emergent actions in biological and robotic systems. The main focus is inspired by the nervous system of the nematode Caenorhabditis elegans. For this, we use a robot controlled by a numerical simulation of the neural network of this worm. The robot interacts with its environment through sensors and motor neurons, which allows it to perform emergent actions, such as avoiding collisions in complex environments.
+
+The results of this thesis show that the underlying structure of the neural network plays a fundamental role in the behaviors observed in living beings. In particular, a number of relevant characteristics of neuronal dynamics associated with the emergent actions of the robot have been identified. These characteristics are also observed in biological worms, suggesting that they are universal in complex nervous systems.
+
+In addition to exploring neuronal dynamics and the emergent actions of the robot, this thesis also addresses the hypothesis of the existence of neuronal criticality in the nematode C. elegans. This hypothesis is validated through two interconnected approaches: first, the analysis of the signature of criticality in experimental data; and second, the development of a computational model based on a neural network with Greenberg–Hastings dynamics and connections that follow the connectome of C. elegans.
+
+In conclusion, this thesis contributes to the understanding of the relationship between neuronal structure and emergent behavior in biological and robotic systems. The findings of this research have important implications for the understanding of nervous systems and their application in computational neuroscience.
+
+
+
 \end{abstract}
 
 

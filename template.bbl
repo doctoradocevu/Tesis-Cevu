@@ -1,0 +1,2530 @@
+\begin{thebibliography}{100}
+\providecommand{\url}[1]{\texttt{#1}}
+\providecommand{\urlprefix}{URL }
+
+\bibitem{baluska_having_2016}
+Baluška, F., Levin, M.
+\newblock On {Having} {No} {Head}: {Cognition} throughout {Biological}
+  {Systems}.
+\newblock \emph{Frontiers in Psychology}, \textbf{7}, 2016.
+\newblock
+  \urlprefix\url{https://www.frontiersin.org/articles/10.3389/fpsyg.2016.00902}.
+
+\bibitem{heuvel_comparative_2016}
+Heuvel, M. P. v.~d., Bullmore, E.~T., Sporns, O.
+\newblock Comparative {Connectomics}.
+\newblock \emph{Trends in Cognitive Sciences}, \textbf{20}~(5), 345--361, mayo
+  2016.
+\newblock
+  \urlprefix\url{https://www.cell.com/trends/cognitive-sciences/abstract/S1364-6613(16)00048-6}.
+
+\bibitem{varshney_structural_2011}
+Varshney, L.~R., Chen, B.~L., Paniagua, E., Hall, D.~H., Chklovskii, D.~B.
+\newblock Structural {Properties} of the {Caenorhabditis} elegans {Neuronal}
+  {Network}.
+\newblock \emph{PLOS Computational Biology}, \textbf{7}~(2), e1001066, feb.
+  2011.
+\newblock
+  \urlprefix\url{https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1001066}.
+
+\bibitem{milo_network_2002}
+Milo, R., Shen-Orr, S., Itzkovitz, S., Kashtan, N., Chklovskii, D., Alon, U.
+\newblock Network {Motifs}: {Simple} {Building} {Blocks} of {Complex}
+  {Networks}.
+\newblock \emph{Science}, oct. 2002.
+\newblock
+  \urlprefix\url{https://www.science.org/doi/10.1126/science.298.5594.824}.
+
+\bibitem{azulay_c_2016}
+Azulay, A., Itskovits, E., Zaslaver, A.
+\newblock The {C}. elegans {Connectome} {Consists} of {Homogenous} {Circuits}
+  with {Defined} {Functional} {Roles}.
+\newblock \emph{PLOS Computational Biology}, \textbf{12}~(9), e1005021, sep.
+  2016.
+\newblock
+  \urlprefix\url{https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1005021}.
+
+\bibitem{bono_neuronal_2005}
+Bono, M.~d., Villu~Maricq, A.
+\newblock Neuronal {Substrates} of {Complex} {Behaviors} in {C}. {Elegans}.
+\newblock \emph{Annual Review of Neuroscience}, \textbf{28}~(1), 451--501,
+  2005.
+\newblock
+  \urlprefix\url{https://doi.org/10.1146/annurev.neuro.27.070203.144259}.
+
+\bibitem{branson_imaging_2015}
+Branson, K., Freeman, J.
+\newblock Imaging the {Neural} {Basis} of {Locomotion}.
+\newblock \emph{Cell}, \textbf{163}~(3), 541--542, oct. 2015.
+\newblock
+  \urlprefix\url{https://www.sciencedirect.com/science/article/pii/S0092867415013288}.
+
+\bibitem{bargmann_connectome_2013}
+Bargmann, C.~I., Marder, E.
+\newblock From the connectome to brain function.
+\newblock \emph{Nature Methods}, \textbf{10}~(6), 483--490, jun. 2013.
+\newblock \urlprefix\url{https://www.nature.com/articles/nmeth.2451}.
+
+\bibitem{kato_global_2015}
+Kato, S., Kaplan, H.~S., Schr\"odel, T., Skora, S., Lindsay, T.~H., Yemini, E.,
+  \emph{et~al.}
+\newblock Global {Brain} {Dynamics} {Embed} the {Motor} {Command} {Sequence} of
+  {Caenorhabditis} elegans.
+\newblock \emph{Cell}, \textbf{163}~(3), 656--669, oct. 2015.
+\newblock
+  \urlprefix\url{https://www.cell.com/cell/abstract/S0092-8674(15)01196-4}.
+
+\bibitem{brambilla_swarm_2013}
+Brambilla, M., Ferrante, E., Birattari, M., Dorigo, M.
+\newblock Swarm robotics: a review from the swarm engineering perspective.
+\newblock \emph{Swarm Intelligence}, \textbf{7}~(1), 1--41, mar. 2013.
+\newblock \urlprefix\url{https://doi.org/10.1007/s11721-012-0075-2}.
+
+\bibitem{yue_caenorhabditis_2021}
+Yue, Y., Li, S., Shen, P., Park, Y.
+\newblock Caenorhabditis elegans as a model for obesity research.
+\newblock \emph{Current Research in Food Science}, \textbf{4}, 692--697, oct.
+  2021.
+\newblock
+  \urlprefix\url{https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8501670/}.
+
+\bibitem{toyoshima_deducing_2022}
+Toyoshima, Y., Sato, H., Nagata, D., Kanamori, M., Jang, M.~S., Kuze, K.,
+  \emph{et~al.}
+\newblock Deducing ensemble dynamics and information flow from the whole-brain
+  imaging data, nov. 2022.
+\newblock
+  \urlprefix\url{https://www.biorxiv.org/content/10.1101/2022.11.18.517011v1}.
+
+\bibitem{fang-yen_illuminating_2015}
+Fang-Yen, C., Alkema, M.~J., Samuel, A. D.~T.
+\newblock Illuminating neural circuits and behaviour in {Caenorhabditis}
+  elegans with optogenetics.
+\newblock \emph{Philosophical Transactions of the Royal Society B: Biological
+  Sciences}, \textbf{370}~(1677), 20140212, sep. 2015.
+\newblock
+  \urlprefix\url{https://royalsocietypublishing.org/doi/10.1098/rstb.2014.0212},
+  publisher: Royal Society.
+
+\bibitem{cook_whole-animal_2019}
+Cook, S.~J., Jarrell, T.~A., Brittin, C.~A., Wang, Y., Bloniarz, A.~E.,
+  Yakovlev, M.~A., \emph{et~al.}
+\newblock Whole-animal connectomes of both {Caenorhabditis} elegans sexes.
+\newblock \emph{Nature}, \textbf{571}~(7763), 63--71, jul. 2019.
+\newblock \urlprefix\url{https://www.nature.com/articles/s41586-019-1352-7}.
+
+\bibitem{shibue_deconvolution_2020}
+Shibue, R., Komaki, F.
+\newblock Deconvolution of calcium imaging data using marked point processes.
+\newblock \emph{PLOS Computational Biology}, \textbf{16}~(3), mar. 2020.
+\newblock
+  \urlprefix\url{https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1007650}.
+
+\bibitem{bargmann_chemosensation_2006}
+Bargmann, C.
+\newblock Chemosensation in {C}. elegans.
+\newblock \emph{WormBook}, 2006.
+\newblock
+  \urlprefix\url{http://www.wormbook.org/chapters/www_chemosensation/chemosensation.html}.
+
+\bibitem{ward_chemotaxis_1973}
+Ward, S.
+\newblock Chemotaxis by the {Nematode} {Caenorhabditis} elegans:
+  {Identification} of {Attractants} and {Analysis} of the {Response} by {Use}
+  of {Mutants}.
+\newblock \emph{Proceedings of the National Academy of Sciences},
+  \textbf{70}~(3), 817--821, mar. 1973.
+\newblock \urlprefix\url{https://www.pnas.org/doi/10.1073/pnas.70.3.817}.
+
+\bibitem{portman_neural_2019}
+Portman, D.~S.
+\newblock Neural networks mapped in both sexes of the worm.
+\newblock \emph{Nature}, \textbf{571}~(7763), 40--42, jul. 2019.
+\newblock \urlprefix\url{https://www.nature.com/articles/d41586-019-02006-8}.
+
+\bibitem{white_structure_1997}
+White, J.~G., Southgate, E., Thomson, J.~N., Brenner, S.
+\newblock The structure of the nervous system of the nematode {Caenorhabditis}
+  elegans.
+\newblock \emph{Philosophical Transactions of the Royal Society of London. B,
+  Biological Sciences}, \textbf{314}~(1165), 1--340, ene. 1997.
+\newblock
+  \urlprefix\url{https://royalsocietypublishing.org/doi/10.1098/rstb.1986.0056}.
+
+\bibitem{schroter_micro-connectomics_2017}
+Schröter, M., Paulsen, O., Bullmore, E.~T.
+\newblock Micro-connectomics: probing the organization of neuronal networks at
+  the cellular scale.
+\newblock \emph{Nature Reviews Neuroscience}, \textbf{18}~(3), 131--146, mar.
+  2017.
+\newblock \urlprefix\url{https://www.nature.com/articles/nrn.2016.182}.
+
+\bibitem{flavell_dynamic_2022}
+Flavell, S.~W., Gordus, A.
+\newblock Dynamic functional connectivity in the static connectome of
+  {Caenorhabditis} elegans.
+\newblock \emph{Current Opinion in Neurobiology}, \textbf{73}, 102515, abr.
+  2022.
+\newblock
+  \urlprefix\url{https://www.sciencedirect.com/science/article/pii/S0959438821001549}.
+
+\bibitem{ryan_cns_2016}
+Ryan, K., Lu, Z., Meinertzhagen, I.~A.
+\newblock The {CNS} connectome of a tadpole larva of {Ciona} intestinalis
+  ({L}.) highlights sidedness in the brain of a chordate sibling.
+\newblock \emph{eLife}, \textbf{5}, e16962, dic. 2016.
+\newblock \urlprefix\url{https://doi.org/10.7554/eLife.16962}, publisher: eLife
+  Sciences Publications, Ltd.
+
+\bibitem{veraszto_whole-animal_2020}
+Verasztó, C., Jasek, S., Gühmann, M., Shahidi, R., Ueda, N., Beard, J.~D.,
+  \emph{et~al.}
+\newblock Whole-animal connectome and cell-type complement of the
+  three-segmented {Platynereis} dumerilii larva, ago. 2020.
+\newblock
+  \urlprefix\url{https://www.biorxiv.org/content/10.1101/2020.08.21.260984v2}.
+
+\bibitem{scheffer_connectome_2020}
+Scheffer, L.~K., Xu, C.~S., Januszewski, M., Lu, Z., Takemura, S.-y., Hayworth,
+  K.~J., \emph{et~al.}
+\newblock A connectome and analysis of the adult {Drosophila} central brain.
+\newblock \emph{eLife}, \textbf{9}, e57443, sep. 2020.
+\newblock \urlprefix\url{https://doi.org/10.7554/eLife.57443}.
+
+\bibitem{winding_connectome_2023}
+Winding, M., Pedigo, B.~D., Barnes, C.~L., Patsolic, H.~G., Park, Y.,
+  Kazimiers, T., \emph{et~al.}
+\newblock The connectome of an insect brain.
+\newblock \emph{Science}, \textbf{379}~(6636), eadd9330, mar. 2023.
+\newblock \urlprefix\url{https://www.science.org/doi/10.1126/science.add9330}.
+
+\bibitem{kaplan_nested_2020}
+Kaplan, H.~S., Salazar~Thula, O., Khoss, N., Zimmer, M.
+\newblock Nested {Neuronal} {Dynamics} {Orchestrate} a {Behavioral} {Hierarchy}
+  across {Timescales}.
+\newblock \emph{Neuron}, \textbf{105}~(3), 562--576.e9, feb. 2020.
+\newblock
+  \urlprefix\url{https://www.sciencedirect.com/science/article/pii/S0896627319309328}.
+
+\bibitem{yemini_neuropal_2021}
+Yemini, E., Lin, A., Nejatbakhsh, A., Varol, E., Sun, R., Mena, G.~E.,
+  \emph{et~al.}
+\newblock {NeuroPAL}: {A} {Multicolor} {Atlas} for {Whole}-{Brain} {Neuronal}
+  {Identification} in {C}. elegans.
+\newblock \emph{Cell}, \textbf{184}~(1), 272--288.e11, ene. 2021.
+\newblock
+  \urlprefix\url{https://www.sciencedirect.com/science/article/pii/S0092867420316822}.
+
+\bibitem{randi_measuring_2020}
+Randi, F., Leifer, A.~M.
+\newblock Measuring and modeling whole-brain neural dynamics in
+  {Caenorhabditis} elegans.
+\newblock \emph{Current Opinion in Neurobiology}, \textbf{65}, 167--175, dic.
+  2020.
+\newblock
+  \urlprefix\url{https://www.sciencedirect.com/science/article/pii/S0959438820301689}.
+
+\bibitem{hollon_neural_2020}
+Hollon, N.~G., Jin, X.
+\newblock Neural {Implementation} of {Behavioral} {Hierarchy}.
+\newblock \emph{Neuron}, \textbf{105}~(3), 402--404, feb. 2020.
+
+\bibitem{santiago_using_2022}
+Santiago, E.~R., Shelar, A., Christie, N.~T., Lewis-Hayre, M.~R., Koelle, M.~R.
+\newblock Using {NeuroPAL} {Multicolor} {Fluorescence} {Labeling} to {Identify}
+  {Neurons} in {C}. elegans.
+\newblock \emph{Current Protocols}, \textbf{2}~(12), e610, 2022.
+\newblock
+  \urlprefix\url{https://onlinelibrary.wiley.com/doi/abs/10.1002/cpz1.610}.
+
+\bibitem{gray_circuit_2005}
+Gray, J.~M., Hill, J.~J., Bargmann, C.~I.
+\newblock A circuit for navigation in {Caenorhabditis} elegans.
+\newblock \emph{Proceedings of the National Academy of Sciences},
+  \textbf{102}~(9), 3184--3191, mar. 2005.
+\newblock \urlprefix\url{https://www.pnas.org/doi/10.1073/pnas.0409009101}.
+
+\bibitem{kaplan_sensorimotor_2018}
+Kaplan, H.~S., Nichols, A.~L., Zimmer, M.
+\newblock Sensorimotor integration in {Caenorhabditis} elegans: a reappraisal
+  towards dynamic and distributed computations.
+\newblock \emph{Philosophical Transactions of the Royal Society B: Biological
+  Sciences}, \textbf{373}~(1758), 20170371, sep. 2018.
+\newblock
+  \urlprefix\url{https://royalsocietypublishing.org/doi/10.1098/rstb.2017.0371}.
+
+\bibitem{elsayed_structure_2017}
+Elsayed, G.~F., Cunningham, J.~P.
+\newblock Structure in neural population recordings: an expected byproduct of
+  simpler phenomena?
+\newblock \emph{Nature Neuroscience}, \textbf{20}~(9), 1310--1318, sep. 2017.
+\newblock \urlprefix\url{https://www.nature.com/articles/nn.4617}.
+
+\bibitem{norman-tenazas_worminator_2018}
+Norman-Tenazas, R., Matelsky, J., Katyal, K., Johnson, E., Gray-Roncal, W.
+\newblock Worminator: {A} platform to enable bio-inspired ({C}. elegans)
+  robotics.
+\newblock \underline{En}: 2018 {Conference} on {Cognitive} {Computational}
+  {Neuroscience}. Cognitive Computational Neuroscience, 2018.
+\newblock
+  \urlprefix\url{https://ccneuro.org/2018/Papers/ViewPapers.asp?PaperNum=1149}.
+
+\bibitem{sarma_openworm_2018}
+Sarma, G.~P., Lee, C.~W., Portegys, T., Ghayoomie, V., Jacobs, T., Alicea, B.,
+  \emph{et~al.}
+\newblock {OpenWorm}: overview and recent advances in integrative biological
+  simulation of {Caenorhabditis} elegans.
+\newblock \emph{Philosophical Transactions of the Royal Society B: Biological
+  Sciences}, \textbf{373}~(1758), 20170382, sep. 2018.
+\newblock
+  \urlprefix\url{https://royalsocietypublishing.org/doi/full/10.1098/rstb.2017.0382}.
+
+\bibitem{lechner_worm-level_2017}
+Lechner, M., Grosu, R., Hasani, R.~M.
+\newblock Worm-level {Control} through {Search}-based {Reinforcement}
+  {Learning}, nov. 2017.
+\newblock \urlprefix\url{http://arxiv.org/abs/1711.03467}.
+
+\bibitem{morse_robust_1998}
+Morse, T.~M., Lockery, S.~R., Ferrée, T.~C.
+\newblock Robust {Spatial} {Navigation} in a {Robot} {Inspired} by {Chemotaxis}
+  in {Caenorhabditis} elegans.
+\newblock \emph{Adaptive Behavior}, \textbf{6}~(3-4), 393--410, ene. 1998.
+\newblock \urlprefix\url{https://doi.org/10.1177/105971239800600303}.
+
+\bibitem{Timothy_robot}
+Busbice, T.
+\newblock The robotic worm.
+\newblock \emph{BioCoder}, 2015.
+
+\bibitem{frederick_characterizing_2011}
+Frederick, S.~W., Meyer, A.~B., Mochon, D.
+\newblock Characterizing perceptions of energy consumption.
+\newblock \emph{Proceedings of the National Academy of Sciences},
+  \textbf{108}~(8), E23--E23, feb. 2011.
+\newblock
+  \urlprefix\url{https://www.pnas.org/doi/full/10.1073/pnas.1014806108}.
+
+\bibitem{uzel_set_2022}
+Uzel, K., Kato, S., Zimmer, M.
+\newblock A set of hub neurons and non-local connectivity features support
+  global brain dynamics in {C}. elegans.
+\newblock \emph{Current Biology}, \textbf{32}~(16), 3443--3459.e8, ago. 2022.
+\newblock
+  \urlprefix\url{https://www.sciencedirect.com/science/article/pii/S0960982222010016}.
+
+\bibitem{der_playful_2012}
+Der, R., Martius, G.
+\newblock The {Playful} {Machine}, tomo~15 de \emph{Cognitive {Systems}
+  {Monographs}}.
+\newblock Berlin, Heidelberg: Springer, 2012.
+\newblock \urlprefix\url{http://link.springer.com/10.1007/978-3-642-20253-7}.
+
+\bibitem{brembs_towards_2010}
+Brembs, B.
+\newblock Towards a scientific concept of free will as a biological trait:
+  spontaneous actions and decision-making in invertebrates.
+\newblock \emph{Proceedings of the Royal Society B: Biological Sciences},
+  \textbf{278}~(1707), 930--939, dic. 2010.
+\newblock
+  \urlprefix\url{https://royalsocietypublishing.org/doi/10.1098/rspb.2010.2325}.
+
+\bibitem{webb_robots_2002}
+Webb, B.
+\newblock Robots in invertebrate neuroscience.
+\newblock \emph{Nature}, \textbf{417}~(6886), 359--363, mayo 2002.
+\newblock \urlprefix\url{https://www.nature.com/articles/417359a}.
+
+\bibitem{floreano_robotics_2014}
+Floreano, D., Ijspeert, A.~J., Schaal, S.
+\newblock Robotics and {Neuroscience}.
+\newblock \emph{Current Biology}, \textbf{24}~(18), R910--R920, sep. 2014.
+\newblock
+  \urlprefix\url{https://www.cell.com/current-biology/abstract/S0960-9822(14)00921-X},
+  publisher: Elsevier.
+
+\bibitem{pfeifer_self-organization_2007}
+Pfeifer, R., Lungarella, M., Iida, F.
+\newblock Self-{Organization}, {Embodiment}, and {Biologically} {Inspired}
+  {Robotics}.
+\newblock \emph{Science}, \textbf{318}~(5853), 1088--1093, nov. 2007.
+\newblock \urlprefix\url{https://www.science.org/doi/10.1126/science.1145803},
+  publisher: American Association for the Advancement of Science.
+
+\bibitem{busbice_extending_nodate}
+Busbice, T.
+\newblock Extending the {C}. {Elegans} {Connectome} to {Robotics}.
+\newblock \emph{Original Research}, mayo 2014.
+\newblock
+  \urlprefix\url{http://www.connectomeengine.com/download/Papers/Connectome.pdf}.
+
+\bibitem{gleeson_open_2019}
+Gleeson, P., Cantarelli, M., Marin, B., Quintana, A., Earnshaw, M., Sadeh, S.,
+  \emph{et~al.}
+\newblock Open {Source} {Brain}: {A} {Collaborative} {Resource} for
+  {Visualizing}, {Analyzing}, {Simulating}, and {Developing} {Standardized}
+  {Models} of {Neurons} and {Circuits}.
+\newblock \emph{Neuron}, \textbf{103}~(3), 395--411.e5, ago. 2019.
+\newblock
+  \urlprefix\url{https://linkinghub.elsevier.com/retrieve/pii/S0896627319304441}.
+
+\bibitem{gleeson_c302_2018}
+Gleeson, P., Lung, D., Grosu, R., Hasani, R., Larson, S.~D.
+\newblock c302: a multiscale framework for modelling the nervous system of
+  {Caenorhabditis} elegans.
+\newblock \emph{Philosophical Transactions of the Royal Society B: Biological
+  Sciences}, \textbf{373}~(1758), 20170379, oct. 2018.
+\newblock
+  \urlprefix\url{https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6158223/}.
+
+\bibitem{kuramochi_computational_2017}
+Kuramochi, M., Doi, M.
+\newblock A {Computational} {Model} {Based} on {Multi}-{Regional} {Calcium}
+  {Imaging} {Represents} the {Spatio}-{Temporal} {Dynamics} in a
+  {Caenorhabditis} elegans {Sensory} {Neuron}.
+\newblock \emph{PLOS ONE}, \textbf{12}~(1), e0168415, ene. 2017.
+\newblock
+  \urlprefix\url{https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0168415},
+  publisher: Public Library of Science.
+
+\bibitem{boyle_caenorhabditis_2008}
+Boyle, J.~H., Cohen, N.
+\newblock Caenorhabditis elegans body wall muscles are simple actuators.
+\newblock \emph{Biosystems}, \textbf{94}~(1), 170--181, oct. 2008.
+\newblock
+  \urlprefix\url{https://www.sciencedirect.com/science/article/pii/S0303264708001408}.
+
+\bibitem{roberts_stochastic_nodate}
+Roberts, W.~M., Augustine, S.~B., Lawton, K.~J., Lindsay, T.~H., Thiele, T.~R.,
+  Izquierdo, E.~J., \emph{et~al.}
+\newblock A stochastic neuronal model predicts random search behaviors at
+  multiple spatial scales in {C}. elegans.
+\newblock \emph{eLife}, \textbf{5}, e12572.
+\newblock
+  \urlprefix\url{https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4798983/}.
+
+\bibitem{izquierdo_integrated_2015}
+Izquierdo, E.~J., Beer, R.~D.
+\newblock An {Integrated} {Neuromechanical} {Model} of {Steering} in {C}.
+  elegans.
+\newblock p\'ags. 199--206. MIT Press, 2015.
+\newblock \urlprefix\url{https://dx.doi.org/10.1162/978-0-262-33027-5-ch040}.
+
+\bibitem{palyanov_towards_2012}
+Palyanov, A., Khayrulin, S., Larson, S.~D., Dibert, A.
+\newblock Towards a virtual {C}. elegans: {A} framework for simulation and
+  visualization of the neuromuscular system in a {3D} physical environment.
+\newblock \emph{In Silico Biology}, \textbf{11}~(3-4), 137--147, ene. 2012.
+\newblock
+  \urlprefix\url{https://content.iospress.com/articles/in-silico-biology/isb0445}.
+
+\bibitem{kunert_spatiotemporal_2017}
+Kunert, J.~M., Proctor, J.~L., Brunton, S.~L., Kutz, J.~N.
+\newblock Spatiotemporal {Feedback} and {Network} {Structure} {Drive} and
+  {Encode} {Caenorhabditis} elegans {Locomotion}.
+\newblock \emph{PLOS Computational Biology}, \textbf{13}~(1), e1005303, ene.
+  2017.
+\newblock
+  \urlprefix\url{https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1005303},
+  publisher: Public Library of Science.
+
+\bibitem{morrison_nonlinear_2021}
+Morrison, M., Fieseler, C., Kutz, J.~N.
+\newblock Nonlinear {Control} in the {Nematode} {C}. elegans.
+\newblock \emph{Frontiers in Computational Neuroscience}, \textbf{14}, 2021.
+\newblock
+  \urlprefix\url{https://www.frontiersin.org/articles/10.3389/fncom.2020.616639}.
+
+\bibitem{linderman_hierarchical_2019}
+Linderman, S., Nichols, A., Blei, D., Zimmer, M., Paninski, L.
+\newblock Hierarchical recurrent state space models reveal discrete and
+  continuous dynamics of neural activity in {C}. elegans, abr. 2019.
+\newblock \urlprefix\url{https://www.biorxiv.org/content/10.1101/621540v1}.
+
+\bibitem{costa_adaptive_2019}
+Costa, A.~C., Ahamed, T., Stephens, G.~J.
+\newblock Adaptive, locally linear models of complex dynamics.
+\newblock \emph{Proceedings of the National Academy of Sciences of the United
+  States of America}, \textbf{116}~(5), 1501--1510, ene. 2019.
+\newblock
+  \urlprefix\url{https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6358715/}.
+
+\bibitem{fieseler_unsupervised_2020}
+Fieseler, C., Zimmer, M., Kutz, J.~N.
+\newblock Unsupervised learning of control signals and their encodings in
+  {Caenorhabditis} elegans whole-brain recordings.
+\newblock \emph{Journal of The Royal Society Interface}, \textbf{17}~(173),
+  20200459, dic. 2020.
+\newblock
+  \urlprefix\url{https://royalsocietypublishing.org/doi/10.1098/rsif.2020.0459},
+  publisher: Royal Society.
+
+\bibitem{aguilera_signatures_2017}
+Aguilera, M., Alquézar, C., Izquierdo, E.~J.
+\newblock Signatures of criticality in a maximum entropy model of the {C}.
+  elegans brain during free behaviour.
+\newblock p\'ags. 29--35. MIT Press, 2017.
+\newblock \urlprefix\url{https://dx.doi.org/10.1162/isal_a_010}.
+
+\bibitem{noauthor_tutorial_nodate}
+Tutorial: {A} {Raspberry} {Pi} robot with a worm brain.
+\newblock
+  \urlprefix\url{https://www.dexterindustries.com/GoPiGo/projects/python-examples-for-the-raspberry-pi/simulate-a-worm-brain/}.
+
+\bibitem{noauthor_gopigo_2023}
+{GoPiGo} {C}. elegans {Connectome} {Code}, sep. 2023.
+\newblock \urlprefix\url{https://github.com/Connectome/GoPiGo}, original-date:
+  2015-02-09T23:25:43Z.
+
+\bibitem{foundation_teach_2023}
+Foundation, R.~P.
+\newblock Teach, learn, and make with the {Raspberry} {Pi} {Foundation}, sep.
+  2023.
+\newblock \urlprefix\url{https://www.raspberrypi.org/}.
+
+\bibitem{noauthor_dexter_nodate}
+Dexter {Industries}.
+\newblock \urlprefix\url{https://www.dexterindustries.com/}.
+
+\bibitem{noauthor_principal_2002}
+ Principal {Component} {Analysis}.
+\newblock Springer {Series} in {Statistics}. Springer-Verlag, 2002.
+\newblock \urlprefix\url{http://link.springer.com/10.1007/b98835}.
+
+\bibitem{chalfie_assaying_2018}
+Chalfie, M., Hart, A.~C., Rankin, C.~H., Goodman, M.~B.
+\newblock Assaying mechanosensation.
+\newblock \underline{En}: {WormBook}: {The} {Online} {Review} of {C}. elegans
+  {Biology} [{Internet}]. WormBook, 2018.
+\newblock \urlprefix\url{https://www.ncbi.nlm.nih.gov/books/NBK235860/}.
+
+\bibitem{chalfie_neural_1985}
+Chalfie, M., Sulston, J.~E., White, J.~G., Southgate, E., Thomson, J.~N.,
+  Brenner, S.
+\newblock The neural circuit for touch sensitivity in {Caenorhabditis} elegans.
+\newblock \emph{Journal of Neuroscience}, \textbf{5}~(4), 956--964, abr. 1985.
+\newblock \urlprefix\url{https://www.jneurosci.org/content/5/4/956}.
+
+\bibitem{manrubia_emergence_2004}
+Manrubia, S.~C., Mikhailov, A.~S., Zanette, D.
+\newblock Emergence of {Dynamical} {Order}: {Synchronization} {Phenomena} in
+  {Complex} {Systems}.
+\newblock World Scientific, 2004.
+
+\bibitem{jensen_cross-frequency_2007}
+Jensen, O., Colgin, L.~L.
+\newblock Cross-frequency coupling between neuronal oscillations.
+\newblock \emph{Trends in Cognitive Sciences}, \textbf{11}~(7), jul. 2007.
+\newblock
+  \urlprefix\url{https://www.sciencedirect.com/science/article/pii/S1364661307001271}.
+
+\bibitem{munoz_colloquium_2018}
+Mu\~noz, M.~A.
+\newblock Colloquium: {Criticality} and dynamical scaling in living systems.
+\newblock \emph{Reviews of Modern Physics}, \textbf{90}~(3), 031001, Jul 2018.
+\newblock
+  \urlprefix\url{https://link.aps.org/doi/10.1103/RevModPhys.90.031001}.
+
+\bibitem{hidalgo_information-based_2014}
+Hidalgo, J., Grilli, J., Suweis, S., Muñoz, M.~A., Banavar, J.~R., Maritan, A.
+\newblock Information-based fitness and the emergence of criticality in living
+  systems.
+\newblock \emph{Proceedings of the National Academy of Sciences},
+  \textbf{111}~(28), 10095--10100, jul. 2014.
+\newblock \urlprefix\url{https://www.pnas.org/doi/abs/10.1073/pnas.1319166111}.
+
+\bibitem{kauffman_origins_1993}
+Kauffman, S.~A.
+\newblock The {Origins} of {Order}: {Self}-{Organization} and {Selection} in
+  {Evolution}.
+\newblock New York: Oxford University Press, 1993.
+\newblock \urlprefix\url{https://books.google.com.ar/books?id=lZcSpRJz0dgC}.
+
+\bibitem{bak_how_1996}
+Bak, P.
+\newblock How {Nature} {Works}.
+\newblock Springer, 1996.
+\newblock \urlprefix\url{http://link.springer.com/10.1007/978-1-4757-5426-1}.
+
+\bibitem{chialvo_brain_2008}
+Chialvo, D.~R., Balenzuela, P., Fraiman, D.
+\newblock The {Brain}: {What} is {Critical} {About} {It}?
+\newblock \emph{AIP Conference Proceedings}, \textbf{1028}~(1), 28--45, jul.
+  2008.
+\newblock \urlprefix\url{https://aip.scitation.org/doi/abs/10.1063/1.2965095}.
+
+\bibitem{chialvo_emergent_2010}
+Chialvo, D.~R.
+\newblock Emergent complex neural dynamics.
+\newblock \emph{Nature Physics}, \textbf{6}~(10), 744--750, oct. 2010.
+\newblock \urlprefix\url{https://www.nature.com/articles/nphys1803}.
+
+\bibitem{plenz_critical_2013}
+Plenz, D.
+\newblock The {Critical} {Brain}.
+\newblock \emph{Physics}, \textbf{6}, 47, abr. 2013.
+\newblock \urlprefix\url{https://physics.aps.org/articles/v6/47}.
+
+\bibitem{niebur_criticality_2014}
+Niebur, E., Plenz, D., Schuster, H.
+\newblock Criticality in {Neural} {Systems}.
+\newblock Weinheim: Wiley, 2014.
+
+\bibitem{shew_functional_2013}
+Shew, W.~L., Plenz, D.
+\newblock The {Functional} {Benefits} of {Criticality} in the {Cortex}.
+\newblock \emph{The Neuroscientist}, \textbf{19}~(1), 88--100, feb. 2013.
+\newblock \urlprefix\url{https://doi.org/10.1177/1073858412445487}.
+
+\bibitem{cocchi_criticality_2017}
+Cocchi, L., Gollo, L.~L., Zalesky, A., Breakspear, M.
+\newblock Criticality in the brain: {A} synthesis of neurobiology, models and
+  cognition.
+\newblock \emph{Progress in Neurobiology}, \textbf{158}, 132--152, nov. 2017.
+\newblock
+  \urlprefix\url{https://www.sciencedirect.com/science/article/pii/S0301008216301630}.
+
+\bibitem{zimmern_why_2020}
+Zimmern, V.
+\newblock Why {Brain} {Criticality} {Is} {Clinically} {Relevant}: {A} {Scoping}
+  {Review}.
+\newblock \emph{Frontiers in Neural Circuits}, \textbf{14}, 54, ago. 2020.
+\newblock
+  \urlprefix\url{https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7479292/}.
+
+\bibitem{heffern_phase_2021}
+Heffern, E. F.~W., Huelskamp, H., Bahar, S., Inglis, R.~F.
+\newblock Phase transitions in biology: from bird flocks to population
+  dynamics.
+\newblock \emph{Proceedings of the Royal Society B: Biological Sciences},
+  \textbf{288}~(1961), 20211111, oct. 2021.
+\newblock
+  \urlprefix\url{https://royalsocietypublishing.org/doi/10.1098/rspb.2021.1111}.
+
+\bibitem{de_kruyff_effect_1972}
+de~Kruyff, B., Demel, R.~A., dan Deenen, L. L.~M.
+\newblock The effect of cholesterol and epicholesterol incorporation on the
+  permeability and on the phase transition of intact {Acholeplasma} laidlawii
+  cell membranes and derived liposomes.
+\newblock \emph{Biochimica et Biophysica Acta (BBA) - Biomembranes},
+  \textbf{255}~(1), 331--347, ene. 1972.
+\newblock
+  \urlprefix\url{https://www.sciencedirect.com/science/article/pii/0005273672900326}.
+
+\bibitem{adhikari_time-delay-induced_2011}
+Adhikari, B.~M., Prasad, A., Dhamala, M.
+\newblock Time-delay-induced phase-transition to synchrony in coupled bursting
+  neurons.
+\newblock \emph{Chaos: An Interdisciplinary Journal of Nonlinear Science},
+  \textbf{21}~(2), 023116, jun. 2011.
+\newblock \urlprefix\url{https://aip.scitation.org/doi/10.1063/1.3584822}.
+
+\bibitem{baumgarten_critical_2019}
+Baumgarten, L., Bornholdt, S.
+\newblock Critical excitation-inhibition balance in dense neural networks.
+\newblock \emph{Physical Review E}, \textbf{100}~(1), 010301, jul. 2019.
+\newblock \urlprefix\url{https://link.aps.org/doi/10.1103/PhysRevE.100.010301}.
+
+\bibitem{cavagna_scale-free_2010}
+Cavagna, A., Cimarelli, A., Giardina, I., Parisi, G., Santagati, R., Stefanini,
+  F., \emph{et~al.}
+\newblock Scale-free correlations in starling flocks.
+\newblock \emph{Proceedings of the National Academy of Sciences},
+  \textbf{107}~(26), 11865--11870, jun. 2010.
+\newblock
+  \urlprefix\url{https://www.pnas.org/doi/full/10.1073/pnas.1005766107}.
+
+\bibitem{bahar_flocking_2018}
+Bahar, S.
+\newblock Flocking, {Swarming}, and {Communicating}.
+\newblock \underline{En}: S.~Bahar (ed.) The {Essential} {Tension}:
+  {Competition}, {Cooperation} and {Multilevel} {Selection} in {Evolution}, The
+  {Frontiers} {Collection}, p\'ags. 127--152. Dordrecht: Springer Netherlands,
+  2018.
+\newblock \urlprefix\url{https://doi.org/10.1007/978-94-024-1054-9_8}.
+
+\bibitem{attanasi_finite-size_2014}
+Attanasi, A., Cavagna, A., Del~Castello, L., Giardina, I., Melillo, S., Parisi,
+  L., \emph{et~al.}
+\newblock Finite-{Size} {Scaling} as a {Way} to {Probe} {Near}-{Criticality} in
+  {Natural} {Swarms}.
+\newblock \emph{Physical Review Letters}, \textbf{113}~(23), 238102, dic. 2014.
+\newblock
+  \urlprefix\url{https://link.aps.org/doi/10.1103/PhysRevLett.113.238102}.
+
+\bibitem{gurmessa_triggered_2019}
+Gurmessa, B.~J., Bitten, N., Nguyen, D.~T., Saleh, O.~A., Ross, J.~L., Das, M.,
+  \emph{et~al.}
+\newblock Triggered disassembly and reassembly of actin networks induces
+  rigidity phase transitions.
+\newblock \emph{Soft matter}, \textbf{15}~(6), 1335--1344, feb. 2019.
+\newblock
+  \urlprefix\url{https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6486790/}.
+
+\bibitem{hussain_spatiotemporal_2013}
+Hussain, S., Molloy, J.~E., Khan, S.~M.
+\newblock Spatiotemporal {Dynamics} of {Actomyosin} {Networks}.
+\newblock \emph{Biophysical Journal}, \textbf{105}~(6), 1456--1465, sep. 2013.
+\newblock
+  \urlprefix\url{https://www.cell.com/biophysj/abstract/S0006-3495(13)00872-2}.
+
+\bibitem{mensonides_metabolic_2002}
+Mensonides, F. I.~C., Schuurmans, J.~M., Teixeira~de Mattos, M.~J.,
+  Hellingwerf, K.~J., Brul, S.
+\newblock The metabolic response of {Saccharomyces} cerevisiae to continuous
+  heat stress.
+\newblock \emph{Molecular Biology Reports}, \textbf{29}~(1-2), 103--106, 2002.
+
+\bibitem{ordway_phase_2020}
+Ordway, S.~W., King, D.~M., Friend, D., Noto, C., Phu, S., Huelskamp, H.,
+  \emph{et~al.}
+\newblock Phase transition behaviour in yeast and bacterial populations under
+  stress.
+\newblock \emph{Royal Society Open Science}, \textbf{7}~(7), 192211, jul. 2020.
+\newblock
+  \urlprefix\url{https://royalsocietypublishing.org/doi/10.1098/rsos.192211}.
+
+\bibitem{pascual_epistasis_2020}
+Pascual, I., Aguirre, J., Manrubia, S., Cuesta, J.~A.
+\newblock Epistasis between cultural traits causes paradigm shifts in cultural
+  evolution.
+\newblock \emph{Royal Society Open Science}, \textbf{7}~(2), 191813, feb. 2020.
+\newblock
+  \urlprefix\url{https://royalsocietypublishing.org/doi/10.1098/rsos.191813},
+  publisher: Royal Society.
+
+\bibitem{held_second-order_2020}
+Held, J., Lorimer, T., Pomati, F., Stoop, R., Albert, C.
+\newblock Second-order phase transition in phytoplankton trait dynamics.
+\newblock \emph{Chaos: An Interdisciplinary Journal of Nonlinear Science},
+  \textbf{30}~(5), 053109, mayo 2020.
+\newblock \urlprefix\url{https://aip.scitation.org/doi/10.1063/1.5141755}.
+
+\bibitem{hein_population_2019}
+Hein, S., Jacob, J.
+\newblock Population recovery of a common vole population ({Microtus} arvalis)
+  after population collapse.
+\newblock \emph{Pest Management Science}, \textbf{75}~(4), 908--914, 2019.
+\newblock
+  \urlprefix\url{https://onlinelibrary.wiley.com/doi/abs/10.1002/ps.5211}.
+
+\bibitem{lauerburg_socio-ecological_2020}
+Lauerburg, R. A.~M., Diekmann, R., Blanz, B., Gee, K., Held, H., Kannen, A.,
+  \emph{et~al.}
+\newblock Socio-ecological vulnerability to tipping points: {A} review of
+  empirical approaches and their use for marine management.
+\newblock \emph{Science of The Total Environment}, \textbf{705}, 135838, feb.
+  2020.
+\newblock
+  \urlprefix\url{https://www.sciencedirect.com/science/article/pii/S0048969719358334}.
+
+\bibitem{heinze_quiet_2021}
+Heinze, C., Blenckner, T., Martins, H., Rusiecka, D., Döscher, R., Gehlen, M.,
+  \emph{et~al.}
+\newblock The quiet crossing of ocean tipping points.
+\newblock \emph{Proceedings of the National Academy of Sciences},
+  \textbf{118}~(9), e2008478118, mar. 2021.
+\newblock
+  \urlprefix\url{https://www.pnas.org/doi/full/10.1073/pnas.2008478118}.
+
+\bibitem{petridou_rigidity_2021}
+Petridou, N.~I., Corominas-Murtra, B., Heisenberg, C.-P., Hannezo, E.
+\newblock Rigidity percolation uncovers a structural basis for embryonic tissue
+  phase transitions.
+\newblock \emph{Cell}, \textbf{184}~(7), 1914--1928.e19, abr. 2021.
+\newblock
+  \urlprefix\url{https://www.cell.com/cell/abstract/S0092-8674(21)00167-7}.
+
+\bibitem{garcia-ojalvo_modeling_2004}
+Garcia-Ojalvo, J., Elowitz, M.~B., Strogatz, S.~H.
+\newblock Modeling a synthetic multicellular clock: {Repressilators} coupled by
+  quorum sensing.
+\newblock \emph{Proceedings of the National Academy of Sciences},
+  \textbf{101}~(30), 10955--10960, jul. 2004.
+\newblock
+  \urlprefix\url{https://www.pnas.org/doi/full/10.1073/pnas.0307095101}.
+
+\bibitem{forgacs_phase_1991}
+Forgacs, G., Newman, S.~A., Obukhov, S.~P., Birk, D.~E.
+\newblock Phase transition and morphogenesis in a model biological system.
+\newblock \emph{Physical Review Letters}, \textbf{67}~(17), 2399--2402, oct.
+  1991.
+\newblock \urlprefix\url{https://link.aps.org/doi/10.1103/PhysRevLett.67.2399}.
+
+\bibitem{newman_phase_2004}
+Newman, S.~A., Forgacs, G., Hinner, B., Maier, C.~W., Sackmann, E.
+\newblock Phase transformations in a model mesenchymal tissue.
+\newblock \emph{Physical Biology}, \textbf{1}~(2), 100, jun. 2004.
+\newblock \urlprefix\url{https://dx.doi.org/10.1088/1478-3967/1/2/006}.
+
+\bibitem{alvarado_molecular_2013}
+Alvarado, J., Sheinman, M., Sharma, A., MacKintosh, F.~C., Koenderink, G.~H.
+\newblock Molecular motors robustly drive active gels to a critically connected
+  state.
+\newblock \emph{Nature Physics}, \textbf{9}~(9), 591--597, sep. 2013.
+\newblock \urlprefix\url{https://www.nature.com/articles/nphys2715}.
+
+\bibitem{magee_jr_theory_1963}
+Magee~Jr., W.~S., Gibbs, J.~H., Zimm, B.~H.
+\newblock Theory of helix–coil transitions involving complementary poly- and
+  oligo-nucleotides. {I}. {The} complete binding case.
+\newblock \emph{Biopolymers}, \textbf{1}~(2), 133--143, 1963.
+\newblock
+  \urlprefix\url{https://onlinelibrary.wiley.com/doi/abs/10.1002/bip.360010204}.
+
+\bibitem{li_phase_2006}
+Li, Y.~C., Retzloff, D.
+\newblock Phase transition as a mechanism of {DNA} opening for replication and
+  transcription.
+\newblock \emph{Mathematical Biosciences}, \textbf{203}~(1), 137--147, sep.
+  2006.
+
+\bibitem{kelso_phase_1984}
+Kelso, J.~A.
+\newblock Phase transitions and critical behavior in human bimanual
+  coordination.
+\newblock \emph{American Journal of Physiology-Regulatory, Integrative and
+  Comparative Physiology}, \textbf{246}~(6), R1000--R1004, jun. 1984.
+\newblock
+  \urlprefix\url{https://journals.physiology.org/doi/abs/10.1152/ajpregu.1984.246.6.R1000}.
+
+\bibitem{freeman_metastability_2005}
+Freeman, W.~J., Holmes, M.~D.
+\newblock Metastability, instability, and state transition in neocortex.
+\newblock \emph{Neural Networks}, \textbf{18}~(5), 497--504, jul. 2005.
+\newblock
+  \urlprefix\url{https://www.sciencedirect.com/science/article/pii/S0893608005001085}.
+
+\bibitem{rabinovich_dynamical_2006}
+Rabinovich, M.~I., Varona, P., Selverston, A.~I., Abarbanel, H. D.~I.
+\newblock Dynamical principles in neuroscience.
+\newblock \emph{Reviews of Modern Physics}, \textbf{78}~(4), 1213--1265, nov.
+  2006.
+\newblock \urlprefix\url{https://link.aps.org/doi/10.1103/RevModPhys.78.1213}.
+
+\bibitem{werner_metastability_2007}
+Werner, G.
+\newblock Metastability, criticality and phase transitions in brain and its
+  models.
+\newblock \emph{Bio Systems}, 2007.
+
+\bibitem{adamatzky_chaos_2013}
+Adamatzky, A., Chen, G.
+\newblock Chaos, {CNN}, {Memristors} and {Beyond}: {A} {Festschrift} for {Leon}
+  {ChuaWith} {DVD}-{ROM}, composed by {Eleonora} {Bilotta}.
+\newblock WORLD SCIENTIFIC, 2013.
+\newblock
+  \urlprefix\url{https://www.worldscientific.com/worldscibooks/10.1142/8590}.
+
+\bibitem{haken_principles_1996}
+Haken, H., Haken, H.
+\newblock Principles of {Brain} {Functioning}, tomo~67 de \emph{Springer
+  {Series} in {Synergetics}}.
+\newblock Berlin, Heidelberg: Springer, 1996.
+\newblock \urlprefix\url{http://link.springer.com/10.1007/978-3-642-79570-1}.
+
+\bibitem{tsuchiya_self-organizing_2016}
+Tsuchiya, M., Giuliani, A., Hashimoto, M., Erenpreisa, J., Yoshikawa, K.
+\newblock Self-{Organizing} {Global} {Gene} {Expression} {Regulated} through
+  {Criticality}: {Mechanism} of the {Cell}-{Fate} {Change}.
+\newblock \emph{PLOS ONE}, \textbf{11}~(12), e0167912, dic. 2016.
+\newblock
+  \urlprefix\url{https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0167912}.
+
+\bibitem{larkin_signal_2018}
+Larkin, J.~W., Zhai, X., Kikuchi, K., Redford, S., Prindle, A., Liu, J.,
+  \emph{et~al.}
+\newblock Signal percolation within a bacterial community.
+\newblock \emph{Cell systems}, \textbf{7}~(2), 137--145.e3, ago. 2018.
+\newblock
+  \urlprefix\url{https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6214369/}.
+
+\bibitem{chen_c_2021}
+Chen, Y., Ferrell, J.~E.
+\newblock C. elegans colony formation as a condensation phenomenon.
+\newblock \emph{Nature Communications}, \textbf{12}~(1), 4947, ago. 2021.
+\newblock \urlprefix\url{https://www.nature.com/articles/s41467-021-25244-9}.
+
+\bibitem{hesse_self-organized_2014}
+Hesse, J., Gross, T.
+\newblock Self-organized criticality as a fundamental property of neural
+  systems.
+\newblock \emph{Frontiers in Systems Neuroscience}, \textbf{8}, 2014.
+\newblock
+  \urlprefix\url{https://www.frontiersin.org/articles/10.3389/fnsys.2014.00166}.
+
+\bibitem{legenstein_edge_2007}
+Legenstein, R., Maass, W.
+\newblock Edge of chaos and prediction of computational performance for neural
+  circuit models.
+\newblock \emph{Neural Networks}, \textbf{20}~(3), 323--334, abr. 2007.
+\newblock
+  \urlprefix\url{https://www.sciencedirect.com/science/article/pii/S0893608007000433}.
+
+\bibitem{tagliazucchi_signatures_2017}
+Tagliazucchi, E.
+\newblock The signatures of conscious access and its phenomenology are
+  consistent with large-scale brain communication at criticality.
+\newblock \emph{Consciousness and Cognition}, \textbf{55}, 136--147, oct. 2017.
+\newblock
+  \urlprefix\url{https://www.sciencedirect.com/science/article/pii/S1053810017300478}.
+
+\bibitem{shew_neuronal_2009}
+Shew, W.~L., Yang, H., Petermann, T., Roy, R., Plenz, D.
+\newblock Neuronal {Avalanches} {Imply} {Maximum} {Dynamic} {Range} in
+  {Cortical} {Networks} at {Criticality}.
+\newblock \emph{Journal of Neuroscience}, \textbf{29}~(49), 15595--15600, dic.
+  2009.
+\newblock \urlprefix\url{https://www.jneurosci.org/content/29/49/15595}.
+
+\bibitem{bertschinger_real-time_2004}
+Bertschinger, N., Natschl\"ager, T.
+\newblock Real-{Time} {Computation} at the {Edge} of {Chaos} in {Recurrent}
+  {Neural} {Networks}.
+\newblock \emph{Neural Computation}, \textbf{16}~(7), 1413--1436, jul. 2004.
+\newblock \urlprefix\url{https://doi.org/10.1162/089976604323057443}.
+
+\bibitem{plenz_organizing_2007}
+Plenz, D., Thiagarajan, T.~C.
+\newblock The organizing principles of neuronal avalanches: cell assemblies in
+  the cortex?
+\newblock \emph{Trends in Neurosciences}, \textbf{30}~(3), 101--110, mar. 2007.
+\newblock
+  \urlprefix\url{https://www.cell.com/trends/neurosciences/abstract/S0166-2236(07)00019-7}.
+
+\bibitem{beggs_criticality_2007}
+Beggs, J.~M.
+\newblock The criticality hypothesis: how local cortical networks might
+  optimize information processing.
+\newblock \emph{Philosophical Transactions of the Royal Society A:
+  Mathematical, Physical and Engineering Sciences}, \textbf{366}~(1864),
+  329--343, ago. 2007.
+\newblock
+  \urlprefix\url{https://royalsocietypublishing.org/doi/10.1098/rsta.2007.2092}.
+
+\bibitem{haldeman_critical_2005}
+Haldeman, C., Beggs, J.~M.
+\newblock Critical {Branching} {Captures} {Activity} in {Living} {Neural}
+  {Networks} and {Maximizes} the {Number} of {Metastable} {States}.
+\newblock \emph{Physical Review Letters}, \textbf{94}~(5), 058101, feb. 2005.
+\newblock
+  \urlprefix\url{https://link.aps.org/doi/10.1103/PhysRevLett.94.058101}.
+
+\bibitem{lombardi_balance_2012}
+Lombardi, F., Herrmann, H.~J., Perrone-Capano, C., Plenz, D., de~Arcangelis, L.
+\newblock Balance between {Excitation} and {Inhibition} {Controls} the
+  {Temporal} {Organization} of {Neuronal} {Avalanches}.
+\newblock \emph{Physical Review Letters}, \textbf{108}~(22), 228703, mayo 2012.
+\newblock
+  \urlprefix\url{https://link.aps.org/doi/10.1103/PhysRevLett.108.228703}.
+
+\bibitem{vazquez-rodriguez_stochastic_2017}
+Vázquez-Rodríguez, B., Avena-Koenigsberger, A., Sporns, O., Griffa, A.,
+  Hagmann, P., Larralde, H.
+\newblock Stochastic resonance at criticality in a network model of the human
+  cortex.
+\newblock \emph{Scientific Reports}, \textbf{7}~(1), 13020, oct. 2017.
+\newblock \urlprefix\url{https://www.nature.com/articles/s41598-017-13400-5}.
+
+\bibitem{kinouchi_optimal_2006}
+Kinouchi, O., Copelli, M.
+\newblock Optimal dynamical range of excitable networks at criticality.
+\newblock \emph{Nature Physics}, \textbf{2}~(5), 348--351, mayo 2006.
+\newblock \urlprefix\url{https://www.nature.com/articles/nphys289}.
+
+\bibitem{liu_plasticity_2015}
+Liu, K. K.~L., Bartsch, R.~P., Lin, A., Mantegna, R.~N., Ivanov, P.~C.
+\newblock Plasticity of brain wave network interactions and evolution across
+  physiologic states.
+\newblock \emph{Frontiers in Neural Circuits}, \textbf{9}, 2015.
+\newblock
+  \urlprefix\url{https://www.frontiersin.org/articles/10.3389/fncir.2015.00062}.
+
+\bibitem{schneidman_weak_2006}
+Schneidman, E., Berry, M.~J., Segev, R., Bialek, W.
+\newblock Weak pairwise correlations imply strongly correlated network states
+  in a neural population.
+\newblock \emph{Nature}, \textbf{440}~(7087), 1007--1012, abr. 2006.
+\newblock \urlprefix\url{https://www.nature.com/articles/nature04701}.
+
+\bibitem{beggs_neuronal_2003}
+Beggs, J.~M., Plenz, D.
+\newblock Neuronal {Avalanches} in {Neocortical} {Circuits}.
+\newblock \emph{Journal of Neuroscience}, \textbf{23}~(35), 11167--11177, dic.
+  2003.
+\newblock \urlprefix\url{https://www.jneurosci.org/content/23/35/11167}.
+
+\bibitem{kauffman_emergent_1984}
+Kauffman, S.~A.
+\newblock Emergent properties in random complex automata.
+\newblock \emph{Physica D: Nonlinear Phenomena}, \textbf{10}, ene. 1984.
+\newblock
+  \urlprefix\url{https://www.sciencedirect.com/science/article/pii/0167278984902574}.
+
+\bibitem{derrida_random_1986}
+Derrida, B., Pomeau, Y.
+\newblock Random {Networks} of {Automata}: {A} {Simple} {Annealed}
+  {Approximation}.
+\newblock \emph{Europhysics Letters}, \textbf{1}~(2), 45, ene. 1986.
+\newblock \urlprefix\url{https://dx.doi.org/10.1209/0295-5075/1/2/001}.
+
+\bibitem{langton_computation_1990}
+Langton, C.~G.
+\newblock Computation at the edge of chaos: {Phase} transitions and emergent
+  computation.
+\newblock \emph{Physica D: Nonlinear Phenomena}, \textbf{42}~(1), 12--37, jun.
+  1990.
+\newblock
+  \urlprefix\url{https://www.sciencedirect.com/science/article/pii/016727899090064V}.
+
+\bibitem{carstens_brain-like_2022}
+Carstens, N., Adejube, B., Strunskus, T., Faupel, F., Brown, S., Vahl, A.
+\newblock Brain-like critical dynamics and long-range temporal correlations in
+  percolating networks of silver nanoparticles and functionality preservation
+  after integration of insulating matrix.
+\newblock \emph{Nanoscale Advances}, \textbf{4}~(15), 3149--3160, jul. 2022.
+
+\bibitem{haykin_what_2007}
+Haykin, S., Principe, J.~C., Sejnowski, T.~J., Mcwhirter, J.
+\newblock What {Makes} a {Dynamical} {System} {Computationally} {Powerful}?
+\newblock \underline{En}: New {Directions} in {Statistical} {Signal}
+  {Processing}: {From} {Systems} to {Brains}, p\'ags. 127--154. MIT Press,
+  2007.
+\newblock \urlprefix\url{https://ieeexplore.ieee.org/document/6282087}.
+
+\bibitem{fontenele_criticality_2019}
+Fontenele, A.~J., de~Vasconcelos, N.~A., Feliciano, T., Aguiar, L.~A.,
+  Soares-Cunha, C., Coimbra, B., \emph{et~al.}
+\newblock Criticality between {Cortical} {States}.
+\newblock \emph{Physical Review Letters}, \textbf{122}~(20), 208101, mayo 2019.
+\newblock
+  \urlprefix\url{https://link.aps.org/doi/10.1103/PhysRevLett.122.208101}.
+
+\bibitem{beggs_neuronal_2004}
+Beggs, J.~M., Plenz, D.
+\newblock Neuronal {Avalanches} {Are} {Diverse} and {Precise} {Activity}
+  {Patterns} {That} {Are} {Stable} for {Many} {Hours} in {Cortical} {Slice}
+  {Cultures}.
+\newblock \emph{Journal of Neuroscience}, \textbf{24}~(22), 5216--5229, 2004.
+\newblock \urlprefix\url{https://www.jneurosci.org/content/24/22/5216}.
+
+\bibitem{hahn_neuronal_2010}
+Hahn, G., Petermann, T., Havenith, M.~N., Yu, S., Singer, W., Plenz, D.,
+  \emph{et~al.}
+\newblock Neuronal {Avalanches} in {Spontaneous} {Activity} {In} {Vivo}.
+\newblock \emph{Journal of Neurophysiology}, \textbf{104}~(6), 3312--3322, dic.
+  2010.
+\newblock
+  \urlprefix\url{https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3007625/}.
+
+\bibitem{petermann_spontaneous_2009}
+Petermann, T., Thiagarajan, T.~C., Lebedev, M.~A., Nicolelis, M. A.~L.,
+  Chialvo, D.~R., Plenz, D.
+\newblock Spontaneous cortical activity in awake monkeys composed of neuronal
+  avalanches.
+\newblock \emph{Proceedings of the National Academy of Sciences},
+  \textbf{106}~(37), 15921--15926, sep. 2009.
+\newblock
+  \urlprefix\url{https://www.pnas.org/doi/full/10.1073/pnas.0904089106}.
+
+\bibitem{shriki_neuronal_2013}
+Shriki, O., Alstott, J., Carver, F., Holroyd, T., Henson, R.~N., Smith, M.~L.,
+  \emph{et~al.}
+\newblock Neuronal {Avalanches} in the {Resting} {MEG} of the {Human} {Brain}.
+\newblock \emph{The Journal of Neuroscience}, \textbf{33}~(16), 7079--7090,
+  abr. 2013.
+\newblock
+  \urlprefix\url{https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3665287/}.
+
+\bibitem{tagliazucchi_criticality_2012}
+Tagliazucchi, E., Balenzuela, P., Fraiman, D., Chialvo, D.
+\newblock Criticality in {Large}-{Scale} {Brain} {fMRI} {Dynamics} {Unveiled}
+  by a {Novel} {Point} {Process} {Analysis}.
+\newblock \emph{Frontiers in Physiology}, \textbf{3}, 2012.
+\newblock
+  \urlprefix\url{https://www.frontiersin.org/articles/10.3389/fphys.2012.00015}.
+
+\bibitem{linkenkaer-hansen_long-range_2001}
+Linkenkaer-Hansen, K., Nikouline, V.~V., Palva, J.~M., Ilmoniemi, R.~J.
+\newblock Long-{Range} {Temporal} {Correlations} and {Scaling} {Behavior} in
+  {Human} {Brain} {Oscillations}.
+\newblock \emph{Journal of Neuroscience}, \textbf{21}~(4), 1370--1377, feb.
+  2001.
+\newblock \urlprefix\url{https://www.jneurosci.org/content/21/4/1370}.
+
+\bibitem{expert_self-similar_2010}
+Expert, P., Lambiotte, R., Chialvo, D.~R., Christensen, K., Jensen, H.~J.,
+  Sharp, D.~J., \emph{et~al.}
+\newblock Self-similar correlation function in brain resting-state functional
+  magnetic resonance imaging.
+\newblock \emph{Journal of The Royal Society Interface}, \textbf{8}~(57),
+  472--479, sep. 2010.
+\newblock
+  \urlprefix\url{https://royalsocietypublishing.org/doi/10.1098/rsif.2010.0416}.
+
+\bibitem{fraiman_what_2012}
+Fraiman, D., Chialvo, D.
+\newblock What kind of noise is brain noise: anomalous scaling behavior of the
+  resting brain activity fluctuations.
+\newblock \emph{Frontiers in Physiology}, \textbf{3}, 2012.
+\newblock
+  \urlprefix\url{https://www.frontiersin.org/articles/10.3389/fphys.2012.00307}.
+
+\bibitem{kitzbichler_broadband_2009}
+Kitzbichler, M.~G., Smith, M.~L., Christensen, S.~R., Bullmore, E.
+\newblock Broadband {Criticality} of {Human} {Brain} {Network}
+  {Synchronization}.
+\newblock \emph{PLOS Computational Biology}, \textbf{5}~(3), e1000314, mar.
+  2009.
+\newblock
+  \urlprefix\url{https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1000314}.
+
+\bibitem{van_orden_human_2005}
+Van~Orden, G.~C., Holden, J.~G., Turvey, M.~T.
+\newblock Human {Cognition} and 1/f {Scaling}.
+\newblock \emph{Journal of Experimental Psychology: General}, \textbf{134},
+  117--123, 2005.
+
+\bibitem{shew_adaptation_2015}
+Shew, W.~L., Clawson, W.~P., Pobst, J., Karimipanah, Y., Wright, N.~C., Wessel,
+  R.
+\newblock Adaptation to sensory input tunes visual cortex to criticality.
+\newblock \emph{Nature Physics}, \textbf{11}~(8), 659--663, ago. 2015.
+\newblock \urlprefix\url{https://www.nature.com/articles/nphys3370}.
+
+\bibitem{ribeiro_trial-by-trial_2022}
+Ribeiro, T.~L., Jendrichovsky, P., Yu, S., Martin, D.~A., Kanold, P., Chialvo,
+  D.~R., \emph{et~al.}
+\newblock Trial-by-{Trial} {Variability} in {Cortical} {Responses} {Exhibits}
+  {Scaling} in {Spatial} {Correlations} {Predicted} {From} {Critical}
+  {Dynamics}, mayo 2022.
+\newblock \urlprefix\url{https://papers.ssrn.com/abstract=4102639}.
+
+\bibitem{haimovici_brain_2013}
+Haimovici, A., Tagliazucchi, E., Balenzuela, P., Chialvo, D.~R.
+\newblock Brain {Organization} into {Resting} {State} {Networks} {Emerges} at
+  {Criticality} on a {Model} of the {Human} {Connectome}.
+\newblock \emph{Physical Review Letters}, \textbf{110}~(17), 178101, abr. 2013.
+\newblock
+  \urlprefix\url{https://link.aps.org/doi/10.1103/PhysRevLett.110.178101}.
+
+\bibitem{moretti_griffiths_2013}
+Moretti, P., Muñoz, M.~A.
+\newblock Griffiths phases and the stretching of criticality in brain networks.
+\newblock \emph{Nature Communications}, \textbf{4}~(1), 2521, oct. 2013.
+\newblock \urlprefix\url{https://www.nature.com/articles/ncomms3521}.
+
+\bibitem{christensen_evolution_1998}
+Christensen, K., Donangelo, R., Koiller, B., Sneppen, K.
+\newblock Evolution of {Random} {Networks}.
+\newblock \emph{Physical Review Letters}, \textbf{81}~(11), 2380--2383, sep.
+  1998.
+\newblock \urlprefix\url{https://link.aps.org/doi/10.1103/PhysRevLett.81.2380}.
+
+\bibitem{bornholdt_topological_2000}
+Bornholdt, S., Rohlf, T.
+\newblock Topological {Evolution} of {Dynamical} {Networks}: {Global}
+  {Criticality} from {Local} {Dynamics}.
+\newblock \emph{Physical Review Letters}, \textbf{84}~(26), 6114--6117, jun.
+  2000.
+\newblock \urlprefix\url{https://link.aps.org/doi/10.1103/PhysRevLett.84.6114}.
+
+\bibitem{bornholdt_self-organized_2003}
+Bornholdt, S., Röhl, T.
+\newblock Self-organized critical neural networks.
+\newblock \emph{Physical Review E}, \textbf{67}~(6), 066118, jun. 2003.
+\newblock \urlprefix\url{https://link.aps.org/doi/10.1103/PhysRevE.67.066118}.
+
+\bibitem{tadic_self-organised_2021}
+Tadić, B., Melnik, R.
+\newblock Self-{Organised} {Critical} {Dynamics} as a {Key} to {Fundamental}
+  {Features} of {Complexity} in {Physical}, {Biological}, and {Social}
+  {Networks}.
+\newblock \emph{Dynamics}, \textbf{1}~(2), 181--197, dic. 2021.
+\newblock \urlprefix\url{https://www.mdpi.com/2673-8716/1/2/11}.
+
+\bibitem{gross_adaptive_2007}
+Gross, T., Blasius, B.
+\newblock Adaptive coevolutionary networks: a review.
+\newblock \emph{Journal of The Royal Society Interface}, \textbf{5}~(20),
+  259--271, oct. 2007.
+\newblock
+  \urlprefix\url{https://royalsocietypublishing.org/doi/10.1098/rsif.2007.1229}.
+
+\bibitem{jensen_self-organized_1998}
+Jensen, H.~J.
+\newblock Self-{Organized} {Criticality}: {Emergent} {Complex} {Behavior} in
+  {Physical} and {Biological} {Systems}.
+\newblock Cambridge University Press, 1998.
+
+\bibitem{pruessner_self-organised_2012}
+Pruessner, G.
+\newblock Self-{Organised} {Criticality}: {Theory}, {Models} and
+  {Characterisation}.
+\newblock Cambridge: Cambridge University Press, 2012.
+\newblock
+  \urlprefix\url{https://www.cambridge.org/core/books/selforganised-criticality/2AEAD437DD44A6ACBF83B57A45BF8339}.
+
+\bibitem{bonachela_self-organization_2009}
+Bonachela, J.~A., Muñoz, M.~A.
+\newblock Self-organization without conservation: true or just apparent
+  scale-invariance?
+\newblock \emph{Journal of Statistical Mechanics: Theory and Experiment},
+  \textbf{2009}~(09), P09009, sep. 2009.
+\newblock \urlprefix\url{https://dx.doi.org/10.1088/1742-5468/2009/09/P09009}.
+
+\bibitem{bonachela_self-organization_2010}
+Bonachela, J.~A., Franciscis, S.~d., Torres, J.~J., Muñoz, M.~A.
+\newblock Self-organization without conservation: are neuronal avalanches
+  generically critical?
+\newblock \emph{Journal of Statistical Mechanics: Theory and Experiment},
+  \textbf{2010}~(02), P02015, feb. 2010.
+\newblock \urlprefix\url{https://dx.doi.org/10.1088/1742-5468/2010/02/P02015}.
+
+\bibitem{buendia_feedback_2020}
+Buendía, V., di~Santo, S., Bonachela, J.~A., Muñoz, M.~A.
+\newblock Feedback {Mechanisms} for {Self}-{Organization} to the {Edge} of a
+  {Phase} {Transition}.
+\newblock \emph{Frontiers in Physics}, \textbf{8}, 2020.
+\newblock
+  \urlprefix\url{https://www.frontiersin.org/articles/10.3389/fphy.2020.00333}.
+
+\bibitem{palmieri_emergence_2018}
+Palmieri, L., Jensen, H.~J.
+\newblock The emergence of weak criticality in {SOC} systems.
+\newblock \emph{Europhysics Letters}, \textbf{123}~(2), 20002, ago. 2018.
+\newblock
+  \urlprefix\url{https://iopscience.iop.org/article/10.1209/0295-5075/123/20002/meta}.
+
+\bibitem{palmieri_forest_2020}
+Palmieri, L., Jensen, H.~J.
+\newblock The {Forest} {Fire} {Model}: {The} {Subtleties} of {Criticality} and
+  {Scale} {Invariance}.
+\newblock \emph{Frontiers in Physics}, \textbf{8}, 2020.
+\newblock
+  \urlprefix\url{https://www.frontiersin.org/articles/10.3389/fphy.2020.00257}.
+
+\bibitem{kinouchi_mechanisms_2020}
+Kinouchi, O., Pazzini, R., Copelli, M.
+\newblock Mechanisms of {Self}-{Organized} {Quasicriticality} in {Neuronal}
+  {Network} {Models}.
+\newblock \emph{Frontiers in Physics}, \textbf{8}, 2020.
+\newblock
+  \urlprefix\url{https://www.frontiersin.org/articles/10.3389/fphy.2020.583213}.
+
+\bibitem{zeraati_self-organization_2021}
+Zeraati, R., Priesemann, V., Levina, A.
+\newblock Self-{Organization} {Toward} {Criticality} by {Synaptic}
+  {Plasticity}.
+\newblock \emph{Frontiers in Physics}, \textbf{9}, 2021.
+\newblock
+  \urlprefix\url{https://www.frontiersin.org/articles/10.3389/fphy.2021.619661}.
+
+\bibitem{meisel_adaptive_2009}
+Meisel, C., Gross, T.
+\newblock Adaptive self-organization in a realistic neural network model.
+\newblock \emph{Physical Review E}, \textbf{80}~(6), 061917, dic. 2009.
+\newblock \urlprefix\url{https://link.aps.org/doi/10.1103/PhysRevE.80.061917}.
+
+\bibitem{droste_analytical_2013}
+Droste, F., Do, A.-L., Gross, T.
+\newblock Analytical investigation of self-organized criticality in neural
+  networks.
+\newblock \emph{Journal of The Royal Society Interface}, \textbf{10}~(78),
+  20120558, ene. 2013.
+\newblock
+  \urlprefix\url{https://royalsocietypublishing.org/doi/10.1098/rsif.2012.0558}.
+
+\bibitem{tetzlaff_self-organized_2010}
+Tetzlaff, C., Okujeni, S., Egert, U., W\"org\"otter, F., Butz, M.
+\newblock Self-{Organized} {Criticality} in {Developing} {Neuronal} {Networks}.
+\newblock \emph{PLOS Computational Biology}, \textbf{6}~(12), 1--18, dic. 2010.
+\newblock \urlprefix\url{https://doi.org/10.1371/journal.pcbi.1001013}.
+
+\bibitem{meisel_failure_2012}
+Meisel, C., Storch, A., Hallmeyer-Elgner, S., Bullmore, E., Gross, T.
+\newblock Failure of {Adaptive} {Self}-{Organized} {Criticality} during
+  {Epileptic} {Seizure} {Attacks}.
+\newblock \emph{PLOS Computational Biology}, \textbf{8}~(1), e1002312, ene.
+  2012.
+\newblock
+  \urlprefix\url{https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1002312}.
+
+\bibitem{rocha_homeostatic_2018}
+Rocha, R.~P., Koçillari, L., Suweis, S., Corbetta, M., Maritan, A.
+\newblock Homeostatic plasticity and emergence of functional networks in a
+  whole-brain model at criticality.
+\newblock \emph{Scientific Reports}, \textbf{8}~(1), 15682, oct. 2018.
+\newblock \urlprefix\url{https://www.nature.com/articles/s41598-018-33923-9}.
+
+\bibitem{plenz_self-organized_2021}
+Plenz, D., Ribeiro, T.~L., Miller, S.~R., Kells, P.~A., Vakili, A., Capek,
+  E.~L.
+\newblock Self-{Organized} {Criticality} in the {Brain}.
+\newblock \emph{Frontiers in Physics}, \textbf{9}, 2021.
+\newblock
+  \urlprefix\url{https://www.frontiersin.org/articles/10.3389/fphy.2021.639389}.
+
+\bibitem{levina_phase_2009}
+Levina, A., Herrmann, J.~M., Geisel, T.
+\newblock Phase {Transitions} towards {Criticality} in a {Neural} {System} with
+  {Adaptive} {Interactions}.
+\newblock \emph{Physical Review Letters}, \textbf{102}~(11), 118110, mar. 2009.
+\newblock
+  \urlprefix\url{https://link.aps.org/doi/10.1103/PhysRevLett.102.118110}.
+
+\bibitem{ma_cortical_2019}
+Ma, Z., Turrigiano, G.~G., Wessel, R., Hengen, K.~B.
+\newblock Cortical {Circuit} {Dynamics} {Are} {Homeostatically} {Tuned} to
+  {Criticality} {In} {Vivo}.
+\newblock \emph{Neuron}, \textbf{104}~(4), 655--664.e4, nov. 2019.
+\newblock
+  \urlprefix\url{https://www.cell.com/neuron/abstract/S0896-6273(19)30737-8}.
+
+\bibitem{heiney_criticality_2021}
+Heiney, K., Huse~Ramstad, O., Fiskum, V., Christiansen, N., Sandvig, A.,
+  Nichele, S., \emph{et~al.}
+\newblock Criticality, {Connectivity}, and {Neural} {Disorder}: {A}
+  {Multifaceted} {Approach} to {Neural} {Computation}.
+\newblock \emph{Frontiers in Computational Neuroscience}, \textbf{15}, 2021.
+\newblock
+  \urlprefix\url{https://www.frontiersin.org/articles/10.3389/fncom.2021.611183}.
+
+\bibitem{osorio_epileptic_2010}
+Osorio, I., Frei, M.~G., Sornette, D., Milton, J., Lai, Y.-C.
+\newblock Epileptic seizures: {Quakes} of the brain?
+\newblock \emph{Physical Review E}, \textbf{82}~(2), 021919, ago. 2010.
+\newblock \urlprefix\url{https://link.aps.org/doi/10.1103/PhysRevE.82.021919}.
+
+\bibitem{witton_rogue_2019}
+Witton, C., Sergeyev, S.~V., Turitsyna, E.~G., Furlong, P.~L., Seri, S.,
+  Brookes, M., \emph{et~al.}
+\newblock Rogue bioelectrical waves in the brain: the {Hurst} exponent as a
+  potential measure for presurgical mapping in epilepsy.
+\newblock \emph{Journal of Neural Engineering}, \textbf{16}~(5), 056019, ago.
+  2019.
+\newblock \urlprefix\url{https://dx.doi.org/10.1088/1741-2552/ab225e}.
+
+\bibitem{kramer_human_2012}
+Kramer, M.~A., Truccolo, W., Eden, U.~T., Lepage, K.~Q., Hochberg, L.~R.,
+  Eskandar, E.~N., \emph{et~al.}
+\newblock Human seizures self-terminate across spatial scales via a critical
+  transition.
+\newblock \emph{Proceedings of the National Academy of Sciences of the United
+  States of America}, \textbf{109}~(51), 21116--21121, dic. 2012.
+
+\bibitem{moosavi_criticality_2023}
+Moosavi, S.~A., Truccolo, W.
+\newblock Criticality in probabilistic models of spreading dynamics in brain
+  networks: {Epileptic} seizures.
+\newblock \emph{PLOS Computational Biology}, \textbf{19}~(2), e1010852, feb.
+  2023.
+\newblock
+  \urlprefix\url{https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1010852}.
+
+\bibitem{meisel_antiepileptic_2020}
+Meisel, C.
+\newblock Antiepileptic drugs induce subcritical dynamics in human cortical
+  networks.
+\newblock \emph{Proceedings of the National Academy of Sciences},
+  \textbf{117}~(20), 11118--11125, mayo 2020.
+\newblock
+  \urlprefix\url{https://www.pnas.org/doi/full/10.1073/pnas.1911461117}.
+
+\bibitem{stam_disturbed_2005}
+Stam, C.~J., Montez, T., Jones, B.~F., Rombouts, S. A. R.~B., van~der Made, Y.,
+  Pijnenburg, Y. A.~L., \emph{et~al.}
+\newblock Disturbed fluctuations of resting state {EEG} synchronization in
+  {Alzheimer}'s disease.
+\newblock \emph{Clinical Neurophysiology}, \textbf{116}~(3), 708--715, mar.
+  2005.
+\newblock
+  \urlprefix\url{https://www.sciencedirect.com/science/article/pii/S1388245704003797}.
+
+\bibitem{montez_altered_2009}
+Montez, T., Poil, S.-S., Jones, B.~F., Manshanden, I., Verbunt, J. P.~A., van
+  Dijk, B.~W., \emph{et~al.}
+\newblock Altered temporal correlations in parietal alpha and prefrontal theta
+  oscillations in early-stage {Alzheimer} disease.
+\newblock \emph{Proceedings of the National Academy of Sciences},
+  \textbf{106}~(5), 1614--1619, feb. 2009.
+\newblock
+  \urlprefix\url{https://www.pnas.org/doi/full/10.1073/pnas.0811699106}.
+
+\bibitem{vysata_change_2014}
+Vyšata, O., Procházka, A., Mareš, J., Rusina, R., Pazdera, L., Vališ, M.,
+  \emph{et~al.}
+\newblock Change in the {Characteristics} of {EEG} {Color} {Noise} in
+  {Alzheimer}’s {Disease}.
+\newblock \emph{Clinical EEG and Neuroscience}, \textbf{45}~(3), 147--151, jul.
+  2014.
+\newblock \urlprefix\url{https://doi.org/10.1177/1550059413491558}.
+
+\bibitem{hohlefeld_long-range_2012}
+Hohlefeld, F.~U., Huebl, J., Huchzermeyer, C., Schneider, G.-H., Schönecker,
+  T., Kühn, A.~A., \emph{et~al.}
+\newblock Long-range temporal correlations in the subthalamic nucleus of
+  patients with {Parkinson}’s disease.
+\newblock \emph{European Journal of Neuroscience}, \textbf{36}~(6), 2812--2821,
+  2012.
+\newblock
+  \urlprefix\url{https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1460-9568.2012.08198.x}.
+
+\bibitem{herrojo_ruiz_long-range_2014}
+Herrojo~Ruiz, M., Hong, S.~B., Hennig, H., Altenmüller, E., Kühn, A.~A.
+\newblock Long-range correlation properties in timing of skilled piano
+  performance: the influence of auditory feedback and deep brain stimulation.
+\newblock \emph{Frontiers in Psychology}, \textbf{5}, 1030, sep. 2014.
+\newblock
+  \urlprefix\url{https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4174744/}.
+
+\bibitem{west_parkinsonian_2016}
+West, T., Farmer, S., Berthouze, L., Jha, A., Beudel, M., Foltynie, T.,
+  \emph{et~al.}
+\newblock The {Parkinsonian} {Subthalamic} {Network}: {Measures} of {Power},
+  {Linear}, and {Non}-linear {Synchronization} and their {Relationship} to
+  {L}-{DOPA} {Treatment} and {OFF} {State} {Motor} {Severity}.
+\newblock \emph{Frontiers in Human Neuroscience}, \textbf{10}, 517, oct. 2016.
+\newblock
+  \urlprefix\url{https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5078477/}.
+
+\bibitem{rocha_recovery_2022}
+Rocha, R.~P., Koçillari, L., Suweis, S., De~Filippo De~Grazia, M.,
+  de~Schotten, M.~T., Zorzi, M., \emph{et~al.}
+\newblock Recovery of neural dynamics criticality in personalized whole-brain
+  models of stroke.
+\newblock \emph{Nature Communications}, \textbf{13}~(1), 3683, jun. 2022.
+\newblock \urlprefix\url{https://www.nature.com/articles/s41467-022-30892-6}.
+
+\bibitem{alonso_dynamical_2014}
+Alonso, L., Proekt, A., Schwartz, T., Pryor, K., Cecchi, G., Magnasco, M.
+\newblock Dynamical criticality during induction of anesthesia in human {ECoG}
+  recordings.
+\newblock \emph{Frontiers in Neural Circuits}, \textbf{8}, 2014.
+\newblock
+  \urlprefix\url{https://www.frontiersin.org/articles/10.3389/fncir.2014.00020}.
+
+\bibitem{thiery_long-range_2018}
+Thiery, T., Lajnef, T., Combrisson, E., Dehgan, A., Rainville, P., Mashour,
+  G.~A., \emph{et~al.}
+\newblock Long-range temporal correlations in the brain distinguish conscious
+  wakefulness from induced unconsciousness.
+\newblock \emph{NeuroImage}, \textbf{179}, 30--39, oct. 2018.
+\newblock
+  \urlprefix\url{https://www.sciencedirect.com/science/article/pii/S1053811918304956}.
+
+\bibitem{liu_scale-free_2014}
+Liu, X., Ward, B.~D., Binder, J.~R., Li, S.-J., Hudetz, A.~G.
+\newblock Scale-{Free} {Functional} {Connectivity} of the {Brain} {Is}
+  {Maintained} in {Anesthetized} {Healthy} {Participants} but {Not} in
+  {Patients} with {Unresponsive} {Wakefulness} {Syndrome}.
+\newblock \emph{PLOS ONE}, \textbf{9}~(3), e92182, mar. 2014.
+\newblock
+  \urlprefix\url{https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0092182}.
+
+\bibitem{bocaccio_avalanche-like_2019}
+Bocaccio, H., Pallavicini, C., Castro, M.~N., Sánchez, S.~M., De~Pino, G.,
+  Laufs, H., \emph{et~al.}
+\newblock The avalanche-like behaviour of large-scale haemodynamic activity
+  from wakefulness to deep sleep.
+\newblock \emph{Journal of The Royal Society Interface}, \textbf{16}~(158),
+  20190262, sep. 2019.
+\newblock
+  \urlprefix\url{https://royalsocietypublishing.org/doi/10.1098/rsif.2019.0262}.
+
+\bibitem{meisel_decline_2017}
+Meisel, C., Bailey, K., Achermann, P., Plenz, D.
+\newblock Decline of long-range temporal correlations in the human brain during
+  sustained wakefulness.
+\newblock \emph{Scientific Reports}, \textbf{7}~(1), 11825, sep. 2017.
+\newblock \urlprefix\url{https://www.nature.com/articles/s41598-017-12140-w}.
+
+\bibitem{colombo_more_2016}
+Colombo, M.~A., Wei, Y., Ramautar, J.~R., Linkenkaer-Hansen, K., Tagliazucchi,
+  E., Van~Someren, E. J.~W.
+\newblock More {Severe} {Insomnia} {Complaints} in {People} with {Stronger}
+  {Long}-{Range} {Temporal} {Correlations} in {Wake} {Resting}-{State} {EEG}.
+\newblock \emph{Frontiers in Physiology}, \textbf{7}, 2016.
+\newblock
+  \urlprefix\url{https://www.frontiersin.org/articles/10.3389/fphys.2016.00576}.
+
+\bibitem{lo_asymmetry_2013}
+Lo, C.-C., Bartsch, R.~P., Ivanov, P.~C.
+\newblock Asymmetry and basic pathways in sleep-stage transitions.
+\newblock \emph{Europhysics Letters}, \textbf{102}~(1), 10008, abr. 2013.
+\newblock \urlprefix\url{https://dx.doi.org/10.1209/0295-5075/102/10008}.
+
+\bibitem{padilla_breakdown_2020}
+Padilla, N., Saenger, V.~M., van Hartevelt, T.~J., Fernandes, H.~M.,
+  Lennartsson, F., Andersson, J. L.~R., \emph{et~al.}
+\newblock Breakdown of {Whole}-brain {Dynamics} in {Preterm}-born {Children}.
+\newblock \emph{Cerebral Cortex}, \textbf{30}~(3), 1159--1170, mar. 2020.
+\newblock \urlprefix\url{https://doi.org/10.1093/cercor/bhz156}.
+
+\bibitem{smit_scale-free_2011}
+Smit, D. J.~A., Geus, E. J. C.~d., Nieuwenhuijzen, M. E. v.~d., Beijsterveldt,
+  C. E. M.~v., Baal, G. C. M.~v., Mansvelder, H.~D., \emph{et~al.}
+\newblock Scale-{Free} {Modulation} of {Resting}-{State} {Neuronal}
+  {Oscillations} {Reflects} {Prolonged} {Brain} {Maturation} in {Humans}.
+\newblock \emph{Journal of Neuroscience}, \textbf{31}~(37), 13128--13136, sep.
+  2011.
+\newblock \urlprefix\url{https://www.jneurosci.org/content/31/37/13128}.
+
+\bibitem{mares_age-dependent_2013}
+Mareš, J., Vyšata, O., Procházka, A., Vališ, M.
+\newblock Age-dependent complex noise fluctuations in the brain.
+\newblock \emph{Physiological Measurement}, \textbf{34}~(10), 1269, sep. 2013.
+\newblock \urlprefix\url{https://dx.doi.org/10.1088/0967-3334/34/10/1269}.
+
+\bibitem{ezaki_closer_2020}
+Ezaki, T., Fonseca~dos Reis, E., Watanabe, T., Sakaki, M., Masuda, N.
+\newblock Closer to critical resting-state neural dynamics in individuals with
+  higher fluid intelligence.
+\newblock \emph{Communications Biology}, \textbf{3}~(1), 1--9, feb. 2020.
+\newblock \urlprefix\url{https://www.nature.com/articles/s42003-020-0774-y}.
+
+\bibitem{jia_attenuation_2018}
+Jia, H., Li, Y., Yu, D.
+\newblock Attenuation of long-range temporal correlations of neuronal
+  oscillations in young children with autism spectrum disorder.
+\newblock \emph{NeuroImage: Clinical}, \textbf{20}, 424--432, ene. 2018.
+\newblock
+  \urlprefix\url{https://www.sciencedirect.com/science/article/pii/S2213158218302535}.
+
+\bibitem{ouyang_decomposing_2020}
+Ouyang, G., Hildebrandt, A., Schmitz, F., Herrmann, C.~S.
+\newblock Decomposing alpha and 1/f brain activities reveals their differential
+  associations with cognitive processing speed.
+\newblock \emph{NeuroImage}, \textbf{205}, 116304, ene. 2020.
+\newblock
+  \urlprefix\url{https://www.sciencedirect.com/science/article/pii/S105381191930895X}.
+
+\bibitem{tinker_power_2014}
+Tinker, J., Velazquez, J. L.~P.
+\newblock Power law scaling in synchronization of brain signals depends on
+  cognitive load.
+\newblock \emph{Frontiers in Systems Neuroscience}, \textbf{8}, 73, mayo 2014.
+\newblock
+  \urlprefix\url{https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4013475/}.
+
+\bibitem{dimitriadis_altered_2013}
+Dimitriadis, S.~I., Laskaris, N.~A., Simos, P.~G., Micheloyannis, S., Fletcher,
+  J.~M., Rezaie, R., \emph{et~al.}
+\newblock Altered temporal correlations in resting-state connectivity
+  fluctuations in children with reading difficulties detected via {MEG}.
+\newblock \emph{NeuroImage}, \textbf{83}, 307--317, dic. 2013.
+\newblock
+  \urlprefix\url{https://www.sciencedirect.com/science/article/pii/S1053811913006733}.
+
+\bibitem{zhigalov_modulation_2016}
+Zhigalov, A., Kaplan, A., Palva, J.~M.
+\newblock Modulation of critical brain dynamics using closed-loop neurofeedback
+  stimulation.
+\newblock \emph{Clinical Neurophysiology}, \textbf{127}~(8), 2882--2889, ago.
+  2016.
+\newblock
+  \urlprefix\url{https://www.sciencedirect.com/science/article/pii/S1388245716300578}.
+
+\bibitem{tagliazucchi_enhanced_2014}
+Tagliazucchi, E., Carhart-Harris, R., Leech, R., Nutt, D., Chialvo, D.~R.
+\newblock Enhanced repertoire of brain dynamical states during the psychedelic
+  experience.
+\newblock \emph{Human Brain Mapping}, \textbf{35}~(11), 5442--5456, 2014.
+\newblock
+  \urlprefix\url{https://onlinelibrary.wiley.com/doi/abs/10.1002/hbm.22562}.
+
+\bibitem{gartner_aberrant_2017}
+Gärtner, M., Irrmischer, M., Winnebeck, E., Fissler, M., Huntenburg, J.~M.,
+  Schroeter, T.~A., \emph{et~al.}
+\newblock Aberrant {Long}-{Range} {Temporal} {Correlations} in {Depression}
+  {Are} {Attenuated} after {Psychological} {Treatment}.
+\newblock \emph{Frontiers in Human Neuroscience}, \textbf{11}, 340, jun. 2017.
+\newblock
+  \urlprefix\url{https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5488389/}.
+
+\bibitem{moran_long-range_2019}
+Moran, J.~K., Michail, G., Heinz, A., Keil, J., Senkowski, D.
+\newblock Long-{Range} {Temporal} {Correlations} in {Resting} {State} {Beta}
+  {Oscillations} are {Reduced} in {Schizophrenia}.
+\newblock \emph{Frontiers in Psychiatry}, \textbf{10}, 2019.
+\newblock
+  \urlprefix\url{https://www.frontiersin.org/articles/10.3389/fpsyt.2019.00517}.
+
+\bibitem{tolkunov_power_2010}
+Tolkunov, D., Rubin, D., Mujica-Parodi, L.
+\newblock Power spectrum scale invariance quantifies limbic dysregulation in
+  trait anxious adults using {fMRI}: {Adapting} methods optimized for
+  characterizing autonomic dysregulation to neural dynamic time series.
+\newblock \emph{NeuroImage}, \textbf{50}~(1), 72--80, mar. 2010.
+\newblock
+  \urlprefix\url{https://www.sciencedirect.com/science/article/pii/S1053811909013093}.
+
+\bibitem{ros_tuning_2014}
+Ros, T., J.~Baars, B., Lanius, R.~A., Vuilleumier, P.
+\newblock Tuning pathological brain oscillations with neurofeedback: a systems
+  neuroscience framework.
+\newblock \emph{Frontiers in Human Neuroscience}, \textbf{8}, 1008, dic. 2014.
+\newblock
+  \urlprefix\url{https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4270171/}.
+
+\bibitem{dickman_paths_2000}
+Dickman, R., Muñoz, M.~A., Vespignani, A., Zapperi, S.
+\newblock Paths to self-organized criticality.
+\newblock \emph{Brazilian Journal of Physics}, \textbf{30}, 27--41, mar. 2000.
+\newblock
+  \urlprefix\url{http://www.scielo.br/j/bjp/a/zybV3FQw8gSGCcP6H7hcmGm/?lang=en}.
+
+\bibitem{touboul_can_2010}
+Touboul, J., Destexhe, A.
+\newblock Can {Power}-{Law} {Scaling} and {Neuronal} {Avalanches} {Arise} from
+  {Stochastic} {Dynamics}?
+\newblock \emph{PLOS ONE}, \textbf{5}~(2), e8982, feb. 2010.
+\newblock
+  \urlprefix\url{https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0008982}.
+
+\bibitem{arnold_pareto_2008}
+Arnold, B.~C.
+\newblock Pareto and {Generalized} {Pareto} {Distributions}.
+\newblock \underline{En}: D.~Chotikapanich (ed.) Modeling {Income}
+  {Distributions} and {Lorenz} {Curves}, Economic {Studies} in {Equality},
+  {Social} {Exclusion} and {Well}-{Being}, p\'ags. 119--145. New York, NY:
+  Springer, 2008.
+\newblock \urlprefix\url{https://doi.org/10.1007/978-0-387-72796-7_7}.
+
+\bibitem{newman_power_2005}
+Newman, M.
+\newblock Power laws, {Pareto} distributions and {Zipf}'s law.
+\newblock \emph{Contemporary Physics}, \textbf{46}~(5), 323--351, sep. 2005.
+\newblock \urlprefix\url{https://doi.org/10.1080/00107510500052444}.
+
+\bibitem{goldstein_problems_2004}
+Goldstein, M.~L., Morris, S.~A., Yen, G.~G.
+\newblock Problems with fitting to the power-law distribution.
+\newblock \emph{The European Physical Journal B - Condensed Matter and Complex
+  Systems}, \textbf{41}~(2), 255--258, sep. 2004.
+\newblock \urlprefix\url{https://doi.org/10.1140/epjb/e2004-00316-5}.
+
+\bibitem{priesemann_can_2018}
+Priesemann, V., Shriki, O.
+\newblock Can a time varying external drive give rise to apparent criticality
+  in neural systems?
+\newblock \emph{PLOS Computational Biology}, \textbf{14}~(5), e1006081, mayo
+  2018.
+\newblock
+  \urlprefix\url{https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1006081}.
+
+\bibitem{markovic_power_2014}
+Marković, D., Gros, C.
+\newblock Power laws and self-organized criticality in theory and nature.
+\newblock \emph{Physics Reports}, \textbf{536}~(2), 41--74, mar. 2014.
+\newblock
+  \urlprefix\url{https://www.sciencedirect.com/science/article/pii/S0370157313004298}.
+
+\bibitem{noauthor_critical_2006}
+Sornette, D.
+\newblock Critical {Phenomena} in {Natural} {Sciences}.
+\newblock Springer {Series} in {Synergetics}. Berlin/Heidelberg:
+  Springer-Verlag, 2006.
+\newblock \urlprefix\url{http://link.springer.com/10.1007/3-540-33182-4}.
+
+\bibitem{beggs_being_2012}
+Beggs, J.~M., Timme, N.
+\newblock Being {Critical} of {Criticality} in the {Brain}.
+\newblock \emph{Frontiers in Physiology}, \textbf{3}, 163, jun. 2012.
+\newblock
+  \urlprefix\url{https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3369250/}.
+
+\bibitem{roberts_heavy_2015}
+Roberts, J.~A., Boonstra, T.~W., Breakspear, M.
+\newblock The heavy tail of the human brain.
+\newblock \emph{Current Opinion in Neurobiology}, \textbf{31}, 164--172, abr.
+  2015.
+\newblock
+  \urlprefix\url{https://www.sciencedirect.com/science/article/pii/S0959438814002141}.
+
+\bibitem{clauset_power-law_2009}
+Clauset, A., Shalizi, C.~R., Newman, M. E.~J.
+\newblock Power-{Law} {Distributions} in {Empirical} {Data}.
+\newblock \emph{SIAM Review}, \textbf{51}~(4), 661--703, nov. 2009.
+\newblock \urlprefix\url{https://epubs.siam.org/doi/10.1137/070710111}.
+
+\bibitem{klaus_statistical_2011}
+Klaus, A., Yu, S., Plenz, D.
+\newblock Statistical {Analyses} {Support} {Power} {Law} {Distributions}
+  {Found} in {Neuronal} {Avalanches}.
+\newblock \emph{PLOS ONE}, \textbf{6}~(5), e19779, mayo 2011.
+\newblock
+  \urlprefix\url{https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0019779}.
+
+\bibitem{ribeiro_undersampled_2014}
+Ribeiro, T.~L., Ribeiro, S., Belchior, H., Caixeta, F., Copelli, M.
+\newblock Undersampled {Critical} {Branching} {Processes} on {Small}-{World}
+  and {Random} {Networks} {Fail} to {Reproduce} the {Statistics} of {Spike}
+  {Avalanches}.
+\newblock \emph{PLOS ONE}, \textbf{9}~(4), e94992, abr. 2014.
+\newblock
+  \urlprefix\url{https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0094992}.
+
+\bibitem{pasquale_self-organization_2008}
+Pasquale, V., Massobrio, P., Bologna, L.~L., Chiappalone, M., Martinoia, S.
+\newblock Self-organization and neuronal avalanches in networks of dissociated
+  cortical neurons.
+\newblock \emph{Neuroscience}, \textbf{153}~(4), jun. 2008.
+\newblock
+  \urlprefix\url{https://www.sciencedirect.com/science/article/pii/S0306452208004028}.
+
+\bibitem{kanders_avalanche_2017}
+Kanders, K., Lorimer, T., Stoop, R.
+\newblock Avalanche and edge-of-chaos criticality do not necessarily co-occur
+  in neural networks.
+\newblock \emph{Chaos: An Interdisciplinary Journal of Nonlinear Science},
+  \textbf{27}~(4), 047408, abr. 2017.
+\newblock \urlprefix\url{https://aip.scitation.org/doi/10.1063/1.4978998}.
+
+\bibitem{harris_theory_1963}
+Harris, T.~E.
+\newblock The {Theory} of {Branching} {Processes}.
+\newblock Springer Berlin Heidelberg, 1963.
+
+\bibitem{sethna_crackling_2001}
+Sethna, J.~P., Dahmen, K.~A., Myers, C.~R.
+\newblock Crackling noise.
+\newblock \emph{Nature}, \textbf{410}~(6825), 242--250, mar. 2001.
+\newblock \urlprefix\url{https://www.nature.com/articles/35065675}.
+
+\bibitem{friedman_universal_2012}
+Friedman, N., Ito, S., Brinkman, B. A.~W., Shimono, M., DeVille, R. E.~L.,
+  Dahmen, K.~A., \emph{et~al.}
+\newblock Universal {Critical} {Dynamics} in {High} {Resolution} {Neuronal}
+  {Avalanche} {Data}.
+\newblock \emph{Physical Review Letters}, \textbf{108}~(20), 208102, mayo 2012.
+\newblock
+  \urlprefix\url{https://link.aps.org/doi/10.1103/PhysRevLett.108.208102}.
+
+\bibitem{miller_scale-invariant_2019}
+Miller, S.~R., Yu, S., Plenz, D.
+\newblock The scale-invariant, temporal profile of neuronal avalanches in
+  relation to cortical $\gamma$–oscillations.
+\newblock \emph{Scientific Reports}, \textbf{9}~(1), 16403, nov. 2019.
+\newblock \urlprefix\url{https://www.nature.com/articles/s41598-019-52326-y}.
+
+\bibitem{levina_subsampling_2017}
+Levina, A., Priesemann, V.
+\newblock Subsampling scaling.
+\newblock \emph{Nature Communications}, \textbf{8}~(1), 15140, mayo 2017.
+\newblock \urlprefix\url{https://www.nature.com/articles/ncomms15140}.
+
+\bibitem{wilting_inferring_2018}
+Wilting, J., Priesemann, V.
+\newblock Inferring collective dynamical states from widely unobserved systems.
+\newblock \emph{Nature Communications}, \textbf{9}~(1), 2325, jun. 2018.
+\newblock \urlprefix\url{https://www.nature.com/articles/s41467-018-04725-4}.
+
+\bibitem{hardstone_detrended_2012}
+Hardstone, R., Poil, S.-S., Schiavone, G., Jansen, R., Nikulin, V., Mansvelder,
+  H., \emph{et~al.}
+\newblock Detrended {Fluctuation} {Analysis}: {A} {Scale}-{Free} {View} on
+  {Neuronal} {Oscillations}.
+\newblock \emph{Frontiers in Physiology}, \textbf{3}, 2012.
+\newblock
+  \urlprefix\url{https://www.frontiersin.org/articles/10.3389/fphys.2012.00450}.
+
+\bibitem{scheffer_early-warning_2009}
+Scheffer, M., Bascompte, J., Brock, W.~A., Brovkin, V., Carpenter, S.~R.,
+  Dakos, V., \emph{et~al.}
+\newblock Early-warning signals for critical transitions.
+\newblock \emph{Nature}, \textbf{461}~(7260), 53--59, sep. 2009.
+\newblock \urlprefix\url{https://www.nature.com/articles/nature08227}.
+
+\bibitem{wang_flickering_2012}
+Wang, R., Dearing, J.~A., Langdon, P.~G., Zhang, E., Yang, X., Dakos, V.,
+  \emph{et~al.}
+\newblock Flickering gives early warning signals of a critical transition to a
+  eutrophic lake state.
+\newblock \emph{Nature}, \textbf{492}~(7429), 419--422, dic. 2012.
+\newblock \urlprefix\url{https://www.nature.com/articles/nature11655}.
+
+\bibitem{li_fractal_2005}
+Li, X., Polygiannakis, J., Kapiris, P., Peratzakis, A., Eftaxias, K., Yao, X.
+\newblock Fractal spectral analysis of pre-epileptic seizures in terms of
+  criticality.
+\newblock \emph{Journal of Neural Engineering}, \textbf{2}~(2), 11, mar. 2005.
+\newblock
+  \urlprefix\url{https://iopscience.iop.org/article/10.1088/1741-2560/2/2/002/meta}.
+
+\bibitem{bedard_does_2006}
+B\'{e}dard, C., Kröger, H., Destexhe, A.
+\newblock Does the \$1/f\$ {Frequency} {Scaling} of {Brain} {Signals} {Reflect}
+  {Self}-{Organized} {Critical} {States}?
+\newblock \emph{Physical Review Letters}, \textbf{97}~(11), 118102, sep. 2006.
+\newblock
+  \urlprefix\url{https://link.aps.org/doi/10.1103/PhysRevLett.97.118102}.
+
+\bibitem{botcharova_power-law_2012}
+Botcharova, M., Farmer, S.~F., Berthouze, L.
+\newblock Power-law distribution of phase-locking intervals does not imply
+  critical interaction.
+\newblock \emph{Physical Review. E, Statistical, Nonlinear, and Soft Matter
+  Physics}, \textbf{86}~(5 Pt 1), 051920, nov. 2012.
+
+\bibitem{galinsky_neuronal_2023}
+Galinsky, V.~L., Frank, L.~R.
+\newblock Neuronal avalanches: {Sandpiles} of self-organized criticality or
+  critical dynamics of brain waves?
+\newblock \emph{Frontiers of Physics}, \textbf{18}~(4), 45301, mar. 2023.
+\newblock \urlprefix\url{https://doi.org/10.1007/s11467-023-1273-7}.
+
+\bibitem{yu_scale-invariant_2014}
+Yu, S., Klaus, A., Yang, H., Plenz, D.
+\newblock Scale-{Invariant} {Neuronal} {Avalanche} {Dynamics} and the
+  {Cut}-{Off} in {Size} {Distributions}.
+\newblock \emph{PLOS ONE}, \textbf{9}~(6), e99761, jun. 2014.
+\newblock
+  \urlprefix\url{https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0099761}.
+
+\bibitem{dehghani_avalanche_2012}
+Dehghani, N., Hatsopoulos, N.~G., Haga, Z.~D., Parker, R.~A., Greger, B.,
+  Halgren, E., \emph{et~al.}
+\newblock Avalanche {Analysis} from {Multielectrode} {Ensemble} {Recordings} in
+  {Cat}, {Monkey}, and {Human} {Cerebral} {Cortex} during {Wakefulness} and
+  {Sleep}.
+\newblock \emph{Frontiers in Physiology}, \textbf{3}, 302, ago. 2012.
+
+\bibitem{ciftci_synaptic_2018}
+Çiftçi, K.
+\newblock Synaptic noise facilitates the emergence of self-organized
+  criticality in the {Caenorhabditis} elegans neuronal network.
+\newblock \emph{Network (Bristol, England)}, \textbf{29}~(1-4), 1--19, 2018.
+
+\bibitem{yin_neural_2021}
+Yin, J., Pei, Z., Gao, M.~C.
+\newblock Neural network-based order parameter for phase transitions and its
+  applications in high-entropy alloys.
+\newblock \emph{Nature Computational Science}, \textbf{1}~(10), 686--693, oct.
+  2021.
+\newblock \urlprefix\url{https://www.nature.com/articles/s43588-021-00139-3}.
+
+\bibitem{kleman_order_2003}
+Kleman, M., Lavrentovich, O.~D.
+\newblock The {Order} {Parameter}: {Amplitude} and {Phase}.
+\newblock \underline{En}: Soft {Matter} {Physics}: {An} {Introduction},
+  Partially {Ordered} {Systems}, p\'ags. 76--104. New York, NY: Springer, 2003.
+\newblock \urlprefix\url{https://doi.org/10.1007/978-0-387-21759-8_3}.
+
+\bibitem{torquato_percolation_2002}
+Torquato, S.
+\newblock Percolation and {Clustering}.
+\newblock \underline{En}: S.~Torquato (ed.) Random {Heterogeneous} {Materials}:
+  {Microstructure} and {Macroscopic} {Properties}, Interdisciplinary {Applied}
+  {Mathematics}, p\'ags. 210--233. New York, NY: Springer, 2002.
+\newblock \urlprefix\url{https://doi.org/10.1007/978-1-4757-6355-3_9}.
+
+\bibitem{li_percolation_2021}
+Li, M., Liu, R.-R., Lü, L., Hu, M.-B., Xu, S., Zhang, Y.-C.
+\newblock Percolation on complex networks: {Theory} and application.
+\newblock \emph{Physics Reports}, \textbf{907}, 1--68, abr. 2021.
+\newblock
+  \urlprefix\url{https://www.sciencedirect.com/science/article/pii/S0370157320304269}.
+
+\bibitem{berkowitz_percolation_1998}
+Berkowitz, B., Ewing, R.~P.
+\newblock Percolation {Theory} and {Network} {Modeling} {Applications} in
+  {Soil} {Physics}.
+\newblock \emph{Surveys in Geophysics}, \textbf{19}~(1), 23--72, ene. 1998.
+\newblock \urlprefix\url{https://doi.org/10.1023/A:1006590500229}.
+
+\bibitem{stauffer_scaling_1979}
+Stauffer, D.
+\newblock Scaling theory of percolation clusters.
+\newblock \emph{Physics Reports}, \textbf{54}~(1), 1--74, jul. 1979.
+\newblock
+  \urlprefix\url{https://www.sciencedirect.com/science/article/pii/0370157379900607}.
+
+\bibitem{dorogovtsev_critical_2008}
+Dorogovtsev, S.~N., Goltsev, A.~V., Mendes, J. F.~F.
+\newblock Critical phenomena in complex networks.
+\newblock \emph{Reviews of Modern Physics}, \textbf{80}~(4), 1275--1335, oct.
+  2008.
+\newblock \urlprefix\url{https://link.aps.org/doi/10.1103/RevModPhys.80.1275}.
+
+\bibitem{rong_estimation_2022}
+Rong, Q., Zhang, J., Sun, X., Wandelt, S.
+\newblock On the estimation of percolation thresholds for real networks.
+\newblock \emph{Chaos, Solitons \& Fractals}, \textbf{158}, 111968, mayo 2022.
+\newblock
+  \urlprefix\url{https://www.sciencedirect.com/science/article/pii/S0960077922001783}.
+
+\bibitem{newman_networks_2018}
+Newman, M.
+\newblock Networks.
+\newblock Second edition, new to this edition:, second edition, new to this
+  edition: ed\raise1ex\hbox{\underbar{\scriptsize \'on}}. Oxford, New York:
+  Oxford University Press, 2018.
+
+\bibitem{ariel_percolation}
+{ariel yadin}.
+\newblock an introduction to percolation.
+\newblock \url{https://www.math.bgu.ac.il/~yadina/percolation.pdf}, 2020.
+
+\bibitem{Hugo_percolation}
+{Hugo Duminil-Copin}.
+\newblock Introduction to bernoulli percolation.
+\newblock \url{https://www.ihes.fr/~duminil/publi/2017percolation.pdf}, 2018.
+
+\bibitem{hammersley_percolation_1980}
+Hammersley, J.~M., Welsh, D. J.~A.
+\newblock Percolation theory and its ramifications.
+\newblock \emph{Contemporary Physics}, \textbf{21}~(6), 593--605, nov. 1980.
+\newblock \urlprefix\url{https://doi.org/10.1080/00107518008210661}.
+
+\bibitem{bunde_fractals_2012}
+Bunde, A., Havlin, S.
+\newblock Fractals and {Disordered} {Systems}.
+\newblock Springer Science \& Business Media, 2012.
+
+\bibitem{grimmett_probability_2018}
+Grimmett, G.
+\newblock Probability on {Graphs}: {Random} {Processes} on {Graphs} and
+  {Lattices}.
+\newblock Institute of {Mathematical} {Statistics} {Textbooks},
+  2\raise1ex\hbox{\underbar{\scriptsize a}}
+  ed\raise1ex\hbox{\underbar{\scriptsize \'on}}. Cambridge: Cambridge
+  University Press, 2018.
+\newblock
+  \urlprefix\url{https://www.cambridge.org/core/books/probability-on-graphs/22F3EFAA32AEF9E161C263FBDE4F71BE}.
+
+\bibitem{albert_statistical_2002}
+Albert, R., Barabási, A.-L.
+\newblock Statistical mechanics of complex networks.
+\newblock \emph{Reviews of Modern Physics}, \textbf{74}~(1), 47--97, ene. 2002.
+\newblock \urlprefix\url{https://link.aps.org/doi/10.1103/RevModPhys.74.47}.
+
+\bibitem{boccaletti_structure_2014}
+Boccaletti, S., Bianconi, G., Criado, R., del Genio, C., Gómez-Gardeñes, J.,
+  Romance, M., \emph{et~al.}
+\newblock The structure and dynamics of multilayer networks.
+\newblock \emph{Physics Reports}, \textbf{544}~(1), 1--122, nov. 2014.
+\newblock
+  \urlprefix\url{https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7332224/}.
+
+\bibitem{hunt_percolation_2014}
+Hunt, A., Ewing, R., Ghanbarian, B.
+\newblock Percolation {Theory} for {Flow} in {Porous} {Media}, tomo 880 de
+  \emph{Lecture {Notes} in {Physics}}.
+\newblock Cham: Springer International Publishing, 2014.
+\newblock \urlprefix\url{https://link.springer.com/10.1007/978-3-319-03771-4}.
+
+\bibitem{flory_molecular_1941}
+Flory, P.~J.
+\newblock Molecular {Size} {Distribution} in {Three} {Dimensional} {Polymers}.
+  {I}. {Gelation1}.
+\newblock \emph{Journal of the American Chemical Society}, \textbf{63}~(11),
+  3083--3090, nov. 1941.
+\newblock \urlprefix\url{https://doi.org/10.1021/ja01856a061}.
+
+\bibitem{stockmayer_theory_2004}
+Stockmayer, W.~H.
+\newblock Theory of {Molecular} {Size} {Distribution} and {Gel} {Formation} in
+  {Branched}‐{Chain} {Polymers}.
+\newblock \emph{The Journal of Chemical Physics}, \textbf{11}~(2), 45--55, dic.
+  2004.
+\newblock \urlprefix\url{https://doi.org/10.1063/1.1723803}.
+
+\bibitem{chalupa_bootstrap_1979}
+Chalupa, J., Leath, P.~L., Reich, G.~R.
+\newblock Bootstrap percolation on a {Bethe} lattice.
+\newblock \emph{Journal of Physics C: Solid State Physics}, \textbf{12}~(1),
+  L31, ene. 1979.
+\newblock \urlprefix\url{https://dx.doi.org/10.1088/0022-3719/12/1/008}.
+
+\bibitem{rosso_gradient_1986}
+Rosso, M., Gouyet, J.~F., Sapoval, B.
+\newblock Gradient percolation in three dimensions and relation to diffusion
+  fronts.
+\newblock \emph{Physical Review Letters}, \textbf{57}~(25), 3195--3198, dic.
+  1986.
+\newblock \urlprefix\url{https://link.aps.org/doi/10.1103/PhysRevLett.57.3195}.
+
+\bibitem{chandler_capillary_1982}
+Chandler, R., Koplik, J., Lerman, K., Willemsen, J.~F.
+\newblock Capillary displacement and percolation in porous media.
+\newblock \emph{Journal of Fluid Mechanics}, \textbf{119}, 249--267, jun. 1982.
+
+\bibitem{nickel_invasion_1983}
+Nickel, B., Wilkinson, D.
+\newblock Invasion {Percolation} on the {Cayley} {Tree}: {Exact} {Solution} of
+  a {Modified} {Percolation} {Model}.
+\newblock \emph{Physical Review Letters}, \textbf{51}~(2), 71--74, jul. 1983.
+\newblock \urlprefix\url{https://link.aps.org/doi/10.1103/PhysRevLett.51.71}.
+
+\bibitem{wilkinson_invasion_1983}
+Wilkinson, D., Willemsen, J.~F.
+\newblock Invasion percolation: a new form of percolation theory.
+\newblock \emph{Journal of Physics A: Mathematical and General},
+  \textbf{16}~(14), 3365, oct. 1983.
+\newblock \urlprefix\url{https://dx.doi.org/10.1088/0305-4470/16/14/028}.
+
+\bibitem{aizenman_number_1997}
+Aizenman, M.
+\newblock On the number of incipient spanning clusters.
+\newblock \emph{Nuclear Physics B}, \textbf{485}~(3), 551--582, feb. 1997.
+\newblock
+  \urlprefix\url{https://www.sciencedirect.com/science/article/pii/S0550321396006268}.
+
+\bibitem{Artem}
+Novozhilov, A.~S.
+\newblock Mathematics of networks, 2013.
+\newblock URL: \url{https://math.mit.edu/classes/18.783/2015/lectures.html}.
+
+\bibitem{fisher_cluster_2004}
+Fisher, M.~E., Essam, J.~W.
+\newblock Some {Cluster} {Size} and {Percolation} {Problems}.
+\newblock \emph{Journal of Mathematical Physics}, \textbf{2}~(4), 609--619,
+  dic. 2004.
+\newblock \urlprefix\url{https://doi.org/10.1063/1.1703745}.
+
+\bibitem{kesten_critical_1980}
+Kesten, H.
+\newblock The critical probability of bond percolation on the square lattice
+  equals 1/2.
+\newblock \emph{Communications in Mathematical Physics}, \textbf{74}~(1),
+  41--59, feb. 1980.
+\newblock \urlprefix\url{https://doi.org/10.1007/BF01197577}.
+
+\bibitem{wierman_bond_1984}
+Wierman, J.~C.
+\newblock A bond percolation critical probability determination based on the
+  star-triangle transformation.
+\newblock \emph{Journal of Physics A: Mathematical and General},
+  \textbf{17}~(7), 1525, mayo 1984.
+\newblock \urlprefix\url{https://dx.doi.org/10.1088/0305-4470/17/7/020}.
+
+\bibitem{grimmett_percolation_2013}
+Grimmett, G.~R.
+\newblock Percolation.
+\newblock Springer Science \& Business Media, 2013.
+\newblock Google-Books-ID: Vnz1CAAAQBAJ.
+
+\bibitem{aharony_introduction_2017}
+Aharony, D.~S., Ammon.
+\newblock Introduction {To} {Percolation} {Theory}: {Second} {Edition}.
+\newblock 2\raise1ex\hbox{\underbar{\scriptsize a}}
+  ed\raise1ex\hbox{\underbar{\scriptsize \'on}}. London: Taylor \& Francis,
+  2017.
+
+\bibitem{beffara_percolation_2006}
+Beffara, V., Sidoravicius, V.
+\newblock Percolation {Theory}.
+\newblock \underline{En}: J.-P. Françoise, G.~L. Naber, T.~S. Tsun (eds.)
+  Encyclopedia of {Mathematical} {Physics}, p\'ags. 21--28. Oxford: Academic
+  Press, 2006.
+\newblock
+  \urlprefix\url{https://www.sciencedirect.com/science/article/pii/B0125126662002029}.
+
+\bibitem{broadbent_percolation_1957}
+Broadbent, S.~R., Hammersley, J.~M.
+\newblock Percolation processes: {I}. {Crystals} and mazes.
+\newblock \emph{Mathematical Proceedings of the Cambridge Philosophical
+  Society}, \textbf{53}~(3), 629--641, jul. 1957.
+\newblock
+  \urlprefix\url{https://www.cambridge.org/core/journals/mathematical-proceedings-of-the-cambridge-philosophical-society/article/abs/percolation-processes/C00CC4943F48228F8AC8031092FE84EC}.
+
+\bibitem{barrat_dynamical_2008}
+Barrat, A., Barth\'{e}lemy, M., Vespignani, A.
+\newblock Dynamical {Processes} on {Complex} {Networks}.
+\newblock Cambridge: Cambridge University Press, 2008.
+\newblock
+  \urlprefix\url{https://www.cambridge.org/core/books/dynamical-processes-on-complex-networks/D0173F07E0F05CEE9CF7A6BDAF48E9FC}.
+
+\bibitem{saberi_recent_2015}
+Saberi, A.~A.
+\newblock Recent advances in percolation theory and its applications.
+\newblock \emph{Physics Reports}, \textbf{578}, 1--32, mayo 2015.
+\newblock
+  \urlprefix\url{https://www.sciencedirect.com/science/article/pii/S0370157315002008}.
+
+\bibitem{djordjevic_scaling_1987}
+Djordjevic, Z.~V., Stanley, H.~E.
+\newblock Scaling properties of the perimeter distribution for lattice animals,
+  percolation and compact clusters.
+\newblock \emph{Journal of Physics A: Mathematical and General},
+  \textbf{20}~(9), L587, jun. 1987.
+\newblock \urlprefix\url{https://dx.doi.org/10.1088/0305-4470/20/9/007}.
+
+\bibitem{aharony_universal_1980}
+Aharony, A.
+\newblock Universal critical amplitude ratios for percolation.
+\newblock \emph{Physical Review B}, \textbf{22}~(1), 400--414, jul. 1980.
+\newblock \urlprefix\url{https://link.aps.org/doi/10.1103/PhysRevB.22.400}.
+
+\bibitem{fisher_theory_1967}
+Fisher, M.~E.
+\newblock The theory of condensation and the critical point.
+\newblock \emph{Physics Physique Fizika}, \textbf{3}~(5), 255--283, oct. 1967.
+\newblock
+  \urlprefix\url{https://link.aps.org/doi/10.1103/PhysicsPhysiqueFizika.3.255}.
+
+\bibitem{tesis_Mahdi}
+Abadi, M. M. Z.~N.
+\newblock Criticalidad en modelos de actividad neuronal: efectos del tamaño y
+  topología de la red.
+\newblock Phd thesis, Universidad Nacional de Córdoba, June 2020.
+
+\bibitem{Fisher_critical}
+M.E., F.
+\newblock Critical Phenomena: Enrico Fermi Summer School.
+\newblock New York : Academic Press, 1971.
+
+\bibitem{bagnoli_percolation_2019}
+Bagnoli, F., Bellini, E., Massaro, E., Rechtman, R.
+\newblock Percolation and {Internet} {Science}.
+\newblock \emph{Future Internet}, \textbf{11}~(2), 35, feb. 2019.
+\newblock \urlprefix\url{https://www.mdpi.com/1999-5903/11/2/35}.
+
+\bibitem{hartarsky_bootstrap_2022}
+Hartarsky, I.
+\newblock Bootstrap {Percolation}, {Probabilistic} {Cellular} {Automata} and
+  {Sharpness}.
+\newblock \emph{Journal of Statistical Physics}, \textbf{187}~(3), 21, abr.
+  2022.
+\newblock \urlprefix\url{https://doi.org/10.1007/s10955-022-02922-6}.
+
+\bibitem{greenberg_spatial_1978}
+Greenberg, J.~M., Hastings, S.~P.
+\newblock Spatial {Patterns} for {Discrete} {Models} of {Diffusion} in
+  {Excitable} {Media}.
+\newblock \emph{SIAM Journal on Applied Mathematics}, \textbf{34}~(3),
+  515--523, mayo 1978.
+\newblock \urlprefix\url{https://epubs.siam.org/doi/10.1137/0134040}.
+
+\bibitem{goltsev_stochastic_2010}
+Goltsev, A.~V., de~Abreu, F.~V., Dorogovtsev, S.~N., Mendes, J. F.~F.
+\newblock Stochastic cellular automata model of neural networks.
+\newblock \emph{Physical Review E}, \textbf{81}~(6), 061921, jun. 2010.
+\newblock \urlprefix\url{https://link.aps.org/doi/10.1103/PhysRevE.81.061921}.
+
+\bibitem{hagmann_mapping_2008}
+Hagmann, P., Cammoun, L., Gigandet, X., Meuli, R., Honey, C.~J., Wedeen, V.~J.,
+  \emph{et~al.}
+\newblock Mapping the {Structural} {Core} of {Human} {Cerebral} {Cortex}.
+\newblock \emph{PLOS Biology}, \textbf{6}~(7), e159, jul. 2008.
+\newblock
+  \urlprefix\url{https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.0060159}.
+
+\bibitem{copelli_excitable_2007}
+Copelli, M., Campos, P.~R.
+\newblock Excitable scale free networks.
+\newblock \emph{The European Physical Journal B}, \textbf{56}~(3), 273--278,
+  abr. 2007.
+\newblock \urlprefix\url{https://doi.org/10.1140/epjb/e2007-00114-7}.
+
+\bibitem{louis_probabilistic_2018}
+Louis, P.-Y., Nardi, F.~R. (eds.) Probabilistic {Cellular} {Automata}:
+  {Theory}, {Applications} and {Future} {Perspectives}, tomo~27 de
+  \emph{Emergence, {Complexity} and {Computation}}.
+\newblock Springer International Publishing, 2018.
+\newblock \urlprefix\url{http://link.springer.com/10.1007/978-3-319-65558-1}.
+
+\bibitem{ilachinski_cellular_2001}
+Ilachinski, A.
+\newblock Cellular {Automata}: {A} {Discrete} {Universe}.
+\newblock WORLD SCIENTIFIC, 2001.
+\newblock
+  \urlprefix\url{https://www.worldscientific.com/worldscibooks/10.1142/4702}.
+
+\bibitem{vichniac_simulating_1984}
+Vichniac, G.~Y.
+\newblock Simulating physics with cellular automata.
+\newblock \emph{Physica D: Nonlinear Phenomena}, \textbf{10}~(1), 96--116, ene.
+  1984.
+\newblock
+  \urlprefix\url{https://www.sciencedirect.com/science/article/pii/0167278984902537}.
+
+\bibitem{deutsch_cellular_2017}
+Deutsch, A., Dormann, S.
+\newblock Cellular {Automaton} {Modeling} of {Biological} {Pattern}
+  {Formation}.
+\newblock Modeling and {Simulation} in {Science}, {Engineering} and
+  {Technology}. Boston, MA: Birkhäuser, 2017.
+\newblock \urlprefix\url{http://link.springer.com/10.1007/978-1-4899-7980-3}.
+
+\bibitem{hadeler_cellular_2017}
+Hadeler, K.-P., Müller, J.
+\newblock Cellular {Automata}: {Analysis} and {Applications}.
+\newblock Springer {Monographs} in {Mathematics}. Cham: Springer International
+  Publishing, 2017.
+\newblock \urlprefix\url{http://link.springer.com/10.1007/978-3-319-53043-7}.
+
+\bibitem{chopard_cellular_1998}
+Chopard, B., Droz, M.
+\newblock Cellular {Automata} {Modeling} of {Physical} {Systems}.
+\newblock Collection {Alea}-{Saclay}: {Monographs} and {Texts} in {Statistical}
+  {Physics}. Cambridge: Cambridge University Press, 1998.
+\newblock
+  \urlprefix\url{https://www.cambridge.org/core/books/cellular-automata-modeling-of-physical-systems/4FCAFAFE90617620C3207FE8A31A8604}.
+
+\bibitem{gardner_mathematical_1970}
+Gardner, M.
+\newblock Mathematical {Games}.
+\newblock \emph{Scientific American}, \textbf{223}~(4), 120--123, 1970.
+\newblock \urlprefix\url{https://www.jstor.org/stable/24927642}.
+
+\bibitem{wolfram_cellular_2002}
+Wolfram, S.
+\newblock Cellular {Automata} {And} {Complexity}: {Collected} {Papers}.
+\newblock Boulder, Colo., 2002.
+
+\bibitem{lehotzky_cellular_2019}
+Lehotzky, D., Zupanc, G.~K.
+\newblock Cellular {Automata} {Modeling} of {Stem}-{Cell}-{Driven}
+  {Development} of {Tissue} in the {Nervous} {System}.
+\newblock \emph{Developmental Neurobiology}, \textbf{79}~(5), 497--517, 2019.
+\newblock
+  \urlprefix\url{https://onlinelibrary.wiley.com/doi/abs/10.1002/dneu.22686}.
+
+\bibitem{ling_english_2005}
+Ling, R.
+\newblock {A} {Textile} cone snail ({Conus} textile), ago. 2005.
+\newblock
+  \urlprefix\url{https://commons.wikimedia.org/wiki/File:Textile_cone.JPG}.
+
+\bibitem{marcovici_ergodicity_2019}
+Marcovici, I., Sablik, M., Taati, S.
+\newblock Ergodicity of some classes of cellular automata subject to noise.
+\newblock \emph{Electronic Journal of Probability}, \textbf{24}, ene. 2019.
+\newblock \urlprefix\url{http://arxiv.org/abs/1712.05500}.
+
+\bibitem{schonfisch_synchronous_1999}
+Sch{\"o}nfisch, B., de~Roos, A.
+\newblock Synchronous and asynchronous updating in cellular automata.
+\newblock \emph{Biosystems}, \textbf{51}~(3), 123--143, sep. 1999.
+\newblock
+  \urlprefix\url{https://www.sciencedirect.com/science/article/pii/S0303264799000258}.
+
+\bibitem{cornforth_ordered_2005}
+Cornforth, D., Green, D.~G., Newth, D.
+\newblock Ordered asynchronous processes in multi-agent systems.
+\newblock \emph{Physica D: Nonlinear Phenomena}, \textbf{204}~(1), 70--82, mayo
+  2005.
+\newblock
+  \urlprefix\url{https://www.sciencedirect.com/science/article/pii/S0167278905001338}.
+
+\bibitem{fates_guided_2013}
+Fatès, N.
+\newblock A {Guided} {Tour} of {Asynchronous} {Cellular} {Automata}.
+\newblock \underline{En}: J.~Kari, M.~Kutrib, A.~Malcher (eds.) Cellular
+  {Automata} and {Discrete} {Complex} {Systems}, Lecture {Notes} in {Computer}
+  {Science}, p\'ags. 15--30. Berlin, Heidelberg: Springer, 2013.
+
+\bibitem{nehaniv_asynchronous_2011}
+NEHANIV, C.~L.
+\newblock {ASYNCHRONOUS} {AUTOMATA} {NETWORKS} {CAN} {EMULATE} {ANY}
+  {SYNCHRONOUS} {AUTOMATA} {NETWORK}.
+\newblock \emph{International Journal of Algebra and Computation}, nov. 2011.
+\newblock
+  \urlprefix\url{https://www.worldscientific.com/doi/epdf/10.1142/S0218196704002043}.
+
+\bibitem{sinha_patterns_2019}
+Sinha, S., Sridhar, S.
+\newblock Patterns in {Excitable} {Media}: {Genesis}, {Dynamics}, and
+  {Control}.
+\newblock 2019.
+
+\bibitem{wiener_mathematical_1946}
+Wiener, N., Rosenblueth, A.
+\newblock The mathematical formulation of the problem of conduction of impulses
+  in a network of connected excitable elements, specifically in cardiac muscle.
+\newblock \emph{Archivos Del Instituto De Cardiologia De Mexico},
+  \textbf{16}~(3), 205--265, jul. 1946.
+
+\bibitem{durrett_asymptotic_1993}
+Durrett, R., Griffeath, D.
+\newblock Asymptotic behavior of excitable cellular automata.
+\newblock \emph{Experimental Mathematics}, \textbf{2}~(3), 183--208, ene. 1993.
+\newblock
+  \urlprefix\url{https://projecteuclid.org/journals/experimental-mathematics/volume-2/issue-3/Asymptotic-behavior-of-excitable-cellular-automata/em/1062620830.full},
+  publisher: A K Peters, Ltd.
+
+\bibitem{galan_how_2008}
+Galán, R.~F.
+\newblock On {How} {Network} {Architecture} {Determines} the {Dominant}
+  {Patterns} of {Spontaneous} {Neural} {Activity}.
+\newblock \emph{PLOS ONE}, \textbf{3}~(5), e2148, mayo 2008.
+\newblock
+  \urlprefix\url{https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0002148}.
+
+\bibitem{lynn_physics_2019}
+Lynn, C.~W., Bassett, D.~S.
+\newblock The physics of brain network structure, function and control.
+\newblock \emph{Nature Reviews Physics}, \textbf{1}~(5), 318--332, mayo 2019.
+\newblock \urlprefix\url{https://www.nature.com/articles/s42254-019-0040-8}.
+
+\bibitem{jjfroehlich_english_2022}
+{J.J.Froehlich}.
+\newblock English: {The} different tissues of an adult hermaphrodite
+  {Caenorhabditis} elegans., ago. 2022.
+\newblock
+  \urlprefix\url{https://commons.wikimedia.org/wiki/File:C_elegans_tissues.svg?uselang=es-419}.
+
+\bibitem{protachevicz_how_2018}
+Protachevicz, P.~R., Borges, F.~S., Iarosz, K.~C., Caldas, I.~L., Baptista,
+  M.~S., Viana, R.~L., \emph{et~al.}
+\newblock How synapses can enhance sensibility of a neural network.
+\newblock \emph{Physica A: Statistical Mechanics and its Applications},
+  \textbf{492}, 1045--1052, feb. 2018.
+\newblock
+  \urlprefix\url{https://www.sciencedirect.com/science/article/pii/S037843711731110X}.
+
+\bibitem{faisal_noise_2008}
+Faisal, A.~A., Selen, L. P.~J., Wolpert, D.~M.
+\newblock Noise in the nervous system.
+\newblock \emph{Nature reviews. Neuroscience}, \textbf{9}~(4), 292--303, abr.
+  2008.
+\newblock
+  \urlprefix\url{https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2631351/}.
+
+\bibitem{destexhe_neuronal_2012}
+Destexhe, A., Rudolph-Lilith, M.
+\newblock Neuronal {Noise}.
+\newblock Boston, MA: Springer US, 2012.
+\newblock \urlprefix\url{https://link.springer.com/10.1007/978-0-387-79020-6}.
+
+\bibitem{lindner_effects_2004}
+Lindner, B., García-Ojalvo, J., Neiman, A., Schimansky-Geier, L.
+\newblock Effects of noise in excitable systems.
+\newblock \emph{Physics Reports}, \textbf{392}~(6), 321--424, mar. 2004.
+\newblock
+  \urlprefix\url{https://www.sciencedirect.com/science/article/pii/S0370157303004228}.
+
+\bibitem{gosak_spatial_2007}
+Gosak, M., Marhl, M., Perc, M.
+\newblock Spatial coherence resonance in excitable biochemical media induced by
+  internal noise.
+\newblock \emph{Biophysical Chemistry}, \textbf{128}~(2), 210--214, jul. 2007.
+\newblock
+  \urlprefix\url{https://www.sciencedirect.com/science/article/pii/S0301462207000907}.
+
+\bibitem{vigelius_stochastic_2012}
+Vigelius, M., Meyer, B.
+\newblock Stochastic {Simulations} of {Pattern} {Formation} in {Excitable}
+  {Media}.
+\newblock \emph{PLOS ONE}, \textbf{7}~(8), e42508, ago. 2012.
+\newblock
+  \urlprefix\url{https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0042508}.
+
+\bibitem{diaz_similar_2021}
+Diaz, M. M.~S., Trejo, E. J.~A., Martin, D.~A., Cannas, S.~A., Grigera, T.~S.,
+  Chialvo, D.~R.
+\newblock Similar local neuronal dynamics may lead to different collective
+  behavior.
+\newblock \emph{Physical Review E}, \textbf{104}~(6), 064309, dic. 2021.
+\newblock \urlprefix\url{https://link.aps.org/doi/10.1103/PhysRevE.104.064309}.
+
+\bibitem{bar-yam_dynamics_2003}
+Bar-yam, Y.
+\newblock Dynamics {Of} {Complex} {Systems}.
+\newblock Boulder, Colordo Oxford: CRC Press, 2003.
+
+\bibitem{larremore_predicting_2011}
+Larremore, D.~B., Shew, W.~L., Restrepo, J.~G.
+\newblock Predicting {Criticality} and {Dynamic} {Range} in {Complex}
+  {Networks}: {Effects} of {Topology}.
+\newblock \emph{Physical Review Letters}, \textbf{106}~(5), 058101, ene. 2011.
+\newblock
+  \urlprefix\url{https://link.aps.org/doi/10.1103/PhysRevLett.106.058101}.
+
+\bibitem{haimovici_dynamical_2016}
+Haimovici, A., Balenzuela, P., Tagliazucchi, E.
+\newblock Dynamical {Signatures} of {Structural} {Connectivity} {Damage} to a
+  {Model} of the {Brain} {Posed} at {Criticality}.
+\newblock \emph{Brain Connectivity}, \textbf{6}~(10), 759--771, dic. 2016.
+\newblock
+  \urlprefix\url{https://www.liebertpub.com/doi/10.1089/brain.2016.0455}.
+
+\bibitem{rupprecht_database_2021}
+Rupprecht, P., Carta, S., Hoffmann, A., Echizen, M., Blot, A., Kwan, A.~C.,
+  \emph{et~al.}
+\newblock A database and deep learning toolbox for noise-optimized, generalized
+  spike inference from calcium imaging.
+\newblock \emph{Nature Neuroscience}, \textbf{24}~(9), 1324--1337, sep. 2021.
+\newblock \urlprefix\url{https://www.nature.com/articles/s41593-021-00895-5}.
+
+\bibitem{pnevmatikakis_bayesian_2013}
+Pnevmatikakis, E.~A., Merel, J., Pakman, A., Paninski, L.
+\newblock Bayesian spike inference from calcium imaging data.
+\newblock \underline{En}: 2013 {Asilomar} {Conference} on {Signals}, {Systems}
+  and {Computers}, p\'ags. 349--353. Pacific Grove, CA, USA: IEEE, 2013.
+\newblock \urlprefix\url{http://ieeexplore.ieee.org/document/6810293/}.
+
+\bibitem{pachitariu_robustness_2018}
+Pachitariu, M., Stringer, C., Harris, K.~D.
+\newblock Robustness of {Spike} {Deconvolution} for {Neuronal} {Calcium}
+  {Imaging}.
+\newblock \emph{Journal of Neuroscience}, \textbf{38}~(37), 7976--7985, sep.
+  2018.
+\newblock \urlprefix\url{https://www.jneurosci.org/content/38/37/7976}.
+
+\bibitem{pnevmatikakis_simultaneous_2016}
+Pnevmatikakis, E.~A., Soudry, D., Gao, Y., Machado, T.~A., Merel, J., Pfau, D.,
+  \emph{et~al.}
+\newblock Simultaneous {Denoising}, {Deconvolution}, and {Demixing} of
+  {Calcium} {Imaging} {Data}.
+\newblock \emph{Neuron}, \textbf{89}~(2), 285--299, ene. 2016.
+\newblock
+  \urlprefix\url{https://www.cell.com/neuron/abstract/S0896-6273(15)01084-3}.
+
+\bibitem{vogelstein_fast_2010}
+Vogelstein, J.~T., Packer, A.~M., Machado, T.~A., Sippy, T., Babadi, B., Yuste,
+  R., \emph{et~al.}
+\newblock Fast {Nonnegative} {Deconvolution} for {Spike} {Train} {Inference}
+  {From} {Population} {Calcium} {Imaging}.
+\newblock \emph{Journal of Neurophysiology}, \textbf{104}~(6), 3691--3704, dic.
+  2010.
+\newblock
+  \urlprefix\url{https://journals.physiology.org/doi/full/10.1152/jn.01073.2009}.
+
+\bibitem{friedrich_fast_2017}
+Friedrich, J., Zhou, P., Paninski, L.
+\newblock Fast online deconvolution of calcium imaging data.
+\newblock \emph{PLOS Computational Biology}, \textbf{13}~(3), e1005423, mar.
+  2017.
+\newblock
+  \urlprefix\url{https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1005423}.
+
+\bibitem{theis_benchmarking_2016}
+Theis, L., Berens, P., Froudarakis, E., Reimer, J., Román Rosón, M., Baden,
+  T., \emph{et~al.}
+\newblock Benchmarking {Spike} {Rate} {Inference} in {Population} {Calcium}
+  {Imaging}.
+\newblock \emph{Neuron}, \textbf{90}~(3), 471--482, mayo 2016.
+\newblock
+  \urlprefix\url{https://linkinghub.elsevier.com/retrieve/pii/S0896627316300733}.
+
+\bibitem{van_breugel_numerical_2020}
+Van~Breugel, F., Kutz, J.~N., Brunton, B.~W.
+\newblock Numerical {Differentiation} of {Noisy} {Data}: {A} {Unifying}
+  {Multi}-{Objective} {Optimization} {Framework}.
+\newblock \emph{IEEE Access}, \textbf{8}, 196865--196877, 2020.
+
+\bibitem{truong_selective_2020}
+Truong, C., Oudre, L., Vayatis, N.
+\newblock Selective review of offline change point detection methods.
+\newblock \emph{Signal Processing}, \textbf{167}, 107299, feb. 2020.
+\newblock
+  \urlprefix\url{https://www.sciencedirect.com/science/article/pii/S0165168419303494}.
+
+\bibitem{componetes1}
+Johnston, L., Wootters, M.
+\newblock Connected components of undirected and directed graphs, 2017.
+\newblock
+  \urlprefix\url{http://web.stanford.edu/class/archive/cs/cs161/cs161.1176/Lectures/CS161Lecture10.pdf}.
+
+\bibitem{dasgupta_algorithms_2006}
+Dasgupta, S., Papadimitriou, C., Vazirani, U.
+\newblock Algorithms.
+\newblock Boston, 2006.
+
+\bibitem{percolacion_python}
+Malthe-Sørenssen, A.
+\newblock Percolation theory using Python.
+\newblock Department of Physics, University of Oslo, 2020.
+
+\bibitem{marshall_analysis_2016}
+Marshall, N., Timme, N.~M., Bennett, N., Ripp, M., Lautzenhiser, E., Beggs,
+  J.~M.
+\newblock Analysis of {Power} {Laws}, {Shape} {Collapses}, and {Neural}
+  {Complexity}: {New} {Techniques} and {MATLAB} {Support} via the {NCC}
+  {Toolbox}.
+\newblock \emph{Frontiers in Physiology}, \textbf{7}, 2016.
+\newblock
+  \urlprefix\url{https://www.frontiersin.org/articles/10.3389/fphys.2016.00250}.
+
+\bibitem{zhong_is_2022}
+Zhong, X., Wang, M., Zhang, H.
+\newblock Is {Least}-{Squares} {Inaccurate} in {Fitting} {Power}-{Law}
+  {Distributions}? {The} {Criticism} is {Complete} {Nonsense}.
+\newblock \underline{En}: Proceedings of the {ACM} {Web} {Conference} 2022,
+  p\'ags. 2748--2758. Virtual Event, Lyon France: ACM, 2022.
+\newblock \urlprefix\url{https://dl.acm.org/doi/10.1145/3485447.3511995}.
+
+\bibitem{Zimmer_2022}
+Zimmer, M.
+\newblock Kato2015 whole brain imaging data, Oct 2022.
+\newblock \urlprefix\url{osf.io/2395t}.
+
+\bibitem{Zimmer_20222}
+Zimmer, M.
+\newblock Kaplan 2020 whole brain imaging data, Mar 2022.
+\newblock \urlprefix\url{osf.io/9nfhz}.
+
+\bibitem{eviatar_yemini_2020_3906530}
+Yemini, E., Lin, A., Nejatbakhsh, A., Varol, E., Sun, R., Mena, G.,
+  \emph{et~al.}
+\newblock Neuropal data, jun. 2020.
+\newblock \urlprefix\url{https://doi.org/10.5281/zenodo.3906530}.
+
+\bibitem{giovannucci_caiman_2019}
+Giovannucci, A., Friedrich, J., Gunn, P., Kalfon, J., Brown, B.~L., Koay,
+  S.~A., \emph{et~al.}
+\newblock {CaImAn} an open source tool for scalable calcium imaging data
+  analysis.
+\newblock \emph{eLife}, \textbf{8}, e38173, ene. 2019.
+\newblock \urlprefix\url{https://doi.org/10.7554/eLife.38173}.
+
+\bibitem{deneux_accurate_2016}
+Deneux, T., Kaszas, A., Szalay, G., Katona, G., Lakner, T., Grinvald, A.,
+  \emph{et~al.}
+\newblock Accurate spike estimation from noisy calcium signals for ultrafast
+  three-dimensional imaging of large neuronal populations in vivo.
+\newblock \emph{Nature Communications}, \textbf{7}~(1), 12190, jul. 2016.
+\newblock \urlprefix\url{https://www.nature.com/articles/ncomms12190}.
+
+\bibitem{ponce-alvarez_whole-brain_2018}
+Ponce-Alvarez, A., Jouary, A., Privat, M., Deco, G., Sumbre, G.
+\newblock Whole-{Brain} {Neuronal} {Activity} {Displays} {Crackling} {Noise}
+  {Dynamics}.
+\newblock \emph{Neuron}, \textbf{100}~(6), 1446--1459.e6, dic. 2018.
+\newblock
+  \urlprefix\url{https://www.cell.com/neuron/abstract/S0896-6273(18)30953-X}.
+
+\bibitem{9241009}
+Van~Breugel, F., Kutz, J.~N., Brunton, B.~W.
+\newblock Numerical differentiation of noisy data: A unifying multi-objective
+  optimization framework.
+\newblock \emph{IEEE Access}, \textbf{8}, 196865--196877, 2020.
+
+\bibitem{chartrand_numerical_2011}
+Chartrand, R.
+\newblock Numerical {Differentiation} of {Noisy}, {Nonsmooth} {Data}.
+\newblock \emph{International Scholarly Research Notices}, \textbf{2011},
+  e164564, mayo 2011.
+\newblock \urlprefix\url{https://www.hindawi.com/journals/isrn/2011/164564/}.
+
+\bibitem{1570291226450870144}
+TIKHONOV, A.
+\newblock Regularization of incorrectly posed problems.
+\newblock \emph{Soviet Math. Dokl.}, p\'ags. 1624--1627, 1963.
+\newblock \urlprefix\url{https://cir.nii.ac.jp/crid/1570291226450870144}.
+
+\bibitem{rudin_nonlinear_1992}
+Rudin, L.~I., Osher, S., Fatemi, E.
+\newblock Nonlinear total variation based noise removal algorithms.
+\newblock \emph{Physica D: Nonlinear Phenomena}, \textbf{60}~(1), 259--268,
+  nov. 1992.
+\newblock
+  \urlprefix\url{https://www.sciencedirect.com/science/article/pii/016727899290242F}.
+
+\bibitem{vogel_iterative_1996}
+Vogel, C.~R., Oman, M.~E.
+\newblock Iterative {Methods} for {Total} {Variation} {Denoising}.
+\newblock \emph{SIAM Journal on Scientific Computing}, \textbf{17}~(1),
+  227--238, ene. 1996.
+\newblock \urlprefix\url{https://epubs.siam.org/doi/10.1137/0917016}.
+
+\bibitem{nelder_simplex_1965}
+Nelder, J.~A., Mead, R.
+\newblock A {Simplex} {Method} for {Function} {Minimization}.
+\newblock \emph{The Computer Journal}, \textbf{7}~(4), 308--313, ene. 1965.
+\newblock \urlprefix\url{https://doi.org/10.1093/comjnl/7.4.308}.
+
+\end{thebibliography}

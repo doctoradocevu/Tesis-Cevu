@@ -1,0 +1,330 @@
+\chapter{Conclusiones y Trabajo futuro}\label{cap:conclusuiones}
+\graphicspath{{figs/capitulo_introduccion_robot/}}
+
+\chapterquote{Far from being able to accept the idea of the individuality and
+	independence of  	each nerve element, I have never had reason, up to now, to
+	give up the concept 	which I have always stressed, that nerve cells, instead of
+	working individually, act 	together [...]. However opposed it may seem to the
+	popular tendency to individualize the elements, I cannot abandon the idea of a
+	unitary action of the 	nervous system [...]}{Camillo Golgi, 1906}
+
+\section{Conclusiones generales}
+
+\subsection{Comportamientos emergentes en un robot con la dinámica neuronal del C.
+	elegans}
+
+Llegamos al punto culminante de este extenso viaje de investigación, donde convergen los hilos conductores de nuestros esfuerzos y exploraciones. Esta sección de conclusiones representa el punto de encuentro de los hallazgos, las reflexiones y las perspectivas que hemos adquirido a lo largo de esta indagación exhaustiva sobre la relación entre el conectoma y el comportamiento emergente en nuestro modelo robótico bioinspirado en C. elegans.
+
+Durante este viaje, nos sumergimos en el mundo de la dinámica neuronal, la simulación de comportamientos, la estructura del conectoma y las conexiones entre neuronas. Hemos desentrañado los misterios de cómo la arquitectura cerebral influye en la generación de acciones observables y cómo esta relación se traduce en un comportamiento complejo, tanto en el robot como en el organismo biológico. Ahora, en esta sección de conclusiones, sintetizamos y consolidamos estas percepciones para comprender el alcance y la relevancia de nuestros hallazgos.
+
+A lo largo de estas páginas, hemos explorado no solo las bases científicas que respaldan nuestros descubrimientos, sino también las implicaciones más amplias de nuestro trabajo. Hemos establecido una conexión directa entre la estructura del conectoma y el comportamiento emergente en un robot, lo que nos lleva a cuestionar y repensar cómo se modela y se interpreta la complejidad del sistema nervioso. Además, hemos identificado vías emocionantes para ampliar y mejorar aún más nuestros enfoques, lo que promete arrojar luz sobre cómo los sistemas biológicos resuelven problemas en entornos en constante cambio.
+
+
+
+\begin{itemize}
+	
+	\item En este trabajo, hemos desarrollado un robot basado en el conectoma del
+	nematodo C. elegans. Los resultados de los experimentos muestran que el robot se
+	comporta de forma muy similar a los comportamientos observados en el C. elegans
+	biológico.
+	
+	En particular, el robot se mueve hacia adelante cuando se estimulan las neuronas
+	sensoriales de los alimentos. Cuando se estimula el sensor láser del robot, que
+	a su vez estimula las neuronas táctiles de la nariz, el robot devuelve su
+	movimiento hacia adelante, retrocede y luego sigue adelante, normalmente en una
+	trayectoria ligeramente sesgada.
+	
+	Estos resultados respaldan la hipótesis de que el conectoma del C. elegans
+	codifica de alguna manera parte de su comportamiento motor. Esta hipótesis
+	sugiere que la estructura de la red neuronal del gusano juega un papel
+	fundamental en la generación de su comportamiento.
+	
+	\item  En este trabajo, hemos demostrado que la dinámica neuronal en el modelo
+	robótico basado en el connectoma del nematodo C. elegans presenta una serie de
+	características que también se observan en el gusano real. Estas características
+	incluyen la emergencia de grupos sincronizados que pueden correlacionarse con
+	las acciones del robot, y un estado global que evoluciona en una trayectoria
+	tipo atractor, donde diferentes segmentos corresponden a las acciones que el
+	robot está ejecutando.
+	
+	Estos resultados respaldan nuestra hipótesis principal de que la organización
+	del comportamiento en el gusano está codificada en una estructura jerárquica de
+	dinámicas neuronales distribuidas globalmente, continuas y de baja dimensión.
+	
+	Nuestro objetivo no era establecer una comparación uno a uno entre el vehículo
+	robótico y el gusano. De hecho, elegimos construir robots siguiendo la idea
+	propuesta por T. Busbice debido a su diseño simplificado. Con este enfoque,
+	hemos demostrado que la interacción de unidades dinámicas extremadamente simples
+	a través de la red compleja definida por el connectoma permite la emergencia de
+	una dinámica global que presenta una serie de características que también se
+	observan en el gusano.
+	
+	Estos resultados tienen implicaciones importantes para nuestra comprensión de la
+	base neuronal del comportamiento. Muestran que los estados comportamentales
+	están codificados en el cerebro como una representación interna que emerge de
+	las neuronas y sus interacciones en los circuitos.
+	
+	
+	\item En este trabajo, hemos demostrado que nuestro modelo robótico presenta un
+	comportamiento crítico, similar a lo que se observa en la física estadística de
+	las transiciones de fase. Este comportamiento crítico está caracterizado por la
+	presencia de grupos de neuronas sincronizadas y comportamientos emergentes, que
+	solo se observan en un rango de valores críticos de los parámetros de control,
+	$\omega$ y $h$.
+	
+	
+	Estos resultados respaldan la hipótesis de criticidad neuronal, que propone que
+	los sistemas neuronales complejos exhiben un comportamiento crítico que optimiza
+	su capacidad de procesamiento de información y aprendizaje.
+	
+	En nuestro modelo, los parámetros de control $\omega$ y $h$ se corresponden con
+	dos aspectos distintos de la dinámica neuronal: $\omega$ se corresponde con el
+	aspecto temporal, y $h$ con el aspecto espacial. En la hipótesis de criticidad
+	neuronal, estos aspectos se asocian con los clusteres de neuronas y avalanchas
+	neuronales, respectivamente.
+	
+	Cuando los valores de $\omega$ y $h$ están fuera del rango crítico, el modelo
+	exhibe un comportamiento subcrítico o supercrítico. En el caso subcrítico, no
+	existen grupos de neuronas sincronizadas y los comportamientos emergentes son
+	simples. En el caso supercrítico, la actividad neuronal es demasiado caótica y
+	el modelo no es capaz de ejecutar acciones complejas.
+	
+	Estos resultados tienen implicaciones importantes para nuestra comprensión de la
+	base neuronal del comportamiento. Muestran que los sistemas neuronales complejos
+	pueden aprovechar un comportamiento crítico para optimizar su capacidad de
+	procesamiento de información y aprendizaje.
+	
+	
+	
+	
+	\item En este trabajo, hemos comparado el comportamiento que emerge en un robot
+	al implementar una red aleatoria con el de una red compleja como la del C.
+	elegans. Los resultados muestran que el comportamiento complejo, caracterizado
+	por la exploración del entorno y respuestas a estímulos, solo emerge en una red
+	compleja con características topológicas complejas. 
+	
+	Estos resultados respaldan nuestra hipótesis de que el conectoma del C. elegans
+	codifica de alguna manera parte de su comportamiento motor. Esta hipótesis
+	sugiere que la estructura de la red neuronal del gusano juega un papel
+	fundamental en la generación de su comportamiento.
+	
+	
+	\item   En este trabajo, hemos demostrado que existe una relación entre las
+	neuronas estimuladas y las respuestas ejecutadas por un robot basado en el
+	conectoma del nematodo C. elegans.
+	
+	En particular, encontramos que la proporción de movimientos de avance es mayor
+	cuando se estimula el circuito neuronal asociado a la búsqueda de hambre, la
+	proporción de retrocesos es mayor cuando se estimula el circuito neuronal
+	asociado al toque de nariz, y las proporciones son variables en un entorno
+	complejo.
+	
+	Estos resultados son consistentes con la función real de estos circuitos en los
+	gusanos reales. En el primer intervalo, el gusano avanzaría buscando comida, en
+	el segundo intervalo evitaría el obstáculo, y en el tercero sería una mezcla de
+	ambos comportamientos.
+	
+	Este enfoque tiene el potencial de mejorar nuestra comprensión de los circuitos
+	neuronales y del comportamiento emergente en los robots. Además, estos
+	resultados son interesantes porque podrían utilizarse para probar hipótesis
+	sobre circuitos neuronales y su rol funcional en gusanos reales.
+	
+	
+	\item  En este estudio, hemos demostrado que la dinámica neuronal de un robot de
+	locomoción artificial está organizada en un ciclo de actividad cerebral global.
+	Este ciclo está compuesto por segmentos que reclutan diferentes subpoblaciones
+	neuronales para realizar las principales órdenes motoras del robot. Esta
+	organización define el ensamblaje de comandos motores en una serie de ciclos de
+	secuencia de acción de avanzar y girar, incluidas decisiones entre
+	comportamientos alternativos.
+	
+	Estos resultados muestran que la coordinación de los patrones de actividad
+	neuronal en la dinámica cerebral global subyace a la organización de alto nivel
+	del comportamiento. Este resultado es similar a lo encontrado experimentalmente
+	por Kato et al. en gusanos reales. Por lo tanto, nuestros resultados destacan el
+	papel que juega el connectoma en la emergencia de estos estados cíclicos tipo
+	atractor.
+	
+	\item En este estudio, observamos la emergencia de una estructura jerárquica
+	anidada en la dinámica neuronal de un robot de locomoción artificial. Esta
+	estructura, que consiste en un ciclo de actividad cerebral global compuesto por
+	segmentos que reclutan diferentes subpoblaciones neuronales, subyace a la
+	organización de alto nivel del comportamiento del robot.
+	
+	Nuestros resultados son similares a los encontrados experimentalmente en gusanos
+	reales, donde la estructura jerárquica permite la coordinación de
+	comportamientos en diferentes escalas de tiempo. En el robot, la estructura
+	jerárquica persiste incluso cuando no puede ser explotada por el robot, lo que
+	sugiere que es una propiedad intrínseca de las interacciones neuronales.
+	
+	Estos resultados tienen implicaciones importantes para la comprensión del
+	comportamiento animal. La presencia de una estructura jerárquica anidada en la
+	dinámica neuronal sugiere que los comportamientos complejos pueden emerger de la
+	interacción de un pequeño número de elementos básicos. Esto podría ayudar a
+	explicar cómo los animales pueden aprender y adaptarse a nuevos entornos.
+	
+	\item Los resultados de nuestros experimentos con un robot que implementa el
+	connectoma de C. elegans respaldan la hipótesis de Kaplan et al. de que el
+	cerebro del gusano es un sistema distribuido y dinámico que produce un
+	comportamiento adecuado. Esta red distribuida recibe entradas de las neuronas
+	sensoriales, que modifican su dinámica para tomar decisiones.
+	
+	Este modelo permite interacciones recíprocas dinámicas entre el cerebro, el
+	cuerpo y el entorno. Nuestros resultados sugieren que este modelo es una
+	descripción precisa del funcionamiento del cerebro del gusano.
+	
+\end{itemize}
+
+
+En resumen, hemos demostrado que la compleja estructura de red del connectoma de
+C. elegans subyace a una serie de características observadas en su dinámica
+neuronal. Estas características incluyen la emergencia de patrones de actividad
+neuronal recurrentes, la coordinación de comportamientos complejos y la
+capacidad de aprendizaje y adaptación.
+
+Esperamos que nuestros resultados puedan extenderse a otros connectomes, ya que
+se han identificado una serie de principios comunes en la comparación de la
+disposición topológica de los sistemas nerviosos entre especies. Sin embargo,
+las diferencias en los resultados podrían arrojar luz sobre los efectos de las
+variaciones específicas de cada especie.
+
+
+
+\subsection{Dinámica neuronal critica en el C. elegans}
+
+\begin{itemize}
+	
+\item 	En este trabajo, utilizamos datos de imágenes de calcio de experimentos de C elegans junto con el conectoma de C elegans para estudiar la dinámica espacial y temporal de la actividad neuronal. Nuestros hallazgos muestran que la actividad neuronal en el cerebro de C elegans es coherente con la criticidad. En concreto, encontramos que:
+
+\begin{itemize}
+\item La actividad de neuronas sincronizadas, que son ráfagas de actividad que se propagan por el cerebro, presenta estadísticas invariantes de escala. Esto significa que avalanchas de todos los tamaños se producen con la misma probabilidad.
+\item La evolución temporal de las avalanchas neuronales también es invariante de escala. Esto significa que avalanchas de todas las duraciones siguen la misma distribución de ley de potencias.
+\end{itemize}
+	Estos hallazgos proporcionan pruebas sólidas de que el sistema nervioso de C elegans opera en un estado crítico. 
+	
+\item En nuestro modelo de dinámica neuronal, el comportamiento típico del promedio del primer y segundo mayor cluster en función de $T$ recuerda fuertemente una transición de fase de segundo orden a cierto valor crítico $T_c.$ Así, el cluster dinámico más grande actúa como el parámetro de orden correspondiente. Este comportamiento sugiere un fenómeno crítico del tipo percolación.
+
+Estas características sugieren que el modelo de dinámica neuronal se encuentra en un estado crítico.   Este estado se caracteriza por un alto grado de sensibilidad a pequeñas perturbaciones, que pueden provocar cambios a gran escala en el comportamiento del sistema.
+Nuestros resultados tienen implicaciones importantes para nuestra comprensión del funcionamiento del cerebro. Sugieren que el cerebro puede operar en un estado crítico. Esto podría explicar cómo el cerebro es capaz de procesar información y responder a su entorno de forma flexible y adaptable.
+
+\item Encontramos que los patrones espacio-temporales observados de manera consistente en la actividad cerebral en ausencia de estímulos externos de los experimentos con C. elegans reales solo pueden ser descritos por nuestro modelo de red criticidad neuronal  si la misma se encuentra en un estado crítico.
+
+Estos patrones se observan de manera recurrente en distintos conjuntos de datos, y de experimentos de diferentes laboratorios, constituyendo aparentemente el estado basal de toda actividad cerebral. Este resultado brinda una evidencia de gran peso a la hipótesis de criticalidad en el organismo de C. elegans.
+
+\item En este trabajo, estudiamos la dinámica de los clusters neuronales en el conectoma hermafrodita de C elegans. Nuestros hallazgos muestran que las características de un sistema crítico, como la distribución de ley de potencias del tamaño de los clusters, la longitud de correlación que escala con el tamaño del cluster y la longitud de correlación promedio divergente, se logran solo en el punto crítico.
+
+
+\end{itemize}
+
+
+
+\section{Trabajo futuro}
+
+
+
+Hasta este punto, nuestra investigación ha desvelado aspectos cruciales de la dinámica neuronal en nuestro modelo robótico y ha profundizado en la generación de comportamientos complejos por sistemas biológicos, ejemplificado por C. elegans. Hemos logrado establecer una relación sólida entre la estructura del conectoma y los patrones de comportamiento emergente en nuestros experimentos. Estos hallazgos han abierto una puerta a una amplia gama de posibilidades para expandir y enriquecer nuestra comprensión de estos sistemas complejos.
+
+La presente sección de Trabajo Futuro explora direcciones prometedoras que nos permitirán ir más allá de los logros actuales. Hemos demostrado cómo la estructura del conectoma se correlaciona con el comportamiento emergente, lo que nos brinda una comprensión más profunda de la relación entre la arquitectura neuronal y las acciones resultantes. A medida que avanzamos, consideramos la ampliación de conectomas, la exploración de circuitos neuronales más intrincados y la inspiración en el cuerpo biológico como pasos fundamentales en nuestra búsqueda de la comprensión integral.
+
+
+
+\begin{itemize}
+	\item En el futuro, se podría llevar a cabo una ampliación más detallada del
+	modelo de dinámica neuronal, incorporando elementos más biofísicos que
+	representen con mayor precisión la diferencia entre un spike (impulso neuronal)
+	y la ejecución de la acción. Esto no se limitaría a una simple pausa en el
+	programa, sino que podría involucrar aspectos más complejos de la biología
+	neuronal, como:
+	\begin{itemize}
+		\item  La propagación del impulso neuronal a través de la neurona
+		\item La interacción entre diferentes neuronas
+		\item La influencia del entorno en la actividad neuronal
+	\end{itemize}
+	De esta manera, el modelo podría adquirir una mayor organicidad y reflejar con
+	mayor fidelidad los procesos observados en organismos reales. Estas
+	investigaciones adicionales podrían contribuir de manera significativa al
+	entendimiento de la relación entre la actividad neuronal y el comportamiento en
+	sistemas biológicos y robóticos.
+	
+	
+	\item Un aspecto que actualmente falta en este modelo robótico radica en la capacidad de retroalimentación del entorno y en la propriocepción, es decir, en la percepción del estado propio del robot. En un futuro, se vislumbra la posibilidad de mejorar el modelo mediante la incorporación de sensores especializados. Estos sensores permitirían al robot adquirir información del entorno circundante y de su propia estructura física, lo que potenciaría la capacidad del modelo para interactuar de manera más sofisticada con su entorno.
+	
+	Por ejemplo, la detección de superficies lisas podría traducirse en una disminución de la velocidad del robot, reflejando una respuesta adaptativa a la textura del terreno. Del mismo modo, la retroalimentación del entorno podría habilitar la ejecución de comportamientos más complejos a medida que el robot interpreta y reacciona a los estímulos ambientales.
+	
+	La incorporación de estos sensores en el modelo robótico no solo mejoraría su capacidad de respuesta, sino que también enriquecería la investigación en robótica al permitir una mayor adaptabilidad y autonomía en la interacción entre máquinas y su entorno. Este avance tecnológico promete impulsar la comprensión de cómo los sistemas artificiales pueden replicar, en cierta medida, las habilidades perceptivas y la adaptabilidad de los organismos biológicos.
+	
+	
+\item El conectoma de C. elegans se distingue por su marcada recursividad. Cuando el conectoma alcanza un nivel suficiente de estimulación, se inicia un proceso de autoestimulación continua, en el cual una neurona presináptica estimula a un conjunto de neuronas postsinápticas. De manera notable, muchas de estas neuronas postsinápticas a su vez estimulan a la neurona presináptica original, dando origen a bucles de estimulación. La inherente recursividad del conectoma ha demostrado ser un factor esencial en la investigación del connectoma y en la comprensión de los comportamientos resultantes en C. elegans.
+
+Como un área de investigación futura promisoria, se plantea la aplicación de medidas y herramientas provenientes de la teoría de grafos y redes complejas para analizar en profundidad cómo estos bucles recursivos influyen en la topología de la red y en las acciones emergentes. Esto se llevaría a cabo en el contexto del robot, cuando el conectoma está plenamente comprometido para emular la dinámica de C. elegans. Esta aproximación permitiría una comprensión más profunda de cómo la recursividad en el conectoma contribuye a la estructura y a los comportamientos emergentes en el sistema.
+
+El uso de medidas de redes complejas proporcionaría un marco sólido para explorar y cuantificar cómo la recursividad en el conectoma da forma a la dinámica global y, en última instancia, a las acciones del robot. Este enfoque de investigación podría arrojar luz sobre la relación intrincada entre la conectividad neuronal y los fenómenos observados, avanzando en la comprensión de la organización y funcionalidad del sistema nervioso, tanto en sistemas biológicos como en robots con modelos inspirados en la biología.
+	
+	
+\item 	Con el objetivo de ampliar el repertorio de comportamientos complejos en nuestro modelo robótico, proponemos la incorporación de sensores adicionales y la activación de circuitos neuronales correspondientes, basándonos en hallazgos de la biología. Una vía prometedora sería la implementación de un circuito relacionado con la detección de estímulos táctiles bruscos en el cuerpo del robot, utilizando sensores táctiles.
+
+En este escenario, se instalarían dos sensores táctiles en el robot, uno en la parte anterior y otro en la posterior, cada uno con una entrada binaria que puede encontrarse en estado \textquote{encendido} o \textquote{apagado}. Cuando un sensor táctil se activa debido a una presión, emite una señal de \textquote{encendido}, que es interpretada por el programa de entrada. En caso de que el sensor no esté presionado (estado \textquote{apagado}), envía una señal correspondiente.
+
+
+
+La activación de estos sensores podría desencadenar los circuitos neuronales asociados a la percepción de toques bruscos, tanto en la parte anterior como en la posterior del robot. Un punto de referencia interesante es el comportamiento del C. elegans, donde la detección de estímulos táctiles bruscos en su cuerpo desencadena una respuesta de retroceso marcada.
+
+Una perspectiva intrigante de esta línea de investigación sería evaluar si este modelo de conectoma es capaz de replicar, en términos cualitativos, el comportamiento de orientación observado en el estudio de Morse et al. \cite{morse_robust_1998}, utilizando un sensor de luz como estímulo. Este enfoque no solo ampliaría las capacidades comportamentales del robot, sino que también permitiría investigar si el modelo de conectoma puede emular respuestas similares a las de organismos biológicos en relación con diferentes tipos de estímulos sensoriales.
+
+El resultado sería un avance significativo en la comprensión de cómo los circuitos neuronales influyen en la percepción y el comportamiento, y en cómo pueden replicarse en sistemas artificiales inspirados en la biología. Este enfoque de investigación tiene el potencial de enriquecer tanto el campo de la robótica como nuestra comprensión de la interacción entre sistemas biológicos y máquinas autónomas.
+
+
+
+\item  Uno de los enfoques de investigación más prometedores se enfoca en la utilización del modelo robótico como una herramienta fundamental para analizar los circuitos neuronales. En la investigación con C. elegans reales, la ablación láser se emplea con regularidad para explorar el papel de circuitos o neuronas específicas y su influencia en el comportamiento del gusano. Esta metodología proporciona valiosa información sobre cómo ciertos circuitos neurales afectan el comportamiento observado en el organismo biológico.
+
+En este contexto, se plantea una línea de investigación que involucra varios pasos. En primer lugar, se llevaría a cabo una revisión exhaustiva de la literatura científica para identificar las neuronas que desempeñan un papel destacado en la modulación del comportamiento del C. elegans. Una vez identificadas, se procedería a la desactivación de la actividad neuronal de una de estas neuronas en nuestro modelo robótico. El objetivo sería evaluar cualquier cambio en el comportamiento del robot resultante de esta desactivación, en comparación con un robot cuya neurona correspondiente no ha sido inhibida. Este enfoque permitiría simular los efectos de la interrupción de neuronas específicas en la conducta del robot y proporcionaría información valiosa sobre la función de estas neuronas en la dinámica del comportamiento.
+
+Además, es importante señalar que esta estrategia de investigación no se limita únicamente a la replicación de la función de circuitos neuronales en robots, sino que también abre la puerta a la exploración de circuitos neuronales asociados a enfermedades neurodegenerativas, como el Parkinson y la epilepsia. Utilizando el modelo robótico, se podrían llevar a cabo investigaciones destinadas a comprender cómo estos circuitos afectan la manifestación de síntomas y comportamientos en un entorno controlado.
+
+Una ventaja significativa de utilizar el modelo robótico en lugar de organismos vivos radica en la capacidad de realizar múltiples experimentos con el mismo modelo y registrar con precisión la dinámica neuronal en todo el sistema nervioso. Esta ventaja facilita el análisis detallado y repetible de la relación entre circuitos neuronales y patologías específicas, lo que puede contribuir de manera significativa a la comprensión de estas afecciones y al desarrollo de posibles enfoques terapéuticos.
+
+\item En la simulación de un conectoma en un robot, se ha pasado por alto el aspecto espacial, un elemento crucial. Es fundamental abordar esta cuestión explorando la incorporación de restricciones espaciales en la transmisión de valores ponderados a lo largo de las conexiones neuronales. Esto implica considerar cómo la distancia entre las neuronas, particularmente la longitud de los axones, puede influir en la velocidad de reacción y en la propagación de señales. Por ejemplo, un axón largo podría mostrar una reacción más lenta en comparación con una conexión axonal corta y directa.
+
+La neurociencia computacional se erige como una herramienta clave para abordar este desafío. Permite modelar y simular procesos neuronales en contextos espaciales, lo que facilita la comprensión de cómo la organización espacial de las neuronas afecta la propagación de señales y, en última instancia, el comportamiento emergente. Implementar modelos que consideren la distancia física entre las neuronas enriquecerá la simulación de conectomas y proporcionará una base sólida para entender cómo la topología espacial influye en la función neuronal y, por ende, en el comportamiento del robot.
+
+\item Aunque hemos demostrado que las conexiones neuronales simples pueden generar comportamientos predecibles, es imprescindible reconocer que las neuronas de C. elegans y otros organismos poseen una complejidad que va mucho más allá de las conexiones neuronales. Esta complejidad abarca, pero no se limita a, las diferencias marcadas entre las conexiones químicas y eléctricas, la presencia de neuropeptidos y una variedad de péptidos e innexinas que introducen niveles adicionales de intricación a nivel celular.
+
+Las diferencias fundamentales entre las conexiones químicas (sinapsis) y las conexiones eléctricas (uniones gap) plantean interrogantes significativos sobre la posibilidad de que coexistan dos programas distintos para representar una sola neurona simulada. Ya sea que esta coexistencia evolucione hacia la integración de múltiples programas que representen una sola neurona o se traduzca en una aplicación unificada que abarque la totalidad de la biología de sistemas de una neurona, es crucial persistir en el refinamiento y la ampliación de la complejidad para lograr una representación más precisa en la ingeniería inversa de la biología.
+
+
+Este proceso de refinamiento debe abordar de manera explícita los aspectos espaciales relacionados con la disposición y la interconexión de las neuronas en el sistema nervioso en su totalidad. Este enfoque permitirá la creación de un modelo espacio-temporal más preciso. Es relevante destacar que esta dimensión espacial se revela de importancia crítica en la percepción del tacto corporal y, como tal, su consideración resulta esencial.
+
+\item De manera reiterada, hemos observado que el comportamiento del robot replica las expectativas derivadas de la observación del C. elegans biológico, particularmente en relación a los órganos que hemos emulado en la versión robotizada y simulada del C. elegans. La capacidad de utilizar un conectoma en una entidad mecánica conlleva un potencial significativo. A pesar de la necesidad de realizar un análisis de redes más exhaustivo, esta perspectiva representa una puerta de entrada para una comprensión más profunda de los sistemas nerviosos. Cuanto más precisa sea nuestra capacidad para emular una neurona y encapsular un modelo de neurona preciso en un conectoma completo, más eficaz, rápida y, posiblemente, ética se torna la exploración de los sistemas nerviosos en comparación con la investigación en animales biológicos.
+
+Como extensión de esta línea de investigación, en el futuro podríamos considerar la implementación de conectomas completos de otros animales. Al emplear dos o más conectomas, podríamos analizar los comportamientos emergentes en robots con una dinámica neuronal idéntica, pero utilizando diferentes sustratos neuronales. De esta manera, podríamos investigar si existen diferencias en los comportamientos emergentes atribuibles a la escala en la que se modela el sustrato. Un ejemplo ilustrativo podría ser la utilización de la red neuronal del P. pacificus, un organismo depredador, en el que los circuitos asociados al tacto provocan avance, en contraste con la dinámica del C. elegans.
+
+Este enfoque, que implica la comparación y el análisis de diferentes conectomas y su impacto en los comportamientos emergentes en robots, representa un paso fundamental hacia la comprensión de la función de los sistemas nerviosos y promete abrir nuevas perspectivas para la robótica inspirada en la biología.
+
+\item La diversidad de soluciones potenciales codificadas en la red sináptica física proporciona al gusano una amplia gama de comportamientos para interactuar con un entorno en constante evolución. Al codificar múltiples soluciones en una única red, el gusano es capaz de adaptarse de manera más efectiva a un entorno cambiante en escalas de tiempo tanto individuales como evolutivas.
+
+Esta estrategia de codificación de comportamientos es ancestral y se evidencia en la conservación de los roles de neuromoduladores como la serotonina y la dopamina en la regulación de estados como la búsqueda de alimento, la saciedad y la valencia sensorial, tanto en invertebrados como en vertebrados. La flexibilidad de nuestro modelo robótico podría proporcionar una vía viable para comprender cómo estas señales neuromoduladoras modifican de manera explícita las propiedades de la red, lo cual puede ser desafiante de definir en sistemas más complejos.
+
+Además de los neuromoduladores comunes como la serotonina y la dopamina, el genoma de C. elegans codifica más de 200 neuropeptidos distintos. Futuros estudios que amplíen nuestra comprensión del conectoma neuromodulador y revelen la dinámica a nivel cerebral durante estados neuromoduladores específicos deberían arrojar nueva luz sobre la influencia del contexto en las actividades cerebrales de C. elegans.
+
+Aunque los estudios sobre subconjuntos específicos de neuronas, como los descritos por Flavell et al. \cite{flavell_dynamic_2022}, han comenzado a desvelar mecanismos relacionados con el comportamiento dependiente del contexto, es necesario situar este trabajo en un marco más amplio de dinámicas a nivel de la red. La cantidad de estados internos potenciales codificados por los neuromoduladores y sus consecuencias conductuales probablemente sea vasta, lo que convierte este tema en un campo rico para investigaciones futuras.
+
+\item Dentro del marco de nuestra investigación, surge una oportunidad promisoria para extender nuestro enfoque más allá de la dinámica del comportamiento individual en nuestro modelo robótico. Esta ampliación nos permitirá explorar la interacción social y poblacional, abriendo nuevas perspectivas para comprender los comportamientos sociales y su emergencia en sistemas biológicos. Esto podría lograrse a través de la realización de experimentos que involucren poblaciones de robots interactuando entre sí, lo que permitiría simular, en cierta medida, la comunicación basada en señales análogas a las feromonas, un mecanismo fundamental en los comportamientos sociales observados en C. elegans.
+
+Los comportamientos sociales en C. elegans son conocidos por su complejidad, como la formación de agregados redondos en respuesta a bajos niveles de oxígeno, optimizando así el acceso a este recurso escaso. La simulación de la interacción entre robots representa una ventana única para desentrañar cómo un organismo aparentemente simple, como C. elegans, manifiesta comportamientos complejos, incluso a nivel social. Este enfoque se presenta como una herramienta valiosa para poner a prueba hipótesis relacionadas con el comportamiento social y poblacional, y para comprender más profundamente los mecanismos subyacentes que impulsan estos fenómenos.
+
+Además, esta investigación puede proporcionar nuevas perspectivas sobre la adaptación y la colaboración en poblaciones de robots, ofreciendo una comprensión más profunda de cómo los sistemas biológicos han evolucionado para resolver desafíos complejos en entornos cambiantes. La exploración de las dinámicas sociales en nuestro modelo robótico podría, en última instancia, enriquecer nuestra comprensión de los principios fundamentales que rigen el comportamiento colectivo en la naturaleza.
+
+\item  Una de las limitaciones significativas que debemos abordar en la expansión de esta investigación se relaciona con el diseño del modelo robótico utilizado. La elección de un robot de dos ruedas para simular el conectoma de un gusano ha impuesto restricciones notables en la diversidad de comportamientos que podemos observar en el robot. En contraste con el gusano C. elegans, que se desplaza de manera sinusoidal y responde a diversos estímulos, incluyendo giros bruscos en presencia de sustancias tóxicas o depredadores, el diseño del robot con ruedas ha limitado la variedad de movimientos que puede realizar.
+
+Para superar esta limitación y enriquecer nuestras capacidades de investigación, proponemos la implementación de un robot bioinspirado con un rango de movimiento más similar al de un gusano real. Este enfoque implicaría diseñar un robot que pueda realizar movimientos flexibles y variados, emulando de manera más cercana la forma en que C. elegans se desplaza. En este nuevo diseño, cada neurona se conectaría a un músculo que, desde una perspectiva anatómica, se asemejaría más a los músculos reales de un gusano. Esto ampliaría significativamente la gama de comportamientos que el robot sería capaz de exhibir, incluyendo giros, arrastres y otros movimientos que, en la configuración actual con ruedas, resultan inaccesibles.
+
+En nuestra disposición para llevar a cabo esta ampliación, ya contamos con un robot de tipo gusano en nuestro grupo de investigación. Sin embargo, aún restan desafíos por superar, como la integración del conectoma en este nuevo diseño y la mejora del software existente para que se adapte a la plataforma rediseñada. Esta expansión del modelo representa un terreno fértil para explorar comportamientos más ricos y complejos, lo que, a su vez, enriquecerá nuestra comprensión de la relación entre la estructura del conectoma y el comportamiento emergente.
+
+
+\end{itemize}
+
+
+
+
+
+
